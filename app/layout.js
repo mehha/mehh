@@ -1,4 +1,7 @@
 import './globals.css'
+import Image from "next/image";
+import React from "react";
+import {Background} from "../components/svg/svgComponents";
 
 async function RootLayout({children}) {
     return (
@@ -9,10 +12,11 @@ async function RootLayout({children}) {
             <link rel="icon" href="/favicon.ico"/>
         </head>
         <body className="h-full flex">
-            <main className="flex xl:items-center flex-1 bg-cover bg-bottom bg-[url('/slider-1.svg')]">
-                <div className='max-w-7xl px-4 py-10 xl:px-32 flex-1'>
+            <main className="flex xl:items-center flex-1 relative">
+                <div className='max-w-7xl px-4 py-10 xl:px-32 flex-1 z-10'>
                     {children}
                 </div>
+                <Background className="left-0 bottom-0 absolute w-full h-full" preserveAspectRatio="xMinYMin slice" />
             </main>
         </body>
         </html>
