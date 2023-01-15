@@ -7,7 +7,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Open Sans, sans']
+      'sans': ['DM Sans, sans'],
+      'sans-serif': ['Anton, sans']
     },
     extend: {},
   },
