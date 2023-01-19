@@ -2,6 +2,7 @@
 
 import {stack} from "../data/stack";
 import {lowerServices} from "../data/lower-services";
+import {motion} from "framer-motion";
 
 export default function Home() {
   return (
@@ -26,9 +27,35 @@ export default function Home() {
                       )
                   })}
               </div>
-              <div className="flex flex-wrap gap-2">
-                  <a href="mailto:info@mehh.ee" className="btn">Kontakt</a>
-                  <button className="btn">Tehtud tööd</button>
+              <div className="flex flex-wrap gap-3">
+                  <motion.a
+                      whileHover={{ scale: 1.1 }}
+                      transition={{
+                        scale: {
+                          type: "spring",
+                          damping: 15,
+                          stiffness: 400,
+                          restDelta: 0.001
+                        }
+                      }}
+                      href="mailto:info@mehh.ee"
+                      className="btn"
+                  >Kontakt
+                  </motion.a>
+
+                  <motion.button
+                      whileHover={{ scale: 1.1 }}
+                      transition={{
+                        scale: {
+                          type: "spring",
+                          damping: 15,
+                          stiffness: 400,
+                          restDelta: 0.001
+                        }
+                      }}
+                      className="btn"
+                  >Tehtud tööd
+                  </motion.button>
               </div>
           </div>
       </>
