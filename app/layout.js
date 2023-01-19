@@ -1,5 +1,5 @@
 import './globals.css'
-import Image from "next/image";
+import "@fancyapps/ui/dist/fancybox.css";
 import React from "react";
 import {Background} from "../components/svg/svgComponents";
 
@@ -11,7 +11,7 @@ async function RootLayout({children}) {
             <meta name="description" content="Mehh Meedia OÜ - Kodulehtede valmistamine"/>
             <link rel="icon" href="/favicon.ico"/>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={true} />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
         </head>
         <body className="h-full flex">

@@ -3,8 +3,15 @@
 import {stack} from "../data/stack";
 import {lowerServices} from "../data/lower-services";
 import {motion} from "framer-motion";
+import {Fancybox} from "@fancyapps/ui";
+import {portfolio} from "../data/portfolio";
 
 export default function Home() {
+    
+    const runFancybox = () => {
+        Fancybox.show(portfolio)
+    }
+
   return (
       <>
           <div className="grid gap-3">
@@ -54,6 +61,7 @@ export default function Home() {
                         }
                       }}
                       className="btn"
+                      onClick={runFancybox}
                   >Tehtud tööd
                   </motion.button>
               </div>
