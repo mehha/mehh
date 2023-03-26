@@ -1,7 +1,7 @@
 import './globals.css'
 import "@fancyapps/ui/dist/fancybox.css";
 import React from "react";
-import {Background} from "../components/svg/svgComponents";
+import {Background} from "../../components/svg/svgComponents";
 
 async function RootLayout({children}) {
     return (
