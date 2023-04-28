@@ -1,5 +1,5 @@
 import './globals.css'
-import "@fancyapps/ui/dist/fancybox.css";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import React from "react";
 import {Background} from "../../components/svg/svgComponents";
 
@@ -7,7 +7,7 @@ async function RootLayout({children}) {
     return (
         <html lang="en" className="h-full">
         <head>
-            <title>MEHH Meedia UÜ</title>
+            <title>MEHH Meedia OÜ</title>
             <meta name="description" content="Mehh Meedia OÜ - Kodulehtede valmistamine"/>
             <link rel="icon" href="/favicon.ico"/>
             <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -12,7 +12,7 @@ const ButtonFancy = ({title}) => {
     }
 
     return (
-        <motion.a
+        <motion.button
             whileHover={{ scale: 1.1 }}
             transition={{
               scale: {
@@ -25,7 +25,7 @@ const ButtonFancy = ({title}) => {
             onClick={runFancybox}
             className="btn cursor-pointer"
         >{title}
-        </motion.a>
+        </motion.button>
     );
 };
 
