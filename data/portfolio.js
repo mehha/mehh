@@ -1,8 +1,39 @@
 export const portfolio = [
     {
-        title: '',
-        src: 'aara-metall.jpg',
+        title: 'Koolitusekspert',
+        src: 'koolitusekspert.webp',
         type: "image",
+        url: "https://koolitusekspert.ee/",
+    },
+    {
+        title: '100 kontserti Eestile',
+        src: 'ERSO-100-kontserti.jpg',
+        type: "image",
+        url: "https://100kontserti.erso.ee/",
+    },
+    {
+        title: 'Kaberneeme sadama koduleht',
+        src: 'kaberneememarina.jpg',
+        type: "image",
+        url: "https://kaberneememarina.ee/en/",
+    },
+    {
+        title: 'Kroonimismissa onepager',
+        src: 'kroonimismissa-kooriakadeemia.jpg',
+        type: "image",
+        url: "https://kroonimismissa.kooriakadeemia.ee/",
+    },
+    {
+        title: 'Minusadam e-pood',
+        src: 'minusadam.webp',
+        type: "image",
+        url: "https://minusadam.com/et/",
+    },
+    {
+        title: 'Arhitektiabi koduleht',
+        src: 'arhitektiabi.webp',
+        type: "image",
+        url: "https://www.arhitektiabi.ee/",
     },
     {
         title: '',
@@ -36,11 +67,6 @@ export const portfolio = [
     },
     {
         title: '',
-        src: 'ERSO-100-kontserti.jpg',
-        type: "image",
-    },
-    {
-        title: '',
         src: 'estolift.jpg',
         type: "image",
     },
@@ -62,21 +88,6 @@ export const portfolio = [
     {
         title: '',
         src: 'ipa.jpg',
-        type: "image",
-    },
-    {
-        title: '',
-        src: 'kaberneememarina.jpg',
-        type: "image",
-    },
-    {
-        title: '',
-        src: 'kamamood.jpg',
-        type: "image",
-    },
-    {
-        title: '',
-        src: 'kroonimismissa-kooriakadeemia.jpg',
         type: "image",
     },
     {

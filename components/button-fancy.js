@@ -8,7 +8,20 @@ import {portfolio} from "../data/portfolio";
 const ButtonFancy = ({title}) => {
 
     const runFancybox = () => {
-        Fancybox.show(portfolio)
+        Fancybox.show(portfolio, {
+            caption : function( fancybox, slide ) {
+                console.log('slide', slide)
+                let url = slide?.url || '';
+                let title = slide.title || 'Link';
+                let caption;
+
+              if ( slide.type === 'image' ) {
+                caption = (url.length ? '<span class="font-bold">Link:</span> <a target="_blank" class="my-5 inline-block underline text-blue" href="' + url + '">' + title + '</a>' : '')
+              }
+    
+              return caption;
+            },
+        })
     }
 
     return (
