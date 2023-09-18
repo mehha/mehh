@@ -10,25 +10,25 @@
     "svgr": "svgr ./components/svg -d ./components/svg/svgComponents --icon"
   },
   "dependencies": {
-    "@fancyapps/ui": "^5.0.17",
-    "@formatjs/intl-localematcher": "^0.2.32",
-    "@headlessui/react": "^1.7.14",
-    "@heroicons/react": "^2.0.17",
-    "@svgr/cli": "^7.0.0",
-    "framer-motion": "^10.12.4",
+    "@fancyapps/ui": "^5.0.22",
+    "@formatjs/intl-localematcher": "^0.4.2",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@svgr/cli": "^8.1.0",
+    "framer-motion": "^10.16.4",
     "lodash": "^4.17.21",
     "negotiator": "^0.6.3",
-    "next": "13.3.1",
+    "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "server-only": "^0.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.15",
     "cross-env": "^7.0.3",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.1",
-    "postcss": "^8.4.23",
-    "tailwindcss": "^3.3.2"
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
   }
 }
