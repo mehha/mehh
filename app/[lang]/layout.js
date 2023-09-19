@@ -5,6 +5,8 @@ import {Background} from "../../components/svg/svgComponents";
 import Script from "next/script";
 
 async function RootLayout({children}) {
+    const GTM_ID = 'GTM-NX86J53';
+
     return (
         <html lang="en" className="h-full">
         <head>
@@ -15,21 +17,15 @@ async function RootLayout({children}) {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
         </head>
-        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-4M4MNV3S4F"/>
-        <Script
-          id='google-analytics'
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-4M4MNV3S4F', {
-                page_path: window.location.pathname,
-              });
-            `,
-            }}
-        />
+        <Script id="google-tag-manager" strategy="afterInteractive">
+            {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','${GTM_ID}');
+            `}
+        </Script>
         <body className="h-full flex">
             <main className="flex xl:items-center flex-1 relative">
                 <div className='max-w-7xl px-4 py-10 xl:px-32 flex-1 z-10'>
