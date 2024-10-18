@@ -6,9 +6,12 @@ export const stack = [
         title: 'PHP/Laravel'
     },
     {
-        title: 'JS/React/Next.js'
+        title: 'JS/React'
     },
     {
         title: 'Bootstrap/Tailwind'
+    },
+    {
+        title: 'Next.js/Payload'
     }
 ]
