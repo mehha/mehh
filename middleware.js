@@ -5,16 +5,24 @@ import {i18n} from "./i18n-config";
 
 // Get the preferred locale, similar to above or using a library
 function getLocale(request) {
-  const negotiatorHeaders = {}
-  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
-  let languages = new Negotiator({ headers: negotiatorHeaders }).languages()
+  const negotiatorHeaders = {};
+  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
+  let languages;
+  try {
+    languages = new Negotiator({ headers: negotiatorHeaders }).languages();
+  } catch (error) {
+    console.error('Negotiator error:', error);
+    languages = [i18n.defaultLocale];
+  }
+  
+  console.log('languages', languages)
 
   if (!languages.length) {
     // If no languages are derived from headers, fall back to defaultLocale
     languages = [i18n.defaultLocale];
   }
 
-  return matchLocale(languages, i18n.locales, i18n.defaultLocale)
+  return matchLocale(languages, i18n.locales, i18n.defaultLocale);
 }
 
 export function middleware(request) {
