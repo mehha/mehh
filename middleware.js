@@ -8,6 +8,12 @@ function getLocale(request) {
   const negotiatorHeaders = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
   let languages = new Negotiator({ headers: negotiatorHeaders }).languages()
+
+  if (!languages.length) {
+    // If no languages are derived from headers, fall back to defaultLocale
+    languages = [i18n.defaultLocale];
+  }
+
   return matchLocale(languages, i18n.locales, i18n.defaultLocale)
 }
 
