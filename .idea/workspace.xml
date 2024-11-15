@@ -4,226 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaeabd25-a883-445f-a0d6-00d2884c5be7" name="Changes" comment="middleware fix">
-      <change afterPath="$PROJECT_DIR$/src/app/(frontend)/fonts/Mona-Sans.var.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/ServicesBlock/Component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/ServicesBlock/StylizedImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/ServicesBlock/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/Media/hooks/createAlt.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Blockquote.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Border.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/ContactSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/FadeIn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/GrayscaleTransitionImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/GridList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/GridPattern.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/MDXComponents.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Offices.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/PageIntro.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/PageLinks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/RootLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/SectionIntro.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/SocialMedia.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/StatList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/StylizedImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/TagList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StudioComponents/Testimonial.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/mdx-components.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/next.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/prettier.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/3-lessons-we-learned-going-back-to-the-office/graduation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/3-lessons-we-learned-going-back-to-the-office/jars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/3-lessons-we-learned-going-back-to-the-office/page.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/3-lessons-we-learned-going-back-to-the-office/punch-clock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/a-short-guide-to-component-naming/everyday-english.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/a-short-guide-to-component-naming/magnifying-glass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/a-short-guide-to-component-naming/page.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/a-short-guide-to-component-naming/typewriter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/future-of-web-development/laptop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/future-of-web-development/page.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/future-of-web-development/pilot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/future-of-web-development/server.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/blog/wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/process/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/family-fund/debra-fiscal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/family-fund/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/family-fund/page.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/phobia/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/phobia/jenny-wilson.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/phobia/page.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/unseal/emily-selman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/unseal/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/unseal/page.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/app/work/wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/fonts/Mona-Sans.var.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/bright-path/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/bright-path/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/bright-path/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/bright-path/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/family-fund/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/family-fund/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/family-fund/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/family-fund/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/green-life/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/green-life/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/green-life/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/green-life/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/home-work/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/home-work/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/home-work/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/home-work/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/mail-smirk/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/mail-smirk/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/mail-smirk/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/mail-smirk/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/north-adventures/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/north-adventures/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/north-adventures/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/north-adventures/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/phobia/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/phobia/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/phobia/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/phobia/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/unseal/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/unseal/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/unseal/logomark-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/clients/unseal/logomark-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/laptop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/meeting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/angela-fisher.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/benjamin-russel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/blake-reid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/chelsea-hagon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/dries-vincent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/emma-dorsey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/jeffrey-webb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/kathryn-murphy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/leonard-krasner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/leslie-alexander.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/michael-foster.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/team/whitney-francis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/images/whiteboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/lib/formatDate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/lib/mdx.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/styles/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/styles/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/styles/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/styles/typography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/src/styles/utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studio-ts/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+    <list default="true" id="eaeabd25-a883-445f-a0d6-00d2884c5be7" name="Changes" comment="new theme">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/dictionaries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[lang]/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/robots.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button-fancy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/locale-switcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/svg/background.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/svg/svgComponents/Background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/svg/svgComponents/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lower-services.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/portfolio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionaries/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionaries/et.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/Autoettevõtete-liit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/ERSO-100-kontserti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/aara-metall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/apr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/arhitektiabi.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/brd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/cakes-shakes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/delfes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/diameeter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/estolift.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/fav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/holte-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/holte-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/holte-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/ipa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/kaberneememarina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/kamamood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/koolitusekspert.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/kroonimismissa-kooriakadeemia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/linnahooldus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/malepol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/mariincatering.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/medeo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/mehpar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/minusadam.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/multilingua.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/raunder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/slider-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/slider-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/sopsupubi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/teletorinirestoran.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/Autoettevõtete-liit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/ERSO-100-kontserti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/aara-metall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/apr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/arhitektiabi.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/brd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/cakes-shakes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/delfes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/diameeter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/estolift.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/fav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/holte-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/holte-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/holte-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/ipa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/kaberneememarina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/kamamood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/koolitusekspert.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/kroonimismissa-kooriakadeemia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/linnahooldus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/malepol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/mariincatering.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/medeo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/mehpar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/minusadam.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/multilingua.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/raunder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/slider-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/slider-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/sopsupubi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/teletorinirestoran.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/et/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +155,7 @@
       <workItem from="1731571387328" duration="34000" />
       <workItem from="1731592877804" duration="7580000" />
       <workItem from="1731616664206" duration="47000" />
-      <workItem from="1731682368466" duration="2713000" />
+      <workItem from="1731682368466" duration="2918000" />
     </task>
     <task id="LOCAL−00001" summary="bump deps">
       <option name="closed" value="true" />
@@ -402,7 +185,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1729265157451</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="new theme">
+      <option name="closed" value="true" />
+      <created>1731685912180</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1731685912180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +214,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="bump deps" />
     <MESSAGE value="middleware fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleware fix" />
+    <MESSAGE value="new theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="new theme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
