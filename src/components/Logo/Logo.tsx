@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Logo = () => {
+export const Logo = (props) => {
+  const {isDark} = props
   return (
     /* eslint-disable @next/next/no-img-element */
-    <svg className="w-[240px]" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464.88 75.84">
+    <svg className={`w-[240px] ${isDark ? 'fill-primary' : 'fill-white'}`} id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464.88 75.84">
       <path
         d="M0,55.75V3.85h18.86l10.96,32.97L40.79,3.85h18.86v51.9h-14.33v-29.24l-17.89,49.33-2.72-20.31-10.38-29.02v29.24H0Z"/>
       <path d="M64.33,55.75V3.85h38.45v11.48h-24.12v8.7h23.25v11.4h-23.25v8.85h24.71v11.48h-39.04Z"/>

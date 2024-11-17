@@ -99,6 +99,8 @@ export function serializeLexical({ nodes }: Props): JSX.Element {
 
           const blockType = block?.blockType
 
+          console.log('blockType', blockType)
+
           if (!block || !blockType) {
             return null
           }
@@ -183,7 +185,8 @@ export function serializeLexical({ nodes }: Props): JSX.Element {
                 </blockquote>
               )
             }
-            case 'link': {
+            case 'link':
+            case 'autolink': {
               const fields = node.fields
 
               return (

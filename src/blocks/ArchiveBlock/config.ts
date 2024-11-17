@@ -6,6 +6,7 @@ import {
   InlineToolbarFeature,
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
+import {link} from "@/fields/link";
 
 export const Archive: Block = {
   slug: 'archive',
@@ -77,6 +78,11 @@ export const Archive: Block = {
       label: 'Limit',
     },
     {
+      name: 'isModuleStyle',
+      type: 'checkbox',
+      defaultValue: 0,
+    },
+    {
       name: 'selectedDocs',
       type: 'relationship',
       admin: {
@@ -86,6 +92,17 @@ export const Archive: Block = {
       label: 'Selection',
       relationTo: ['posts'],
     },
+    {
+      name: 'enableLink',
+      type: 'checkbox',
+    },
+    link({
+      overrides: {
+        admin: {
+          condition: (_, { enableLink }) => Boolean(enableLink),
+        },
+      },
+    }),
   ],
   labels: {
     plural: 'Archives',

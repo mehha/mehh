@@ -37,6 +37,10 @@ export const ServicesBlock: Block = {
           }),
           label: false,
         },
+        {
+          name: 'stack',
+          type: 'text'
+        }
       ]
     },
     {

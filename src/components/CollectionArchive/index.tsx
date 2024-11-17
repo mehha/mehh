@@ -4,13 +4,17 @@ import React from 'react'
 import type { Post } from '@/payload-types'
 
 import { Card } from '@/components/Card'
+import {CardModule} from "@/components/CardModule";
 
 export type Props = {
-  posts: Post[]
+  posts: Post[],
+  isModuleStyle: boolean
 }
 
 export const CollectionArchive: React.FC<Props> = (props) => {
-  const { posts } = props
+  const { posts, isModuleStyle } = props
+
+  // console.log('isModuleStyle', isModuleStyle)
 
   return (
     <div className={cn('container')}>
@@ -20,7 +24,11 @@ export const CollectionArchive: React.FC<Props> = (props) => {
             if (typeof result === 'object' && result !== null) {
               return (
                 <div className="col-span-4" key={index}>
-                  <Card className="h-full" doc={result} relationTo="posts" showCategories />
+                  {isModuleStyle ? (
+                    <CardModule className="h-full" doc={result} relationTo="posts" showCategories />
+                  ) : (
+                    <Card className="h-full" doc={result} relationTo="posts" showCategories />
+                  )}
                 </div>
               )
             }

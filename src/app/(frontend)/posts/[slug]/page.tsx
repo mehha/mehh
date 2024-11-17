@@ -13,6 +13,8 @@ import type { Post } from '@/payload-types'
 import { PostHero } from '@/heros/PostHero'
 import { generateMeta } from '@/utilities/generateMeta'
 import PageClient from './page.client'
+import {Media} from "@/components/Media";
+import Link from "next/link";
 
 export async function generateStaticParams() {
   const payload = await getPayloadHMR({ config: configPromise })
@@ -43,46 +45,83 @@ export default async function Post({ params: paramsPromise }: Args) {
 
   if (!post) return <PayloadRedirects url={url} />
 
-  return (
-    <article className="pt-16 pb-16">
-      <PageClient />
+  console.log('post', post)
 
+  return (
+    <article className="pt-16 md:pt-36 pb-16">
       {/* Allows redirects for valid pages too */}
       <PayloadRedirects disableNotFound url={url} />
 
       <PostHero post={post} />
 
-      <div className="flex flex-col items-center gap-4 pt-8">
-        <div className="container lg:mx-0 lg:grid lg:grid-cols-[1fr_48rem_1fr] grid-rows-[1fr]">
-          <RichText
-            className="lg:grid lg:grid-cols-subgrid col-start-1 col-span-3 grid-rows-[1fr]"
-            content={post.content}
-            enableGutter={false}
-          />
+      <div className="gap-4 pt-8">
+        <div className="mt-24 border-t border-neutral-200 bg-white/50 sm:mt-32 lg:mt-40">
+          <div className="mx-auto max-w-2xl lg:max-w-none">
+            <div className="mx-auto max-w-5xl">
+              <dl className="grid grid-cols-1 text-sm text-neutral-950 sm:grid-cols-4">
+                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                  <dt className="font-semibold">Klient</dt>
+                  <dd>{post.client}</dd>
+                </div>
+                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                  <dt className="font-semibold">Aasta</dt>
+                  <dd>
+                    <time>{post.year}</time>
+                  </dd>
+                </div>
+                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                  <dt className="font-semibold">Teenus</dt>
+                  <dd>{post.service}</dd>
+                </div>
+                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                  <dt className="font-semibold">Koduleht</dt>
+                  <dd><Link href={post.homepage} className="underline" target="_blank">{post.homepage}</Link></dd>
+                </div>
+              </dl>
+            </div>
+          </div>
         </div>
 
-        {post.relatedPosts && post.relatedPosts.length > 0 && (
-          <RelatedPosts
-            className="mt-12"
-            docs={post.relatedPosts.filter((post) => typeof post === 'object')}
-          />
-        )}
+        <div className="border-y border-neutral-200 bg-neutral-100 py-10">
+          <div className="text-center container">
+            <div className="mb-6 mx-auto">
+              {post?.meta?.image && typeof post?.meta?.image !== 'string' && (
+                <Media imgClassName="mx-auto" resource={post?.meta?.image}/>
+              )}
+            </div>
+
+            <div className="">
+              <RichText
+                className=""
+                content={post.content}
+                enableGutter={false}
+              />
+            </div>
+
+            {post.relatedPosts && post.relatedPosts.length > 0 && (
+              <RelatedPosts
+                className="mt-12"
+                docs={post.relatedPosts.filter((post) => typeof post === 'object')}
+              />
+            )}
+          </div>
+        </div>
       </div>
     </article>
   )
 }
 
-export async function generateMetadata({ params: paramsPromise }: Args): Promise<Metadata> {
-  const { slug = '' } = await paramsPromise
-  const post = await queryPostBySlug({ slug })
+export async function generateMetadata({params: paramsPromise}: Args): Promise<Metadata> {
+  const {slug = ''} = await paramsPromise
+  const post = await queryPostBySlug({slug})
 
-  return generateMeta({ doc: post })
+  return generateMeta({doc: post})
 }
 
-const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
-  const { isEnabled: draft } = await draftMode()
+const queryPostBySlug = cache(async ({slug}: { slug: string }) => {
+  const {isEnabled: draft} = await draftMode()
 
-  const payload = await getPayloadHMR({ config: configPromise })
+  const payload = await getPayloadHMR({config: configPromise})
 
   const result = await payload.find({
     collection: 'posts',

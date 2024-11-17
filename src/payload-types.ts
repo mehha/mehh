@@ -334,12 +334,25 @@ export interface ArchiveBlock {
   relationTo?: 'posts' | null;
   categories?: (string | Category)[] | null;
   limit?: number | null;
+  isModuleStyle?: boolean | null;
   selectedDocs?:
     | {
         relationTo: 'posts';
         value: string | Post;
       }[]
     | null;
+  enableLink?: boolean | null;
+  link?: {
+    type?: ('reference' | 'custom') | null;
+    newTab?: boolean | null;
+    reference?: {
+      relationTo: 'pages';
+      value: string | Page;
+    } | null;
+    url?: string | null;
+    label: string;
+    appearance?: ('default' | 'outline') | null;
+  };
   id?: string | null;
   blockName?: string | null;
   blockType: 'archive';
@@ -370,6 +383,21 @@ export interface Category {
 export interface Post {
   id: string;
   title: string;
+  intro?: {
+    root: {
+      type: string;
+      children: {
+        type: string;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
   content: {
     root: {
       type: string;
@@ -655,6 +683,7 @@ export interface ServicesBlock {
           };
           [k: string]: unknown;
         } | null;
+        stack?: string | null;
         id?: string | null;
       }[]
     | null;
@@ -910,7 +939,19 @@ export interface PagesSelect<T extends boolean = true> {
               relationTo?: T;
               categories?: T;
               limit?: T;
+              isModuleStyle?: T;
               selectedDocs?: T;
+              enableLink?: T;
+              link?:
+                | T
+                | {
+                    type?: T;
+                    newTab?: T;
+                    reference?: T;
+                    url?: T;
+                    label?: T;
+                    appearance?: T;
+                  };
               id?: T;
               blockName?: T;
             };
@@ -931,6 +972,7 @@ export interface PagesSelect<T extends boolean = true> {
                 | T
                 | {
                     richText?: T;
+                    stack?: T;
                     id?: T;
                   };
               media?: T;
@@ -960,6 +1002,7 @@ export interface PagesSelect<T extends boolean = true> {
  */
 export interface PostsSelect<T extends boolean = true> {
   title?: T;
+  intro?: T;
   content?: T;
   relatedPosts?: T;
   categories?: T;

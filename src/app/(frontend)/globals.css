@@ -11,6 +11,7 @@
   h6 {
     font-size: auto;
     font-weight: auto;
+    font-variation-settings: "wdth" 125;
   }
 
   :root {

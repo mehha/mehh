@@ -69,6 +69,18 @@ export const Posts: CollectionConfig = {
         {
           fields: [
             {
+              name: 'intro',
+              type: 'richText',
+              editor: lexicalEditor({
+                features: ({ rootFeatures }) => {
+                  return [
+                    ...rootFeatures,
+                    HeadingFeature({ enabledHeadingSizes: ['h1', 'h2', 'h3', 'h4'] }),
+                  ]
+                },
+              }),
+            },
+            {
               name: 'content',
               type: 'richText',
               editor: lexicalEditor({

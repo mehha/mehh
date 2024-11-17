@@ -37,7 +37,7 @@ export const RenderBlocks: React.FC<{
 
             if (Block) {
               return (
-                <div className="py-16" key={index} style={{backgroundColor: block?.background || ''}}>
+                <div className="row" key={index}>
                   {/* @ts-expect-error */}
                   <Block {...block} />
                 </div>

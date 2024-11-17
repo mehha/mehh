@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaeabd25-a883-445f-a0d6-00d2884c5be7" name="Changes" comment="new theme">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+    <list default="true" id="eaeabd25-a883-445f-a0d6-00d2884c5be7" name="Changes" comment="rm idea and vscode">
+      <change afterPath="$PROJECT_DIR$/src/components/CardModule/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Component.client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Component.client.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Nav/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(frontend)/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(frontend)/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(frontend)/posts/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(frontend)/posts/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(frontend)/posts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(frontend)/posts/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(frontend)/posts/page/[pageNumber]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(frontend)/posts/page/[pageNumber]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/ArchiveBlock/Component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/ArchiveBlock/Component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/ArchiveBlock/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/ArchiveBlock/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/RenderBlocks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/RenderBlocks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/ServicesBlock/Component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/ServicesBlock/Component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/ServicesBlock/StylizedImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/ServicesBlock/StylizedImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/ServicesBlock/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/ServicesBlock/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/Posts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Posts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CollectionArchive/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionArchive/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Media/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Media/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RichText/serialize.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RichText/serialize.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heros/PostHero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/heros/PostHero/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payload-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload-types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,37 +57,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/mluik/projects/mehh/src/app/(frontend)",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "wsl://Ubuntu@/home/mluik/.nvm/versions/node/v18.19.0/bin/node",
-    "nodejs_package_manager_path": "\\home\\mluik\\.nvm\\versions\\node\\v18.19.0\\bin\\npm",
-    "npm.dev.executor": "Run",
-    "npm.generate:importmap.executor": "Run",
-    "npm.generate:types.executor": "Run",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "\\\\wsl.localhost\\Ubuntu\\home\\mluik\\projects\\mehh\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/mluik/projects/mehh/src/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/mluik/.nvm/versions/node/v18.19.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;\\home\\mluik\\.nvm\\versions\\node\\v18.19.0\\bin\\npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.generate:importmap.executor&quot;: &quot;Run&quot;,
+    &quot;npm.generate:types.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl.localhost\\Ubuntu\\home\\mluik\\projects\\mehh\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\mluik\projects\mehh\src\components" />
       <recent name="\\wsl.localhost\Ubuntu\home\mluik\projects\mehh\src\app\(frontend)" />
       <recent name="\\wsl.localhost\Ubuntu\home\mluik\projects\mehh\src\blocks\ServicesBlock" />
       <recent name="\\wsl.localhost\Ubuntu\home\mluik\projects\mehh\src\blocks\SingleService" />
       <recent name="\\wsl.localhost\Ubuntu\home\mluik\projects\mehh" />
-      <recent name="\\wsl$\Ubuntu\home\mluik\projects\mehh\src\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu\home\mluik\projects\mehh\src\blocks\ServicesBlock" />
@@ -81,8 +102,8 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <node-interpreter value="wsl://Ubuntu@/home/mluik/.nvm/versions/node/v23.1.0/bin/node" />
-      <package-manager value="\home\mluik\.nvm\versions\node\v23.1.0\bin\npm" />
+      <node-interpreter value="wsl://Ubuntu@/home/mluik/.nvm/versions/node/v21.6.1/bin/node" />
+      <package-manager value="\home\mluik\.nvm\versions\node\v21.6.1\bin\pnpm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -155,7 +176,10 @@
       <workItem from="1731571387328" duration="34000" />
       <workItem from="1731592877804" duration="7580000" />
       <workItem from="1731616664206" duration="47000" />
-      <workItem from="1731682368466" duration="2918000" />
+      <workItem from="1731682368466" duration="10881000" />
+      <workItem from="1731760635325" duration="120000" />
+      <workItem from="1731761423741" duration="398000" />
+      <workItem from="1731838395997" duration="10164000" />
     </task>
     <task id="LOCAL−00001" summary="bump deps">
       <option name="closed" value="true" />
@@ -192,7 +216,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1731685912180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="rm idea and vscode">
+      <option name="closed" value="true" />
+      <created>1731685965046</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1731685965046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +246,8 @@
     <MESSAGE value="bump deps" />
     <MESSAGE value="middleware fix" />
     <MESSAGE value="new theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="new theme" />
+    <MESSAGE value="rm idea and vscode" />
+    <option name="LAST_COMMIT_MESSAGE" value="rm idea and vscode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

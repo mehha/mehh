@@ -6,16 +6,17 @@ import React from 'react'
 import RichText from '@/components/RichText'
 
 import { CollectionArchive } from '@/components/CollectionArchive'
+import {CMSLink} from "@/components/Link";
 
 export const ArchiveBlock: React.FC<
   ArchiveBlockProps & {
     id?: string
   }
 > = async (props) => {
-  console.log('props', props)
-  const { id, categories, introContent, limit: limitFromProps, populateBy, selectedDocs } = props
+  const { id, categories, introContent, limit: limitFromProps, populateBy, selectedDocs, isModuleStyle, enableLink, link } = props
 
   const limit = limitFromProps || 3
+  const isModuleStyleBoolean = !!isModuleStyle;
 
   let posts: Post[] = []
 
@@ -54,13 +55,15 @@ export const ArchiveBlock: React.FC<
   }
 
   return (
-    <div className="my-16" id={`block-${id}`}>
+    <div className="py-24" id={`block-${id}`}>
       {introContent && (
         <div className="container mb-16">
           <RichText className="ml-0 max-w-[48rem]" content={introContent} enableGutter={false} />
         </div>
       )}
-      <CollectionArchive posts={posts} />
+      <CollectionArchive posts={posts} isModuleStyle={isModuleStyleBoolean} />
+
+      {enableLink && <div className="container text-center mt-10"><CMSLink {...link} /></div>}
     </div>
   )
 }
