@@ -413,6 +413,7 @@ export interface Post {
     };
     [k: string]: unknown;
   };
+  media: string | Media;
   relatedPosts?: (string | Post)[] | null;
   categories?: (string | Category)[] | null;
   homepage?: string | null;
@@ -1004,6 +1005,7 @@ export interface PostsSelect<T extends boolean = true> {
   title?: T;
   intro?: T;
   content?: T;
+  media?: T;
   relatedPosts?: T;
   categories?: T;
   homepage?: T;

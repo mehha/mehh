@@ -98,6 +98,12 @@ export const Posts: CollectionConfig = {
               label: false,
               required: true,
             },
+            {
+              name: 'media',
+              type: 'upload',
+              relationTo: 'media',
+              required: true,
+            },
           ],
           label: 'Content',
         },

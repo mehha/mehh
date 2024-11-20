@@ -45,8 +45,6 @@ export default async function Post({ params: paramsPromise }: Args) {
 
   if (!post) return <PayloadRedirects url={url} />
 
-  console.log('post', post)
-
   return (
     <article className="pt-16 md:pt-36 pb-16">
       {/* Allows redirects for valid pages too */}
@@ -59,24 +57,28 @@ export default async function Post({ params: paramsPromise }: Args) {
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="mx-auto max-w-5xl">
               <dl className="grid grid-cols-1 text-sm text-neutral-950 sm:grid-cols-4">
-                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                  <dt className="font-semibold">Klient</dt>
-                  <dd>{post.client}</dd>
-                </div>
-                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                  <dt className="font-semibold">Aasta</dt>
-                  <dd>
+                {post.client &&
+                  <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                    <dt className="font-semibold">Klient</dt>
+                    <dd>{post.client}</dd>
+                  </div>}
+                {post.year &&
+                  <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                    <dt className="font-semibold">Aasta</dt>
+                    <dd>
                     <time>{post.year}</time>
-                  </dd>
-                </div>
-                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                  <dt className="font-semibold">Teenus</dt>
-                  <dd>{post.service}</dd>
-                </div>
-                <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
-                  <dt className="font-semibold">Koduleht</dt>
-                  <dd><Link href={post.homepage} className="underline" target="_blank">{post.homepage}</Link></dd>
-                </div>
+                    </dd>
+                  </div>}
+                {post.service &&
+                  <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                    <dt className="font-semibold">Teenus</dt>
+                    <dd>{post.service}</dd>
+                  </div>}
+                {post?.homepage &&
+                  <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-l sm:border-t-0">
+                    <dt className="font-semibold">Koduleht</dt>
+                    <dd><Link href={post?.homepage} className="underline" target="_blank">{post.homepage}</Link></dd>
+                  </div>}
               </dl>
             </div>
           </div>
@@ -85,8 +87,8 @@ export default async function Post({ params: paramsPromise }: Args) {
         <div className="border-y border-neutral-200 bg-neutral-100 py-10">
           <div className="text-center container">
             <div className="mb-6 mx-auto">
-              {post?.meta?.image && typeof post?.meta?.image !== 'string' && (
-                <Media imgClassName="mx-auto" resource={post?.meta?.image}/>
+              {post?.media && typeof post?.media !== 'string' && (
+                <Media imgClassName="mx-auto" resource={post?.media}/>
               )}
             </div>
 

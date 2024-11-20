@@ -21,6 +21,8 @@ export default async function Page() {
     overrideAccess: false,
   })
 
+  console.log('posts', posts)
+
   return (
     <div className="pt-24 pb-24">
       <div className="container mb-16">
@@ -38,7 +40,7 @@ export default async function Page() {
         />
       </div>
 
-      <CollectionArchive posts={posts.docs} />
+      <CollectionArchive posts={posts.docs} isModuleStyle={true} />
 
       <div className="container">
         {posts.totalPages > 1 && posts.page && (
