@@ -21,7 +21,7 @@ export const ServicesBlock = (props) => {
                 <div
                   className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                   <RichText content={item?.richText} enableGutter={false}/>
-                  {item?.stack && <small className="flex gap-2 items-center mt-1 font-light"><LayersIcon width={16}/>{item?.stack}</small>}
+                  {item?.stack && <small className="flex gap-2 items-center mt-2 font-light text-xs"><LayersIcon width={16}/>{item?.stack}</small>}
                 </div>
               </div>
             ))}

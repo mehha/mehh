@@ -125,7 +125,7 @@ export const FormBlock: React.FC<
   )
 
   return (
-    <div className="container lg:max-w-[48rem] pb-20">
+    <div className="container lg:max-w-[62rem] pb-20 prose dark:prose-invert">
       <FormProvider {...formMethods}>
         {enableIntro && introContent && !hasSubmitted && (
           <RichText className="mb-8" content={introContent} enableGutter={false} />
@@ -137,14 +137,14 @@ export const FormBlock: React.FC<
         {error && <div>{`${error.status || '500'}: ${error.message || ''}`}</div>}
         {!hasSubmitted && (
           <form id={formID} onSubmit={handleSubmit(onSubmit)}>
-            <div className="mb-4 last:mb-0">
+            <div className="mb-4 last:mb-0 grid grid-cols-2 gap-4">
               {formFromProps &&
                 formFromProps.fields &&
                 formFromProps.fields?.map((field, index) => {
                   const Field: React.FC<any> = fields?.[field.blockType]
                   if (Field) {
                     return (
-                      <div className="mb-6 last:mb-0" key={index}>
+                      <div className="" key={index}>
                         <Field
                           form={formFromProps}
                           {...field}

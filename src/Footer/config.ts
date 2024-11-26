@@ -2,6 +2,7 @@ import type { GlobalConfig } from 'payload'
 
 import { link } from '@/fields/link'
 import { revalidateFooter } from './hooks/revalidateFooter'
+import { FixedToolbarFeature, HeadingFeature, lexicalEditor } from '@payloadcms/richtext-lexical'
 
 export const Footer: GlobalConfig = {
   slug: 'footer',
@@ -10,14 +11,18 @@ export const Footer: GlobalConfig = {
   },
   fields: [
     {
-      name: 'navItems',
-      type: 'array',
-      fields: [
-        link({
-          appearances: false,
-        }),
-      ],
-      maxRows: 6,
+      name: 'richText',
+      type: 'richText',
+      editor: lexicalEditor({
+        features: ({ rootFeatures }) => {
+          return [
+            ...rootFeatures,
+            HeadingFeature({ enabledHeadingSizes: ['h2', 'h3', 'h4'] }),
+            FixedToolbarFeature(),
+          ]
+        },
+      }),
+      label: "Footer text",
     },
   ],
   hooks: {

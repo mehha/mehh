@@ -113,10 +113,13 @@ export default {
               marginTop: '0',
             },
             h1: {
-              fontSize: '4rem',
+              fontSize: '2rem',
               fontWeight: '500',
               marginBottom: '0.25em',
               letterSpacing: '-.025em',
+              '@screen md': {
+                fontSize: '4rem', // Medium screens
+              },
             },
             h2: {
               fontSize: '1.5rem',

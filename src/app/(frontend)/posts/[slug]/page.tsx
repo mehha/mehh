@@ -84,15 +84,15 @@ export default async function Post({ params: paramsPromise }: Args) {
           </div>
         </div>
 
-        <div className="border-y border-neutral-200 bg-neutral-100 py-10">
-          <div className="text-center container">
+        <div className="border-y border-neutral-200 bg-neutral-100 py-16">
+          <div className="container">
             <div className="mb-6 mx-auto">
               {post?.media && typeof post?.media !== 'string' && (
                 <Media imgClassName="mx-auto" resource={post?.media}/>
               )}
             </div>
 
-            <div className="">
+            <div className="max-w-4xl mx-auto mt-10">
               <RichText
                 className=""
                 content={post.content}

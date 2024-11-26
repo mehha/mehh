@@ -10,8 +10,8 @@ const defaultOpenGraph: Metadata['openGraph'] = {
         : '/website-template-OG.webp',
     },
   ],
-  siteName: 'Payload Website Template',
-  title: 'Payload Website Template',
+  siteName: 'Mehh Meedia OÜ',
+  title: 'Mehh Meedia OÜ',
 }
 
 export const mergeOpenGraph = (og?: Metadata['openGraph']): Metadata['openGraph'] => {

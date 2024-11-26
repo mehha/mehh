@@ -19,7 +19,7 @@ const buttonVariants = cva(
         sm: 'h-9 rounded px-3',
       },
       variant: {
-        default: 'inline-flex border border-neutral-950 rounded-full text-sm font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800 hover:bg-card hover:text-accent-foreground',
+        default: 'inline-flex border border-neutral-950 rounded-full text-sm font-semibold transition bg-neutral-800 text-white hover:bg-neutral-800 hover:bg-card hover:text-accent-foreground',
         destructive: 'bg-destructive text-destructive-foreground hover:bg-destructive/90',
         ghost: 'hover:bg-card hover:text-accent-foreground',
         link: 'text-primary items-start justify-start underline-offset-4 hover:underline',
