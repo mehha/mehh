@@ -31,20 +31,20 @@ export const CardModule: React.FC<{
   return (
     <article
       className={cn(
-        'relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/10 transition hover:bg-neutral-50 sm:p-8',
+        'relative flex w-full flex-col rounded-3xl bg-neutral-50/20 p-6 ring-1 ring-neutral-950/10 transition hover:bg-neutral-50 sm:p-8',
         className,
       )}
       ref={card.ref}
     >
       <div className="relative w-full">
         {!metaImage && <div className="">No image</div>}
-        {metaImage && typeof metaImage !== 'string' && <Media resource={metaImage} imgClassName="h-[32px] w-auto" size="360px" />}
+        {metaImage && typeof metaImage !== 'string' && <Media resource={metaImage} imgClassName="h-[48px] w-auto" size="360px" />}
       </div>
       <div className=" mt-8 flex flex-wrap gap-x-2 text-sm">
         {year && <time className="font-semibold text-neutral-600">{year}</time>}
         {service && <><span className="" aria-hidden="true">/</span><span className="text-neutral-600">{service}</span></>}
       </div>
-      <div className="">
+      <div className="mt-auto">
         {titleToUse && (
           <div className="">
             <h3 className="mt-6 font-display text-2xl font-semibold">
@@ -53,7 +53,7 @@ export const CardModule: React.FC<{
                 {titleToUse}
               </Link>
             </h3>
-            {intro && <RichText className="mt-4 text-neutral-600" content={intro} enableGutter={false}/>}
+            {/*{intro && <RichText className="mt-4 text-neutral-600" content={intro} enableGutter={false}/>}*/}
           </div>
         )}
         {description && <div className="mt-4 text-neutral-600">{description && <p>{sanitizedDescription}</p>}</div>}
