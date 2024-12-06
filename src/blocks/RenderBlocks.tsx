@@ -33,13 +33,12 @@ export const RenderBlocks: React.FC<{
           const { blockType } = block
 
           if (blockType && blockType in blockComponents) {
-            console.log('blockType', blockType)
+            // console.log('blockType', blockType)
             const Block = blockComponents[blockType]
 
             if (Block) {
               return (
                 <div className={`row ${blockType == 'formBlock' ? 'rounded-3xl bg-black pt-20' : ''}`} key={index} data-theme={`${blockType == 'formBlock' ? 'dark' : 'light'}`}>
-                  {/* @ts-expect-error */}
                   <Block {...block} />
                 </div>
               )

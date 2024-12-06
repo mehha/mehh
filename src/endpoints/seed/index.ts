@@ -59,6 +59,7 @@ export const seed = async ({
     await payload.updateGlobal({
       slug: global,
       data: {
+        // @ts-ignore
         navItems: [],
       },
       req,
@@ -329,6 +330,7 @@ export const seed = async ({
   await payload.updateGlobal({
     slug: 'footer',
     data: {
+      // @ts-ignore
       navItems: [
         {
           link: {

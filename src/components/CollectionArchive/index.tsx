@@ -8,7 +8,7 @@ import {CardModule} from "@/components/CardModule";
 
 export type Props = {
   posts: Post[],
-  isModuleStyle: boolean
+  isModuleStyle?: boolean
 }
 
 export const CollectionArchive: React.FC<Props> = (props) => {

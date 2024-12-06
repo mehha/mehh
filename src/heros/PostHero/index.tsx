@@ -44,6 +44,7 @@ export const PostHero: React.FC<{
           <div>
             <RichText
               className="text-center"
+              // @ts-ignore
               content={intro}
               enableGutter={false}
             />

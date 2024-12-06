@@ -13,7 +13,7 @@ export async function Footer() {
   const footer: Footer = await getCachedGlobal('footer')()
   const header: Header = await getCachedGlobal('header')()
 
-  console.log('header', header)
+  // console.log('header', header)
 
   const navItems = header?.navItems || []
 
