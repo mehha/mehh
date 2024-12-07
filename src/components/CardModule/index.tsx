@@ -50,7 +50,7 @@ export const CardModule: React.FC<{
           <div className="">
             <h3 className="mt-6 font-display text-2xl font-semibold">
               <Link className="" href={href} ref={link.ref}>
-                {/*<span className="absolute inset-0 rounded-3xl"></span>*/}
+                <span className="absolute inset-0 rounded-3xl"></span>
                 {titleToUse}
               </Link>
             </h3>
