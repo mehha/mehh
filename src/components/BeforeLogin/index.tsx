@@ -1,13 +1,13 @@
 import React from 'react'
+import { ExternalLink } from 'lucide-react'
+import cssVariables from '@/cssVariables'
+import Link from 'next/link'
 
 const BeforeLogin: React.FC = () => {
   return (
-    <div>
-      <p>
-        <b>Welcome to your dashboard!</b>
-        {' This is where site admins will log in to manage your website.'}
-      </p>
-    </div>
+    <Link className="inline-block mb-8" href="/" target="_self" style={{ marginBottom: '1rem', display: 'block' }}>
+      Back to homepage
+    </Link>
   )
 }
 

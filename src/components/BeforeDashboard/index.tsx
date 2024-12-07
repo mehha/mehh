@@ -6,7 +6,7 @@ import cssVariables from '@/cssVariables'
 
 const BeforeDashboard: React.FC = () => {
   return (
-    <a href="/" target="_blank">
+    <a href="/" target="_self">
       <ExternalLink width={20} color={cssVariables.colors.base850} />
     </a>
   )
