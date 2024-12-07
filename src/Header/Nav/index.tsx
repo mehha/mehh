@@ -12,7 +12,7 @@ export const HeaderNav: React.FC<{ header: HeaderType }> = ({ header }) => {
   const pathname = usePathname()
 
   return (
-    <nav className="flex gap-3 items-center">
+    <nav className="flex items-start flex-col lg:flex-row gap-3 lg:items-center">
       {navItems.map(({ link }, i) => {
         // @ts-ignore
         return <CMSLink key={i} {...link} className="" appearance={pathname.replace(/\//g, "") === link?.reference?.value?.slug ? 'default' : 'outline'} />
