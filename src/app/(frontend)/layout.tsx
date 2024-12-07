@@ -23,32 +23,30 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const { isEnabled } = await draftMode()
 
   return (
-    <html className={monaSans.className} lang="en" suppressHydrationWarning>
+    <html className={monaSans.className} lang="en" suppressHydrationWarning data-theme="light">
       <head>
-        <InitTheme />
+        {/*<InitTheme />*/}
         <link href="/favicon.ico" rel="icon" sizes="32x32" />
         <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
       </head>
       <body>
-        <Providers>
-          <AdminBar
-            adminBarProps={{
-              preview: isEnabled,
-            }}
-          />
-          <LivePreviewListener />
+        <AdminBar
+          adminBarProps={{
+            preview: isEnabled,
+          }}
+        />
+        <LivePreviewListener />
 
-          <Header />
+        <Header />
 
-          <GridPattern
-            className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
-            yOffset={-96}
-            interactive
-          />
+        <GridPattern
+          className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
+          yOffset={-96}
+          interactive
+        />
 
-          {children}
-          <Footer />
-        </Providers>
+        {children}
+        <Footer />
       </body>
     </html>
   )

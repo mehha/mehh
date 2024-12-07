@@ -21,8 +21,6 @@ export default async function Page() {
     overrideAccess: false,
   })
 
-  console.log('posts', posts)
-
   return (
     <div className="pt-24 pb-24">
       <div className="container mb-16">

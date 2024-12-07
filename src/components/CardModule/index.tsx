@@ -8,6 +8,7 @@ import type { Post } from '@/payload-types'
 
 import { Media } from '@/components/Media'
 import RichText from "@/components/RichText";
+import Image from 'next/image'
 
 export const CardModule: React.FC<{
   alignItems?: 'center'
@@ -38,7 +39,7 @@ export const CardModule: React.FC<{
     >
       <div className="relative w-full">
         {!metaImage && <div className="">No image</div>}
-        {metaImage && typeof metaImage !== 'string' && <Media resource={metaImage} imgClassName="h-[48px] w-auto" size="360px" />}
+        {metaImage && typeof metaImage !== 'string' && <div className="h-[48px] w-auto"><Image className="object-contain object-left" src={metaImage?.url || ''} alt={metaImage?.alt || ''} fill /></div>}
       </div>
       <div className=" mt-8 flex flex-wrap gap-x-2 text-sm">
         {year && <time className="font-semibold text-neutral-600">{year}</time>}
@@ -49,7 +50,7 @@ export const CardModule: React.FC<{
           <div className="">
             <h3 className="mt-6 font-display text-2xl font-semibold">
               <Link className="" href={href} ref={link.ref}>
-                <span className="absolute inset-0 rounded-3xl"></span>
+                {/*<span className="absolute inset-0 rounded-3xl"></span>*/}
                 {titleToUse}
               </Link>
             </h3>
