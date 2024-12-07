@@ -11,3 +11,4 @@ db
 
 # Payload default media upload directory
 public/media/
+src/public/media
