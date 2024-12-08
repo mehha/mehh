@@ -36,12 +36,14 @@ export const HeaderClient: React.FC<HeaderClientProps> = ({ header }) => {
         <Hamburger />
       </button>
       <div
+        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         className={`${mobileMenuOpen ? '' : 'hidden'} fixed inset-0 z-10 w-full overflow-y-auto bg-white px-4 py-8 sm:ring-1 sm:ring-gray-900/10`}
       >
         <div className="flex justify-between items-center mb-10">
-          <Logo isDark={true}/>
-          <button type="button" className="rounded-md text-neutral-950"
-                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+          <Link href="/">
+            <Logo isDark={true}/>
+          </Link>
+          <button type="button" className="rounded-md text-neutral-950">
             <span className="sr-only">Close menu</span>
             <svg
               className="size-6"

@@ -39,7 +39,7 @@ export const CardModule: React.FC<{
     >
       <div className="relative w-full">
         {!metaImage && <div className="">No image</div>}
-        {metaImage && typeof metaImage !== 'string' && <div className="h-[48px] w-auto"><Image className="object-contain object-left" src={metaImage?.url || ''} alt={metaImage?.alt || ''} fill /></div>}
+        {metaImage && typeof metaImage !== 'string' && <div className="h-[48px] w-auto relative"><Image className="object-contain object-left" src={metaImage?.url || ''} alt={metaImage?.alt || ''} fill /></div>}
       </div>
       <div className=" mt-8 flex flex-wrap gap-x-2 text-sm">
         {year && <time className="font-semibold text-neutral-600">{year}</time>}
