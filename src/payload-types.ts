@@ -1420,6 +1420,21 @@ export interface Footer {
     };
     [k: string]: unknown;
   } | null;
+  richText2?: {
+    root: {
+      type: string;
+      children: {
+        type: string;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -1452,6 +1467,7 @@ export interface HeaderSelect<T extends boolean = true> {
  */
 export interface FooterSelect<T extends boolean = true> {
   richText?: T;
+  richText2?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;

@@ -24,6 +24,19 @@ export const Footer: GlobalConfig = {
       }),
       label: "Footer text",
     },
+    {
+      name: 'richText2',
+      type: 'richText',
+      editor: lexicalEditor({
+        features: ({ rootFeatures }) => {
+          return [
+            ...rootFeatures,
+            HeadingFeature({ enabledHeadingSizes: ['h2', 'h3', 'h4'] }),
+            FixedToolbarFeature(),
+          ]
+        },
+      }),
+    },
   ],
   hooks: {
     afterChange: [revalidateFooter],

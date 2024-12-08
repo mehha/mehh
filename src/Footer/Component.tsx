@@ -6,7 +6,7 @@ import type { Footer, Header } from '@/payload-types'
 
 import { ThemeSelector } from '@/providers/Theme/ThemeSelector'
 import { CMSLink } from '@/components/Link'
-import {Logo} from "@/components/Logo/Logo";
+import { Logo } from '@/components/Logo/Logo'
 import RichText from '@/components/RichText'
 
 export async function Footer() {
@@ -24,16 +24,29 @@ export async function Footer() {
           <Link className="flex items-center" href="/">
             <Logo isDark={false} />
           </Link>
-          <div className="d-flex flex-col gap-4 text-white">
-            {footer?.richText && (
+          {footer?.richText && (
+            <div className="d-flex flex-col gap-4 text-white">
               <RichText
                 content={footer?.richText}
                 className="flex flex-col gap-1"
                 enableGutter={false}
                 enableProse={false}
               />
-            )}
-          </div>
+            </div>
+          )}
+        </div>
+
+        <div className="flex items-center">
+          {footer?.richText2 && (
+            <div className="d-flex flex-col gap-4 text-white">
+              <RichText
+                content={footer?.richText2}
+                className="flex flex-col gap-1"
+                enableGutter={false}
+                enableProse={false}
+              />
+            </div>
+          )}
         </div>
 
         <div className="flex flex-col-reverse items-start md:flex-row gap-4 md:items-center">
