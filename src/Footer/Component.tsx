@@ -27,7 +27,7 @@ export async function Footer() {
           {footer?.richText && (
             <div className="d-flex flex-col gap-4 text-white">
               <RichText
-                content={footer?.richText}
+                data={footer?.richText}
                 className="flex flex-col gap-1"
                 enableGutter={false}
                 enableProse={false}
@@ -40,7 +40,7 @@ export async function Footer() {
           {footer?.richText2 && (
             <div className="d-flex flex-col gap-4 text-white">
               <RichText
-                content={footer?.richText2}
+                data={footer?.richText2}
                 className="flex flex-col gap-1"
                 enableGutter={false}
                 enableProse={false}

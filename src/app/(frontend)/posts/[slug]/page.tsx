@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { RelatedPosts } from '@/blocks/RelatedPosts/Component'
 import { PayloadRedirects } from '@/components/PayloadRedirects'
 import configPromise from '@payload-config'
-import { getPayloadHMR } from '@payloadcms/next/utilities'
 import { draftMode } from 'next/headers'
 import React, { cache } from 'react'
 import RichText from '@/components/RichText'
@@ -15,9 +14,10 @@ import { generateMeta } from '@/utilities/generateMeta'
 import PageClient from './page.client'
 import {Media} from "@/components/Media";
 import Link from "next/link";
+import { getPayload } from 'payload'
 
 export async function generateStaticParams() {
-  const payload = await getPayloadHMR({ config: configPromise })
+  const payload = await getPayload({ config: configPromise })
   const posts = await payload.find({
     collection: 'posts',
     draft: false,
@@ -95,7 +95,7 @@ export default async function Post({ params: paramsPromise }: Args) {
             <div className="max-w-4xl mx-auto mt-10">
               <RichText
                 className=""
-                content={post.content}
+                data={post.content}
                 enableGutter={false}
               />
             </div>
@@ -123,7 +123,7 @@ export async function generateMetadata({params: paramsPromise}: Args): Promise<M
 const queryPostBySlug = cache(async ({slug}: { slug: string }) => {
   const {isEnabled: draft} = await draftMode()
 
-  const payload = await getPayloadHMR({config: configPromise})
+  const payload = await getPayload({config: configPromise})
 
   const result = await payload.find({
     collection: 'posts',

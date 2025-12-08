@@ -127,11 +127,8 @@ export const FormBlock: React.FC<
   return (
     <div className="container lg:max-w-[62rem] pb-20 prose dark:prose-invert">
       <FormProvider {...formMethods}>
-        {enableIntro && introContent && !hasSubmitted && (
-          <RichText className="mb-8" content={introContent} enableGutter={false} />
-        )}
         {!isLoading && hasSubmitted && confirmationType === 'message' && (
-          <RichText content={confirmationMessage} />
+          <RichText data={confirmationMessage} />
         )}
         {isLoading && !hasSubmitted && <p>Loading, please wait...</p>}
         {error && <div>{`${error.status || '500'}: ${error.message || ''}`}</div>}

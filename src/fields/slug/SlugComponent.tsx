@@ -3,7 +3,6 @@ import React, { useCallback, useEffect } from 'react'
 
 import {
   useField,
-  useFieldProps,
   Button,
   TextInput,
   FieldLabel,
@@ -23,12 +22,13 @@ type SlugComponentProps = {
 export const SlugComponent: React.FC<SlugComponentProps> = ({
   field,
   fieldToUse,
+  path,
   checkboxFieldPath: checkboxFieldPathFromProps,
+  readOnly: readOnlyFromProps,
 }) => {
   const { label } = field
-  const { path, readOnly: readOnlyFromProps } = useFieldProps()
 
-  const checkboxFieldPath = path.includes('.')
+  const checkboxFieldPath = path?.includes('.')
     ? `${path}.${checkboxFieldPathFromProps}`
     : checkboxFieldPathFromProps
 
@@ -77,7 +77,7 @@ export const SlugComponent: React.FC<SlugComponentProps> = ({
   return (
     <div className="field-type slug-field-component">
       <div className="label-wrapper">
-        <FieldLabel field={field} htmlFor={`field-${path}`} label={label} />
+        <FieldLabel htmlFor={`field-${path}`} label={label} />
 
         <Button className="lock-button" buttonStyle="none" onClick={handleLock}>
           {checkboxValue ? 'Unlock' : 'Lock'}

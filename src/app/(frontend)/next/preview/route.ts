@@ -1,22 +1,14 @@
 import jwt from 'jsonwebtoken'
 import { draftMode } from 'next/headers'
 import { redirect } from 'next/navigation'
-import { getPayloadHMR } from '@payloadcms/next/utilities'
 import configPromise from '@payload-config'
-import { CollectionSlug } from 'payload'
+import { CollectionSlug, getPayload, type PayloadRequest } from 'payload'
+import { NextRequest } from 'next/server'
 
 const payloadToken = 'payload-token'
 
-export async function GET(
-  req: Request & {
-    cookies: {
-      get: (name: string) => {
-        value: string
-      }
-    }
-  },
-): Promise<Response> {
-  const payload = await getPayloadHMR({ config: configPromise })
+export async function GET(req: NextRequest): Promise<Response> {
+  const payload = await getPayload({ config: configPromise })
   const token = req.cookies.get(payloadToken)?.value
   const { searchParams } = new URL(req.url)
   const path = searchParams.get('path')
@@ -51,9 +43,13 @@ export async function GET(
     let user
 
     try {
-      user = jwt.verify(token, payload.secret)
+      user = await payload.auth({
+        req: req as unknown as PayloadRequest,
+        headers: req.headers,
+      })
     } catch (error) {
-      payload.logger.error('Error verifying token for live preview:', error)
+      payload.logger.error({ err: error }, 'Error verifying token for live preview')
+      return new Response('You are not allowed to preview this page', { status: 403 })
     }
 
     const draft = await draftMode()
