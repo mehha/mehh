@@ -25,7 +25,7 @@ import {
   OverviewField,
   PreviewField,
 } from '@payloadcms/plugin-seo/fields'
-import { slugField } from '@/fields/slug'
+import { slugField } from 'payload'
 
 export const Posts: CollectionConfig = {
   slug: 'posts',
@@ -235,7 +235,7 @@ export const Posts: CollectionConfig = {
         },
       ],
     },
-    ...slugField(),
+    slugField(),
   ],
   hooks: {
     afterChange: [revalidatePost],
@@ -244,7 +244,7 @@ export const Posts: CollectionConfig = {
   versions: {
     drafts: {
       autosave: {
-        interval: 100, // We set this interval for optimal live preview
+        interval: 800, // We set this interval for optimal live preview
       },
     },
     maxPerDoc: 50,

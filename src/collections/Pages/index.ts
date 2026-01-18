@@ -9,7 +9,7 @@ import { FormBlock } from '../../blocks/Form/config'
 import { MediaBlock } from '../../blocks/MediaBlock/config'
 import { ServicesBlock } from '../../blocks/ServicesBlock/config'
 import { hero } from '@/heros/config'
-import { slugField } from '@/fields/slug'
+import { slugField } from 'payload'
 import { populatePublishedAt } from '../../hooks/populatePublishedAt'
 import { generatePreviewPath } from '../../utilities/generatePreviewPath'
 import { revalidatePage } from './hooks/revalidatePage'
@@ -111,7 +111,7 @@ export const Pages: CollectionConfig = {
         position: 'sidebar',
       },
     },
-    ...slugField(),
+    slugField(),
   ],
   hooks: {
     afterChange: [revalidatePage],
@@ -120,7 +120,7 @@ export const Pages: CollectionConfig = {
   versions: {
     drafts: {
       autosave: {
-        interval: 100, // We set this interval for optimal live preview
+        interval: 800, // We set this interval for optimal live preview
       },
     },
     maxPerDoc: 50,
