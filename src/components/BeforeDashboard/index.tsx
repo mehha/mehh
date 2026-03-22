@@ -2,8 +2,8 @@ import React from 'react'
 
 import './index.scss'
 import { ExternalLink } from 'lucide-react'
-import cssVariables from '@/cssVariables'
 import Link from 'next/link'
+import { cssVariables } from '@/cssVariables'
 
 const BeforeDashboard: React.FC = () => {
   return (

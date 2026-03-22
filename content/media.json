@@ -1,0 +1,575 @@
+{
+  "docs": [
+    {
+      "alt": "WordPress Logotype Alternative",
+      "filename": "WordPress-logotype-alternative.png",
+      "mimeType": "image/png",
+      "filesize": 74351,
+      "width": 2000,
+      "height": 1080,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 162,
+          "mimeType": "image/png",
+          "filesize": 13700,
+          "filename": "WordPress-logotype-alternative-300x162.png",
+          "url": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+        },
+        "square": {
+          "width": 500,
+          "height": 500,
+          "mimeType": "image/png",
+          "filesize": 38831,
+          "filename": "WordPress-logotype-alternative-500x500.png",
+          "url": "/api/media/file/WordPress-logotype-alternative-500x500.png"
+        },
+        "small": {
+          "width": 600,
+          "height": 324,
+          "mimeType": "image/png",
+          "filesize": 30851,
+          "filename": "WordPress-logotype-alternative-600x324.png",
+          "url": "/api/media/file/WordPress-logotype-alternative-600x324.png"
+        },
+        "medium": {
+          "width": 900,
+          "height": 486,
+          "mimeType": "image/png",
+          "filesize": 49853,
+          "filename": "WordPress-logotype-alternative-900x486.png",
+          "url": "/api/media/file/WordPress-logotype-alternative-900x486.png"
+        },
+        "large": {
+          "width": 1400,
+          "height": 756,
+          "mimeType": "image/png",
+          "filesize": 88783,
+          "filename": "WordPress-logotype-alternative-1400x756.png",
+          "url": "/api/media/file/WordPress-logotype-alternative-1400x756.png"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 1037,
+          "mimeType": "image/png",
+          "filesize": 133211,
+          "filename": "WordPress-logotype-alternative-1920x1037.png",
+          "url": "/api/media/file/WordPress-logotype-alternative-1920x1037.png"
+        }
+      },
+      "createdAt": "2024-12-07T21:49:17.846Z",
+      "updatedAt": "2024-12-07T21:49:17.846Z",
+      "id": "6754c2dde878fcb8a2c98b0e",
+      "url": "/api/media/file/WordPress-logotype-alternative.png",
+      "thumbnailURL": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+    },
+    {
+      "alt": "Arhitektiabi Screen",
+      "filename": "arhitektiabi-screen.webp",
+      "mimeType": "image/webp",
+      "filesize": 187672,
+      "width": 1665,
+      "height": 1232,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 222,
+          "mimeType": "image/webp",
+          "filesize": 9730,
+          "filename": "arhitektiabi-screen-300x222.webp",
+          "url": "/api/media/file/arhitektiabi-screen-300x222.webp"
+        },
+        "square": {
+          "width": 500,
+          "height": 500,
+          "mimeType": "image/webp",
+          "filesize": 29212,
+          "filename": "arhitektiabi-screen-500x500.webp",
+          "url": "/api/media/file/arhitektiabi-screen-500x500.webp"
+        },
+        "small": {
+          "width": 600,
+          "height": 444,
+          "mimeType": "image/webp",
+          "filesize": 31910,
+          "filename": "arhitektiabi-screen-600x444.webp",
+          "url": "/api/media/file/arhitektiabi-screen-600x444.webp"
+        },
+        "medium": {
+          "width": 900,
+          "height": 666,
+          "mimeType": "image/webp",
+          "filesize": 62312,
+          "filename": "arhitektiabi-screen-900x666.webp",
+          "url": "/api/media/file/arhitektiabi-screen-900x666.webp"
+        },
+        "large": {
+          "width": 1400,
+          "height": 1036,
+          "mimeType": "image/webp",
+          "filesize": 121060,
+          "filename": "arhitektiabi-screen-1400x1036.webp",
+          "url": "/api/media/file/arhitektiabi-screen-1400x1036.webp"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 1421,
+          "mimeType": "image/webp",
+          "filesize": 199432,
+          "filename": "arhitektiabi-screen-1920x1421.webp",
+          "url": "/api/media/file/arhitektiabi-screen-1920x1421.webp"
+        }
+      },
+      "createdAt": "2024-12-07T16:38:44.305Z",
+      "updatedAt": "2024-12-07T16:38:44.305Z",
+      "id": "67547a1483ee7f99f115e032",
+      "url": "/api/media/file/arhitektiabi-screen.webp",
+      "thumbnailURL": "/api/media/file/arhitektiabi-screen-300x222.webp"
+    },
+    {
+      "alt": "Arhitektiabi Logo",
+      "filename": "arhitektiabi-logo.webp",
+      "mimeType": "image/webp",
+      "filesize": 1328,
+      "width": 300,
+      "height": 29,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 29,
+          "mimeType": "image/webp",
+          "filesize": 1328,
+          "filename": "arhitektiabi-logo-300x29.webp",
+          "url": "/api/media/file/arhitektiabi-logo-300x29.webp"
+        },
+        "square": {
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null,
+          "url": null
+        },
+        "small": {
+          "width": 600,
+          "height": 58,
+          "mimeType": "image/webp",
+          "filesize": 5736,
+          "filename": "arhitektiabi-logo-600x58.webp",
+          "url": "/api/media/file/arhitektiabi-logo-600x58.webp"
+        },
+        "medium": {
+          "width": 900,
+          "height": 87,
+          "mimeType": "image/webp",
+          "filesize": 12280,
+          "filename": "arhitektiabi-logo-900x87.webp",
+          "url": "/api/media/file/arhitektiabi-logo-900x87.webp"
+        },
+        "large": {
+          "width": 1400,
+          "height": 135,
+          "mimeType": "image/webp",
+          "filesize": 19830,
+          "filename": "arhitektiabi-logo-1400x135.webp",
+          "url": "/api/media/file/arhitektiabi-logo-1400x135.webp"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 186,
+          "mimeType": "image/webp",
+          "filesize": 29570,
+          "filename": "arhitektiabi-logo-1920x186.webp",
+          "url": "/api/media/file/arhitektiabi-logo-1920x186.webp"
+        }
+      },
+      "createdAt": "2024-12-07T16:38:21.094Z",
+      "updatedAt": "2024-12-07T16:38:21.094Z",
+      "id": "675479fd83ee7f99f115df8e",
+      "url": "/api/media/file/arhitektiabi-logo.webp",
+      "thumbnailURL": "/api/media/file/arhitektiabi-logo-300x29.webp"
+    },
+    {
+      "alt": "Kroon Logo",
+      "filename": "kroon-logo.webp",
+      "mimeType": "image/webp",
+      "filesize": 1774,
+      "width": 100,
+      "height": 100,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 300,
+          "mimeType": "image/webp",
+          "filesize": 17812,
+          "filename": "kroon-logo-300x300.webp",
+          "url": "/api/media/file/kroon-logo-300x300.webp"
+        },
+        "square": {
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null,
+          "url": null
+        },
+        "small": {
+          "width": 600,
+          "height": 600,
+          "mimeType": "image/webp",
+          "filesize": 38750,
+          "filename": "kroon-logo-600x600.webp",
+          "url": "/api/media/file/kroon-logo-600x600.webp"
+        },
+        "medium": {
+          "width": 900,
+          "height": 900,
+          "mimeType": "image/webp",
+          "filesize": 66432,
+          "filename": "kroon-logo-900x900.webp",
+          "url": "/api/media/file/kroon-logo-900x900.webp"
+        },
+        "large": {
+          "width": 1400,
+          "height": 1400,
+          "mimeType": "image/webp",
+          "filesize": 123874,
+          "filename": "kroon-logo-1400x1400.webp",
+          "url": "/api/media/file/kroon-logo-1400x1400.webp"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 1920,
+          "mimeType": "image/webp",
+          "filesize": 190410,
+          "filename": "kroon-logo-1920x1920.webp",
+          "url": "/api/media/file/kroon-logo-1920x1920.webp"
+        }
+      },
+      "createdAt": "2024-12-07T16:37:02.705Z",
+      "updatedAt": "2024-12-07T16:37:02.705Z",
+      "id": "675479ae83ee7f99f115deb5",
+      "url": "/api/media/file/kroon-logo.webp",
+      "thumbnailURL": "/api/media/file/kroon-logo-300x300.webp"
+    },
+    {
+      "alt": "Kroon Logo",
+      "filename": "kroon-logo.png",
+      "mimeType": "image/png",
+      "filesize": 2740,
+      "width": 100,
+      "height": 100,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 300,
+          "mimeType": "image/png",
+          "filesize": 37386,
+          "filename": "kroon-logo-300x300.png",
+          "url": "/api/media/file/kroon-logo-300x300.png"
+        },
+        "square": {
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null,
+          "url": null
+        },
+        "small": {
+          "width": 600,
+          "height": 600,
+          "mimeType": "image/png",
+          "filesize": 132001,
+          "filename": "kroon-logo-600x600.png",
+          "url": "/api/media/file/kroon-logo-600x600.png"
+        },
+        "medium": {
+          "width": 900,
+          "height": 900,
+          "mimeType": "image/png",
+          "filesize": 279868,
+          "filename": "kroon-logo-900x900.png",
+          "url": "/api/media/file/kroon-logo-900x900.png"
+        },
+        "large": {
+          "width": 1400,
+          "height": 1400,
+          "mimeType": "image/png",
+          "filesize": 611989,
+          "filename": "kroon-logo-1400x1400.png",
+          "url": "/api/media/file/kroon-logo-1400x1400.png"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 1920,
+          "mimeType": "image/png",
+          "filesize": 1044310,
+          "filename": "kroon-logo-1920x1920.png",
+          "url": "/api/media/file/kroon-logo-1920x1920.png"
+        }
+      },
+      "createdAt": "2024-12-07T16:35:23.575Z",
+      "updatedAt": "2024-12-07T16:35:23.575Z",
+      "id": "6754794b83ee7f99f115de2d",
+      "url": "/api/media/file/kroon-logo.png",
+      "thumbnailURL": "/api/media/file/kroon-logo-300x300.png"
+    },
+    {
+      "alt": "Kroonimismissa Kooriakadeemia 1",
+      "filename": "kroonimismissa-kooriakadeemia-1.jpg",
+      "mimeType": "image/jpeg",
+      "filesize": 533774,
+      "width": 1852,
+      "height": 4624,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 749,
+          "mimeType": "image/jpeg",
+          "filesize": 37657,
+          "filename": "kroonimismissa-kooriakadeemia-1-300x749.jpg",
+          "url": "/api/media/file/kroonimismissa-kooriakadeemia-1-300x749.jpg"
+        },
+        "square": {
+          "width": 500,
+          "height": 500,
+          "mimeType": "image/jpeg",
+          "filesize": 40368,
+          "filename": "kroonimismissa-kooriakadeemia-1-500x500.jpg",
+          "url": "/api/media/file/kroonimismissa-kooriakadeemia-1-500x500.jpg"
+        },
+        "small": {
+          "width": 600,
+          "height": 1498,
+          "mimeType": "image/jpeg",
+          "filesize": 116430,
+          "filename": "kroonimismissa-kooriakadeemia-1-600x1498.jpg",
+          "url": "/api/media/file/kroonimismissa-kooriakadeemia-1-600x1498.jpg"
+        },
+        "medium": {
+          "width": 900,
+          "height": 2247,
+          "mimeType": "image/jpeg",
+          "filesize": 229612,
+          "filename": "kroonimismissa-kooriakadeemia-1-900x2247.jpg",
+          "url": "/api/media/file/kroonimismissa-kooriakadeemia-1-900x2247.jpg"
+        },
+        "large": {
+          "width": 1400,
+          "height": 3495,
+          "mimeType": "image/jpeg",
+          "filesize": 451648,
+          "filename": "kroonimismissa-kooriakadeemia-1-1400x3495.jpg",
+          "url": "/api/media/file/kroonimismissa-kooriakadeemia-1-1400x3495.jpg"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 4794,
+          "mimeType": "image/jpeg",
+          "filesize": 704272,
+          "filename": "kroonimismissa-kooriakadeemia-1-1920x4794.jpg",
+          "url": "/api/media/file/kroonimismissa-kooriakadeemia-1-1920x4794.jpg"
+        }
+      },
+      "createdAt": "2024-12-07T16:34:48.656Z",
+      "updatedAt": "2024-12-07T16:34:48.656Z",
+      "id": "6754792883ee7f99f115dd6d",
+      "url": "/api/media/file/kroonimismissa-kooriakadeemia-1.jpg",
+      "thumbnailURL": "/api/media/file/kroonimismissa-kooriakadeemia-1-300x749.jpg"
+    },
+    {
+      "alt": "Neemekula New",
+      "filename": "neemekula-new.webp",
+      "mimeType": "image/webp",
+      "filesize": 477416,
+      "width": 1624,
+      "height": 4670,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 863,
+          "mimeType": "image/webp",
+          "filesize": 27536,
+          "filename": "neemekula-new-300x863.webp",
+          "url": "/api/media/file/neemekula-new-300x863.webp"
+        },
+        "square": {
+          "width": 500,
+          "height": 500,
+          "mimeType": "image/webp",
+          "filesize": 23802,
+          "filename": "neemekula-new-500x500.webp",
+          "url": "/api/media/file/neemekula-new-500x500.webp"
+        },
+        "small": {
+          "width": 600,
+          "height": 1725,
+          "mimeType": "image/webp",
+          "filesize": 92156,
+          "filename": "neemekula-new-600x1725.webp",
+          "url": "/api/media/file/neemekula-new-600x1725.webp"
+        },
+        "medium": {
+          "width": 900,
+          "height": 2588,
+          "mimeType": "image/webp",
+          "filesize": 177146,
+          "filename": "neemekula-new-900x2588.webp",
+          "url": "/api/media/file/neemekula-new-900x2588.webp"
+        },
+        "large": {
+          "width": 1400,
+          "height": 4026,
+          "mimeType": "image/webp",
+          "filesize": 339068,
+          "filename": "neemekula-new-1400x4026.webp",
+          "url": "/api/media/file/neemekula-new-1400x4026.webp"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 5521,
+          "mimeType": "image/webp",
+          "filesize": 543356,
+          "filename": "neemekula-new-1920x5521.webp",
+          "url": "/api/media/file/neemekula-new-1920x5521.webp"
+        }
+      },
+      "createdAt": "2024-12-07T16:31:18.883Z",
+      "updatedAt": "2024-12-07T16:31:18.883Z",
+      "id": "6754785683ee7f99f115db07",
+      "url": "/api/media/file/neemekula-new.webp",
+      "thumbnailURL": "/api/media/file/neemekula-new-300x863.webp"
+    },
+    {
+      "alt": "Kaberneeme Logo",
+      "filename": "kaberneeme-logo.png",
+      "mimeType": "image/png",
+      "filesize": 34054,
+      "width": 150,
+      "height": 149,
+      "focalX": 50,
+      "focalY": 50,
+      "sizes": {
+        "thumbnail": {
+          "width": 300,
+          "height": 298,
+          "mimeType": "image/png",
+          "filesize": 136267,
+          "filename": "kaberneeme-logo-300x298.png",
+          "url": "/api/media/file/kaberneeme-logo-300x298.png"
+        },
+        "square": {
+          "width": null,
+          "height": null,
+          "mimeType": null,
+          "filesize": null,
+          "filename": null,
+          "url": null
+        },
+        "small": {
+          "width": 600,
+          "height": 596,
+          "mimeType": "image/png",
+          "filesize": 528438,
+          "filename": "kaberneeme-logo-600x596.png",
+          "url": "/api/media/file/kaberneeme-logo-600x596.png"
+        },
+        "medium": {
+          "width": 900,
+          "height": 894,
+          "mimeType": "image/png",
+          "filesize": 1152874,
+          "filename": "kaberneeme-logo-900x894.png",
+          "url": "/api/media/file/kaberneeme-logo-900x894.png"
+        },
+        "large": {
+          "width": 1400,
+          "height": 1391,
+          "mimeType": "image/png",
+          "filesize": 2654703,
+          "filename": "kaberneeme-logo-1400x1391.png",
+          "url": "/api/media/file/kaberneeme-logo-1400x1391.png"
+        },
+        "xlarge": {
+          "width": 1920,
+          "height": 1907,
+          "mimeType": "image/png",
+          "filesize": 4770145,
+          "filename": "kaberneeme-logo-1920x1907.png",
+          "url": "/api/media/file/kaberneeme-logo-1920x1907.png"
+        }
+      },
+      "createdAt": "2024-11-30T14:30:43.802Z",
+      "updatedAt": "2024-11-30T14:30:43.802Z",
+      "id": "674b219336007ac4e6e3b43f",
+      "url": "/api/media/file/kaberneeme-logo.png",
+      "thumbnailURL": "/api/media/file/kaberneeme-logo-300x298.png"
+    },
+    {
+      "alt": "Erso Logo",
+      "filename": "erso-logo.svg",
+      "mimeType": "image/svg+xml",
+      "filesize": 14443,
+      "width": 1429,
+      "height": 276,
+      "sizes": {
+        "thumbnail": { "url": null },
+        "square": { "url": null },
+        "small": { "url": null },
+        "medium": { "url": null },
+        "large": { "url": null },
+        "xlarge": { "url": null }
+      },
+      "createdAt": "2024-11-30T14:24:40.076Z",
+      "updatedAt": "2024-11-30T14:24:40.076Z",
+      "id": "674b202836007ac4e6e3b01e",
+      "url": "/api/media/file/erso-logo.svg",
+      "thumbnailURL": null
+    },
+    {
+      "alt": "Payload Logo",
+      "filename": "payload-logo.svg",
+      "mimeType": "image/svg+xml",
+      "filesize": 3105,
+      "width": 194,
+      "height": 44,
+      "sizes": {
+        "thumbnail": { "url": null },
+        "square": { "url": null },
+        "small": { "url": null },
+        "medium": { "url": null },
+        "large": { "url": null },
+        "xlarge": { "url": null }
+      },
+      "createdAt": "2024-11-20T17:49:48.511Z",
+      "updatedAt": "2024-11-20T17:49:48.511Z",
+      "id": "673e213cc175added852dd03",
+      "url": "/api/media/file/payload-logo.svg",
+      "thumbnailURL": null
+    }
+  ],
+  "totalDocs": 45,
+  "limit": 10,
+  "totalPages": 5,
+  "page": 1,
+  "pagingCounter": 1,
+  "hasPrevPage": false,
+  "hasNextPage": true,
+  "prevPage": null,
+  "nextPage": 2
+}

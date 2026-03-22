@@ -1,0 +1,2836 @@
+{
+  "docs": [
+    {
+      "meta": {
+        "title": "Miks wordpress ja gutenberg block editor aastal 2024? | Mehh Meedia OÜ",
+        "image": {
+          "alt": "WordPress Logotype Alternative",
+          "filename": "WordPress-logotype-alternative.png",
+          "mimeType": "image/png",
+          "filesize": 74351,
+          "width": 2000,
+          "height": 1080,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 162,
+              "mimeType": "image/png",
+              "filesize": 13700,
+              "filename": "WordPress-logotype-alternative-300x162.png",
+              "url": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/png",
+              "filesize": 38831,
+              "filename": "WordPress-logotype-alternative-500x500.png",
+              "url": "/api/media/file/WordPress-logotype-alternative-500x500.png"
+            },
+            "small": {
+              "width": 600,
+              "height": 324,
+              "mimeType": "image/png",
+              "filesize": 30851,
+              "filename": "WordPress-logotype-alternative-600x324.png",
+              "url": "/api/media/file/WordPress-logotype-alternative-600x324.png"
+            },
+            "medium": {
+              "width": 900,
+              "height": 486,
+              "mimeType": "image/png",
+              "filesize": 49853,
+              "filename": "WordPress-logotype-alternative-900x486.png",
+              "url": "/api/media/file/WordPress-logotype-alternative-900x486.png"
+            },
+            "large": {
+              "width": 1400,
+              "height": 756,
+              "mimeType": "image/png",
+              "filesize": 88783,
+              "filename": "WordPress-logotype-alternative-1400x756.png",
+              "url": "/api/media/file/WordPress-logotype-alternative-1400x756.png"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1037,
+              "mimeType": "image/png",
+              "filesize": 133211,
+              "filename": "WordPress-logotype-alternative-1920x1037.png",
+              "url": "/api/media/file/WordPress-logotype-alternative-1920x1037.png"
+            }
+          },
+          "createdAt": "2024-12-07T21:49:17.846Z",
+          "updatedAt": "2024-12-07T21:49:17.846Z",
+          "id": "6754c2dde878fcb8a2c98b0e",
+          "url": "/api/media/file/WordPress-logotype-alternative.png",
+          "thumbnailURL": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+        },
+        "description": "WordPress on 2024. aastal jätkuvalt üks populaarsemaid sisuhaldussüsteeme, pakkudes kasutajatele paindlikkust ja kasutusmugavust."
+      },
+      "_status": "published",
+      "createdAt": "2024-12-07T21:46:09.873Z",
+      "updatedAt": "2024-12-15T12:22:48.296Z",
+      "categories": [
+        {
+          "title": "Blogi",
+          "breadcrumbs": [
+            {
+              "doc": "673e1f2cc175added852d90e",
+              "label": "Blogi",
+              "id": "673e1f2c83b6e44229e3bb81"
+            }
+          ],
+          "createdAt": "2024-11-20T17:41:00.314Z",
+          "updatedAt": "2024-11-20T17:41:00.344Z",
+          "id": "673e1f2cc175added852d90e"
+        }
+      ],
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "WordPress on 2024. aastal jätkuvalt üks populaarsemaid sisuhaldussüsteeme, pakkudes kasutajatele paindlikkust ja kasutusmugavust. Gutenbergi plokkide redaktor, mis tutvustati esmakordselt 2018. aastal, on selle aja jooksul märkimisväärselt arenenud, muutudes võimsaks tööriistaks nii arendajatele kui ka sisuloojatele.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Gutenbergi plokkide redaktori eelised 2024. aastal:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h2"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Täielik lehe redigeerimine (Full Site Editing):",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Gutenbergi arendus on jõudnud faasi, kus kasutajad saavad plokkide abil hallata kogu veebisaidi kujundust, sealhulgas päiseid, jaluseid ja külgribasid. See võimaldab luua ja kohandada veebisaite ilma vajaduseta keerulise koodi järele.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Reaalajas koostöö:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Gutenbergi kolmas arendusfaas toob WordPressi reaalajas koostöö võimalused, mis võimaldab mitmel kasutajal samaaegselt sisu redigeerida, parandades meeskonnatöö efektiivsust.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Paindlikkus ja kasutusmugavus:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Plokipõhine lähenemine võimaldab kasutajatel lihtsalt lisada ja korraldada erinevaid sisuplokke, nagu tekstid, pildid, videod ja galeriid, muutes sisu loomise intuitiivseks ja visuaalselt atraktiivseks.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Arendajate tugi ja laiendatavus:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Gutenberg pakub arendajatele võimalust luua kohandatud plokke ja mustreid, mis vastavad spetsiifilistele vajadustele, võimaldades luua unikaalseid ja funktsionaalseid veebisaite.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Miks valida WordPress ja Gutenbergi plokkide redaktor 2024. aastal?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h2"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kogukonna tugi ja pidev areng:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " WordPressi avatud lähtekoodiga platvormi toetab aktiivne arendajate ja kasutajate kogukond, tagades pidevad uuendused ja täiustused.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kohandatavus ja laiendatavus:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Tänu tuhandetele saadaval olevatele pluginatele ja teemadele saab WordPressi kohandada vastavalt iga ettevõtte või isiku vajadustele.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kasutajasõbralikkus:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " Gutenbergi plokkide redaktor muudab sisu loomise ja haldamise lihtsaks ka neile, kellel puudub tehniline taust, võimaldades keskenduda sisule ilma keerulise koodi kirjutamiseta.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 1,
+              "textStyle": ""
+            },
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kokkuvõttes pakuvad WordPress ja Gutenbergi plokkide redaktor 2024. aastal kaasaegseid ja paindlikke lahendusi veebisaitide loomiseks ja haldamiseks, vastates nii arendajate kui ka sisuloojate vajadustele.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "media": {
+        "alt": "WordPress Logotype Alternative",
+        "filename": "WordPress-logotype-alternative.png",
+        "mimeType": "image/png",
+        "filesize": 74351,
+        "width": 2000,
+        "height": 1080,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 162,
+            "mimeType": "image/png",
+            "filesize": 13700,
+            "filename": "WordPress-logotype-alternative-300x162.png",
+            "url": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/png",
+            "filesize": 38831,
+            "filename": "WordPress-logotype-alternative-500x500.png",
+            "url": "/api/media/file/WordPress-logotype-alternative-500x500.png"
+          },
+          "small": {
+            "width": 600,
+            "height": 324,
+            "mimeType": "image/png",
+            "filesize": 30851,
+            "filename": "WordPress-logotype-alternative-600x324.png",
+            "url": "/api/media/file/WordPress-logotype-alternative-600x324.png"
+          },
+          "medium": {
+            "width": 900,
+            "height": 486,
+            "mimeType": "image/png",
+            "filesize": 49853,
+            "filename": "WordPress-logotype-alternative-900x486.png",
+            "url": "/api/media/file/WordPress-logotype-alternative-900x486.png"
+          },
+          "large": {
+            "width": 1400,
+            "height": 756,
+            "mimeType": "image/png",
+            "filesize": 88783,
+            "filename": "WordPress-logotype-alternative-1400x756.png",
+            "url": "/api/media/file/WordPress-logotype-alternative-1400x756.png"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 1037,
+            "mimeType": "image/png",
+            "filesize": 133211,
+            "filename": "WordPress-logotype-alternative-1920x1037.png",
+            "url": "/api/media/file/WordPress-logotype-alternative-1920x1037.png"
+          }
+        },
+        "createdAt": "2024-12-07T21:49:17.846Z",
+        "updatedAt": "2024-12-07T21:49:17.846Z",
+        "id": "6754c2dde878fcb8a2c98b0e",
+        "url": "/api/media/file/WordPress-logotype-alternative.png",
+        "thumbnailURL": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-12-07T21:49:20.101Z",
+      "slug": "miks-wordpress-ja-gutenberg-block-editor-aastal-2024",
+      "title": "Miks wordpress ja gutenberg block editor aastal 2024?",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "WordPress on 2024. aastal jätkuvalt üks populaarsemaid sisuhaldussüsteeme, pakkudes kasutajatele paindlikkust ja kasutusmugavust.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "id": "6754c221e878fcb8a2c98740",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "title": "Arhitektiabi koduleht | Mehh Meedia OÜ",
+        "image": {
+          "alt": "Arhitektiabi Logo",
+          "filename": "arhitektiabi-logo.webp",
+          "mimeType": "image/webp",
+          "filesize": 1328,
+          "width": 300,
+          "height": 29,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 29,
+              "mimeType": "image/webp",
+              "filesize": 1328,
+              "filename": "arhitektiabi-logo-300x29.webp",
+              "url": "/api/media/file/arhitektiabi-logo-300x29.webp"
+            },
+            "square": {
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null,
+              "url": null
+            },
+            "small": {
+              "width": 600,
+              "height": 58,
+              "mimeType": "image/webp",
+              "filesize": 5736,
+              "filename": "arhitektiabi-logo-600x58.webp",
+              "url": "/api/media/file/arhitektiabi-logo-600x58.webp"
+            },
+            "medium": {
+              "width": 900,
+              "height": 87,
+              "mimeType": "image/webp",
+              "filesize": 12280,
+              "filename": "arhitektiabi-logo-900x87.webp",
+              "url": "/api/media/file/arhitektiabi-logo-900x87.webp"
+            },
+            "large": {
+              "width": 1400,
+              "height": 135,
+              "mimeType": "image/webp",
+              "filesize": 19830,
+              "filename": "arhitektiabi-logo-1400x135.webp",
+              "url": "/api/media/file/arhitektiabi-logo-1400x135.webp"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 186,
+              "mimeType": "image/webp",
+              "filesize": 29570,
+              "filename": "arhitektiabi-logo-1920x186.webp",
+              "url": "/api/media/file/arhitektiabi-logo-1920x186.webp"
+            }
+          },
+          "createdAt": "2024-12-07T16:38:21.094Z",
+          "updatedAt": "2024-12-07T16:38:21.094Z",
+          "id": "675479fd83ee7f99f115df8e",
+          "url": "/api/media/file/arhitektiabi-logo.webp",
+          "thumbnailURL": "/api/media/file/arhitektiabi-logo-300x29.webp"
+        },
+        "description": "Arhitektiabi koduleht"
+      },
+      "_status": "published",
+      "createdAt": "2024-11-30T14:39:34.926Z",
+      "updatedAt": "2024-12-15T12:23:09.029Z",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "client": "ARHITEX OÜ",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil koduleht",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "homepage": "https://www.arhitektiabi.ee/",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil koduleht",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "media": {
+        "alt": "Arhitektiabi Screen",
+        "filename": "arhitektiabi-screen.webp",
+        "mimeType": "image/webp",
+        "filesize": 187672,
+        "width": 1665,
+        "height": 1232,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 222,
+            "mimeType": "image/webp",
+            "filesize": 9730,
+            "filename": "arhitektiabi-screen-300x222.webp",
+            "url": "/api/media/file/arhitektiabi-screen-300x222.webp"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/webp",
+            "filesize": 29212,
+            "filename": "arhitektiabi-screen-500x500.webp",
+            "url": "/api/media/file/arhitektiabi-screen-500x500.webp"
+          },
+          "small": {
+            "width": 600,
+            "height": 444,
+            "mimeType": "image/webp",
+            "filesize": 31910,
+            "filename": "arhitektiabi-screen-600x444.webp",
+            "url": "/api/media/file/arhitektiabi-screen-600x444.webp"
+          },
+          "medium": {
+            "width": 900,
+            "height": 666,
+            "mimeType": "image/webp",
+            "filesize": 62312,
+            "filename": "arhitektiabi-screen-900x666.webp",
+            "url": "/api/media/file/arhitektiabi-screen-900x666.webp"
+          },
+          "large": {
+            "width": 1400,
+            "height": 1036,
+            "mimeType": "image/webp",
+            "filesize": 121060,
+            "filename": "arhitektiabi-screen-1400x1036.webp",
+            "url": "/api/media/file/arhitektiabi-screen-1400x1036.webp"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 1421,
+            "mimeType": "image/webp",
+            "filesize": 199432,
+            "filename": "arhitektiabi-screen-1920x1421.webp",
+            "url": "/api/media/file/arhitektiabi-screen-1920x1421.webp"
+          }
+        },
+        "createdAt": "2024-12-07T16:38:44.305Z",
+        "updatedAt": "2024-12-07T16:38:44.305Z",
+        "id": "67547a1483ee7f99f115e032",
+        "url": "/api/media/file/arhitektiabi-screen.webp",
+        "thumbnailURL": "/api/media/file/arhitektiabi-screen-300x222.webp"
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-30T14:44:07.094Z",
+      "service": "Wordpress",
+      "slug": "arhitektiabi-koduleht",
+      "title": "Arhitektiabi koduleht",
+      "year": "2019",
+      "id": "674b23a636007ac4e6e3bd1a",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Kroon Logo",
+          "filename": "kroon-logo.webp",
+          "mimeType": "image/webp",
+          "filesize": 1774,
+          "width": 100,
+          "height": 100,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 300,
+              "mimeType": "image/webp",
+              "filesize": 17812,
+              "filename": "kroon-logo-300x300.webp",
+              "url": "/api/media/file/kroon-logo-300x300.webp"
+            },
+            "square": {
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null,
+              "url": null
+            },
+            "small": {
+              "width": 600,
+              "height": 600,
+              "mimeType": "image/webp",
+              "filesize": 38750,
+              "filename": "kroon-logo-600x600.webp",
+              "url": "/api/media/file/kroon-logo-600x600.webp"
+            },
+            "medium": {
+              "width": 900,
+              "height": 900,
+              "mimeType": "image/webp",
+              "filesize": 66432,
+              "filename": "kroon-logo-900x900.webp",
+              "url": "/api/media/file/kroon-logo-900x900.webp"
+            },
+            "large": {
+              "width": 1400,
+              "height": 1400,
+              "mimeType": "image/webp",
+              "filesize": 123874,
+              "filename": "kroon-logo-1400x1400.webp",
+              "url": "/api/media/file/kroon-logo-1400x1400.webp"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1920,
+              "mimeType": "image/webp",
+              "filesize": 190410,
+              "filename": "kroon-logo-1920x1920.webp",
+              "url": "/api/media/file/kroon-logo-1920x1920.webp"
+            }
+          },
+          "createdAt": "2024-12-07T16:37:02.705Z",
+          "updatedAt": "2024-12-07T16:37:02.705Z",
+          "id": "675479ae83ee7f99f115deb5",
+          "url": "/api/media/file/kroon-logo.webp",
+          "thumbnailURL": "/api/media/file/kroon-logo-300x300.webp"
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-30T14:32:43.195Z",
+      "updatedAt": "2024-12-07T16:37:04.519Z",
+      "client": "MTÜ Veronika Portsmuthi Kooriakadeemia",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "MTÜ Veronika Portsmuthi Kooriakadeemia kampaanialeht",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "homepage": "https://kroonimismissa.kooriakadeemia.ee/",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "MTÜ Veronika Portsmuthi Kooriakadeemia kampaanialeht",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "media": {
+        "alt": "Kroonimismissa Kooriakadeemia",
+        "filename": "kroonimismissa-kooriakadeemia.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 534603,
+        "width": 1852,
+        "height": 4624,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 749,
+            "mimeType": "image/jpeg",
+            "filesize": 37618,
+            "filename": "kroonimismissa-kooriakadeemia-300x749.jpg",
+            "url": "/api/media/file/kroonimismissa-kooriakadeemia-300x749.jpg"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/jpeg",
+            "filesize": 40414,
+            "filename": "kroonimismissa-kooriakadeemia-500x500.jpg",
+            "url": "/api/media/file/kroonimismissa-kooriakadeemia-500x500.jpg"
+          },
+          "small": {
+            "width": 600,
+            "height": 1498,
+            "mimeType": "image/jpeg",
+            "filesize": 116592,
+            "filename": "kroonimismissa-kooriakadeemia-600x1498.jpg",
+            "url": "/api/media/file/kroonimismissa-kooriakadeemia-600x1498.jpg"
+          },
+          "medium": {
+            "width": 900,
+            "height": 2247,
+            "mimeType": "image/jpeg",
+            "filesize": 230617,
+            "filename": "kroonimismissa-kooriakadeemia-900x2247.jpg",
+            "url": "/api/media/file/kroonimismissa-kooriakadeemia-900x2247.jpg"
+          },
+          "large": {
+            "width": 1400,
+            "height": 3495,
+            "mimeType": "image/jpeg",
+            "filesize": 453457,
+            "filename": "kroonimismissa-kooriakadeemia-1400x3495.jpg",
+            "url": "/api/media/file/kroonimismissa-kooriakadeemia-1400x3495.jpg"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 4794,
+            "mimeType": "image/jpeg",
+            "filesize": 705965,
+            "filename": "kroonimismissa-kooriakadeemia-1920x4794.jpg",
+            "url": "/api/media/file/kroonimismissa-kooriakadeemia-1920x4794.jpg"
+          }
+        },
+        "createdAt": "2024-11-18T18:46:04.337Z",
+        "updatedAt": "2024-11-18T18:46:04.337Z",
+        "id": "673b8b6c8a951fc9f82c5d63",
+        "url": "/api/media/file/kroonimismissa-kooriakadeemia.jpg",
+        "thumbnailURL": "/api/media/file/kroonimismissa-kooriakadeemia-300x749.jpg"
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-30T14:36:39.631Z",
+      "service": "Wordpress",
+      "slug": "kooriakadeemia-kampaanialeht",
+      "title": "Kooriakadeemia kampaanialeht",
+      "year": "2018",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "id": "674b220b36007ac4e6e3b6d7",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Kaberneeme Logo",
+          "filename": "kaberneeme-logo.png",
+          "mimeType": "image/png",
+          "filesize": 34054,
+          "width": 150,
+          "height": 149,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 298,
+              "mimeType": "image/png",
+              "filesize": 136267,
+              "filename": "kaberneeme-logo-300x298.png",
+              "url": "/api/media/file/kaberneeme-logo-300x298.png"
+            },
+            "square": {
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null,
+              "url": null
+            },
+            "small": {
+              "width": 600,
+              "height": 596,
+              "mimeType": "image/png",
+              "filesize": 528438,
+              "filename": "kaberneeme-logo-600x596.png",
+              "url": "/api/media/file/kaberneeme-logo-600x596.png"
+            },
+            "medium": {
+              "width": 900,
+              "height": 894,
+              "mimeType": "image/png",
+              "filesize": 1152874,
+              "filename": "kaberneeme-logo-900x894.png",
+              "url": "/api/media/file/kaberneeme-logo-900x894.png"
+            },
+            "large": {
+              "width": 1400,
+              "height": 1391,
+              "mimeType": "image/png",
+              "filesize": 2654703,
+              "filename": "kaberneeme-logo-1400x1391.png",
+              "url": "/api/media/file/kaberneeme-logo-1400x1391.png"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1907,
+              "mimeType": "image/png",
+              "filesize": 4770145,
+              "filename": "kaberneeme-logo-1920x1907.png",
+              "url": "/api/media/file/kaberneeme-logo-1920x1907.png"
+            }
+          },
+          "createdAt": "2024-11-30T14:30:43.802Z",
+          "updatedAt": "2024-11-30T14:30:43.802Z",
+          "id": "674b219336007ac4e6e3b43f",
+          "url": "/api/media/file/kaberneeme-logo.png",
+          "thumbnailURL": "/api/media/file/kaberneeme-logo-300x298.png"
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-30T14:27:14.411Z",
+      "updatedAt": "2024-11-30T14:31:53.620Z",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "client": "Kaberneeme Marina OÜ",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil mitmekeelne koduleht.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "homepage": "https://kaberneememarina.ee/et/",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil mitmekeelne koduleht.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "media": {
+        "alt": "Kaberneememarina",
+        "filename": "kaberneememarina.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 378518,
+        "width": 1902,
+        "height": 2136,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 337,
+            "mimeType": "image/jpeg",
+            "filesize": 21029,
+            "filename": "kaberneememarina-300x337.jpg",
+            "url": "/api/media/file/kaberneememarina-300x337.jpg"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/jpeg",
+            "filesize": 44212,
+            "filename": "kaberneememarina-500x500.jpg",
+            "url": "/api/media/file/kaberneememarina-500x500.jpg"
+          },
+          "small": {
+            "width": 600,
+            "height": 674,
+            "mimeType": "image/jpeg",
+            "filesize": 70818,
+            "filename": "kaberneememarina-600x674.jpg",
+            "url": "/api/media/file/kaberneememarina-600x674.jpg"
+          },
+          "medium": {
+            "width": 900,
+            "height": 1011,
+            "mimeType": "image/jpeg",
+            "filesize": 150594,
+            "filename": "kaberneememarina-900x1011.jpg",
+            "url": "/api/media/file/kaberneememarina-900x1011.jpg"
+          },
+          "large": {
+            "width": 1400,
+            "height": 1572,
+            "mimeType": "image/jpeg",
+            "filesize": 304009,
+            "filename": "kaberneememarina-1400x1572.jpg",
+            "url": "/api/media/file/kaberneememarina-1400x1572.jpg"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 2156,
+            "mimeType": "image/jpeg",
+            "filesize": 484215,
+            "filename": "kaberneememarina-1920x2156.jpg",
+            "url": "/api/media/file/kaberneememarina-1920x2156.jpg"
+          }
+        },
+        "createdAt": "2024-11-18T18:45:57.108Z",
+        "updatedAt": "2024-11-18T18:45:57.108Z",
+        "id": "673b8b658a951fc9f82c5d20",
+        "url": "/api/media/file/kaberneememarina.jpg",
+        "thumbnailURL": "/api/media/file/kaberneememarina-300x337.jpg"
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-30T14:31:43.515Z",
+      "service": "Wordpress, Multisite",
+      "slug": "kaberneeme-sadama-koduleht",
+      "title": "Kaberneeme sadama koduleht",
+      "year": "2020",
+      "id": "674b20c236007ac4e6e3b226",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Erso Logo",
+          "filename": "erso-logo.svg",
+          "mimeType": "image/svg+xml",
+          "filesize": 14443,
+          "width": 1429,
+          "height": 276,
+          "sizes": {
+            "thumbnail": { "url": null },
+            "square": { "url": null },
+            "small": { "url": null },
+            "medium": { "url": null },
+            "large": { "url": null },
+            "xlarge": { "url": null }
+          },
+          "createdAt": "2024-11-30T14:24:40.076Z",
+          "updatedAt": "2024-11-30T14:24:40.076Z",
+          "id": "674b202836007ac4e6e3b01e",
+          "url": "/api/media/file/erso-logo.svg",
+          "thumbnailURL": null
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-30T14:22:52.805Z",
+      "updatedAt": "2024-11-30T14:25:00.774Z",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "client": "Erso",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Erso kampaania leht",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "homepage": "https://100kontserti.erso.ee/",
+      "media": {
+        "alt": "ERSO 100 Kontserti",
+        "filename": "ERSO-100-kontserti.jpg",
+        "mimeType": "image/jpeg",
+        "filesize": 297483,
+        "width": 1463,
+        "height": 2500,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 513,
+            "mimeType": "image/jpeg",
+            "filesize": 29151,
+            "filename": "ERSO-100-kontserti-300x513.jpg",
+            "url": "/api/media/file/ERSO-100-kontserti-300x513.jpg"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/jpeg",
+            "filesize": 34362,
+            "filename": "ERSO-100-kontserti-500x500.jpg",
+            "url": "/api/media/file/ERSO-100-kontserti-500x500.jpg"
+          },
+          "small": {
+            "width": 600,
+            "height": 1025,
+            "mimeType": "image/jpeg",
+            "filesize": 95613,
+            "filename": "ERSO-100-kontserti-600x1025.jpg",
+            "url": "/api/media/file/ERSO-100-kontserti-600x1025.jpg"
+          },
+          "medium": {
+            "width": 900,
+            "height": 1538,
+            "mimeType": "image/jpeg",
+            "filesize": 188443,
+            "filename": "ERSO-100-kontserti-900x1538.jpg",
+            "url": "/api/media/file/ERSO-100-kontserti-900x1538.jpg"
+          },
+          "large": {
+            "width": 1400,
+            "height": 2392,
+            "mimeType": "image/jpeg",
+            "filesize": 371300,
+            "filename": "ERSO-100-kontserti-1400x2392.jpg",
+            "url": "/api/media/file/ERSO-100-kontserti-1400x2392.jpg"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 3281,
+            "mimeType": "image/jpeg",
+            "filesize": 561733,
+            "filename": "ERSO-100-kontserti-1920x3281.jpg",
+            "url": "/api/media/file/ERSO-100-kontserti-1920x3281.jpg"
+          }
+        },
+        "createdAt": "2024-11-18T18:45:45.373Z",
+        "updatedAt": "2024-11-18T18:45:45.373Z",
+        "id": "673b8b598a951fc9f82c5caa",
+        "url": "/api/media/file/ERSO-100-kontserti.jpg",
+        "thumbnailURL": "/api/media/file/ERSO-100-kontserti-300x513.jpg"
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-30T14:23:49.412Z",
+      "service": "Wordpress",
+      "slug": "erso",
+      "title": "Erso",
+      "year": "2019",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Erso kampaania leht",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "id": "674b1fbc36007ac4e6e3ac8b",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Payload Logo",
+          "filename": "payload-logo.svg",
+          "mimeType": "image/svg+xml",
+          "filesize": 3105,
+          "width": 194,
+          "height": 44,
+          "sizes": {
+            "thumbnail": { "url": null },
+            "square": { "url": null },
+            "small": { "url": null },
+            "medium": { "url": null },
+            "large": { "url": null },
+            "xlarge": { "url": null }
+          },
+          "createdAt": "2024-11-20T17:49:48.511Z",
+          "updatedAt": "2024-11-20T17:49:48.511Z",
+          "id": "673e213cc175added852dd03",
+          "url": "/api/media/file/payload-logo.svg",
+          "thumbnailURL": null
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-20T17:42:24.686Z",
+      "updatedAt": "2024-11-20T17:59:06.251Z",
+      "categories": [
+        {
+          "title": "Blogi",
+          "breadcrumbs": [
+            {
+              "doc": "673e1f2cc175added852d90e",
+              "label": "Blogi",
+              "id": "673e1f2c83b6e44229e3bb81"
+            }
+          ],
+          "createdAt": "2024-11-20T17:41:00.314Z",
+          "updatedAt": "2024-11-20T17:41:00.344Z",
+          "id": "673e1f2cc175added852d90e"
+        }
+      ],
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Tänapäeval, kui e-kaubandus areneb kiiremini kui kunagi varem, otsivad ettevõtted ja arendajad lahendusi, mis võimaldavad neil luua kiireid, paindlikke ja skaleeritavaid veebipoode. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Payload CMS",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " ja ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Next.js",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": " koos moodustavad ideaalse dueti, et viia e-kaubandus uuele tasemele.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Mis on Payload CMS ja miks seda kasutada?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h4"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Payload CMS on ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "headless CMS",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ", mis tähendab, et sisu ja selle esitus on täielikult lahutatud. See annab arendajatele vabaduse kasutada mis tahes tehnoloogiaid oma rakenduste esiküljel. Payload eristub mitmel viisil:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Paindlikkus",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Payload võimaldab teil luua kohandatud sisuhalduslahendusi ilma piiranguteta. Iga osa teie veebipoest – toodete haldus, tellimuste süsteem, kasutajakonto seaded – saab täielikult kohandada.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Turvalisus ja jõudlus",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Payload on ehitatud Node.js-i peale ja pakub tugevalt optimeeritud API-sid.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kohandatud andmestruktuurid",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Payload võimaldab luua täpselt selliseid skeeme ja suhteid, nagu teie projekt nõuab.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Next.js: ideaalne partner",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h4"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Next.js on React-i raamistik, mida hinnatakse selle SEO-sõbralikkuse, serveripoolse renderdamise (SSR) ja staatiliste saitide genereerimise (SSG) võimaluste poolest. E-kaubanduse veebisaidi puhul on need omadused hindamatud, kuna kiirus ja otsingumootorites nähtavus mängivad suurt rolli.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kuidas Payload ja Next.js koos töötavad?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h4"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Payload CMS ja Next.js integreerimine loob võimsa platvormi e-kaubanduse jaoks. Siin on põhietapid:",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Andmestruktuuride loomine Payload CMS-is",
+                  "type": "text",
+                  "version": 1
+                },
+                { "type": "linebreak", "version": 1 },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Payload võimaldab teil defineerida oma tootekataloogi, kategooriad, kasutajad ja muud e-kaubanduse elemendid. Näiteks saate luua skeemi, kus igal tootel on nimi, hind, kirjeldus ja pildigalerii.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "API kasutamine Next.js-is",
+                  "type": "text",
+                  "version": 1
+                },
+                { "type": "linebreak", "version": 1 },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Next.js kasutab Payloadi API-sid, et pärida reaalajas andmeid ja kuvada need dünaamiliselt. Kasutades Next.js-i serveripoolset renderdamist, tagatakse kiired laadimisajad ja SEO-optimeeritud lehed.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Paindlikud kasutajaliidesed",
+                  "type": "text",
+                  "version": 1
+                },
+                { "type": "linebreak", "version": 1 },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Next.js-i kaudu saab luua intuitiivseid kasutajaliideseid, mis muudavad ostlemise sujuvaks ja nauditavaks. Näiteks saab implementeerida dünaamilised otsingufiltrid, soovitustooted ja kohandatud kassasüsteemid.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "E-kaubanduse saidi loomise eelised Payload + Next.js abil",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h4"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Kiirus ja jõudlus",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Staatiliste lehtede genereerimine Next.js-is tagab kiire lehelaadimise, samas kui Payload CMS hoolitseb tõhusalt API haldamise eest.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "SEO optimeerimine",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Next.js võimaldab serveripoolset renderdamist, mis muudab teie e-poe Google'i otsingus paremini leitavaks.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Skaleeritavus",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Kasvava ettevõtte jaoks on oluline, et nii CMS kui ka esikülg suudaksid kohaneda suurenenud liiklusega.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 1,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Arendajasõbralikkus",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": ": Mõlemad tööriistad pakuvad arendajatele suurt kontrolli ja lihtsustavad keeruliste funktsioonide rakendamist.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Järeldus",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "heading",
+              "version": 1,
+              "tag": "h4"
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Payload CMS ja Next.js on koos ideaalne lahendus arendajatele, kes otsivad paindlikkust, kiirust ja skaleeritavust. Nende tehnoloogiate kasutamine aitab luua kaasaegseid, kiireid ja funktsionaalseid e-kaubanduse saite, mis vastavad nii ettevõtte kui ka klientide vajadustele. Kui otsid oma järgmise projekti jaoks töökindlat platvormi, kaalu kindlasti Payload CMS-i ja Next.js-i kombinatsiooni. See on investeering tulevikku.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "media": {
+        "alt": "Payload Logo",
+        "filename": "payload-logo.svg",
+        "mimeType": "image/svg+xml",
+        "filesize": 3105,
+        "width": 194,
+        "height": 44,
+        "sizes": {
+          "thumbnail": { "url": null },
+          "square": { "url": null },
+          "small": { "url": null },
+          "medium": { "url": null },
+          "large": { "url": null },
+          "xlarge": { "url": null }
+        },
+        "createdAt": "2024-11-20T17:49:48.511Z",
+        "updatedAt": "2024-11-20T17:49:48.511Z",
+        "id": "673e213cc175added852dd03",
+        "url": "/api/media/file/payload-logo.svg",
+        "thumbnailURL": null
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-20T17:49:51.089Z",
+      "slug": "e-kaubanduse-tulevik-payload-cms-i-ja-nextjs-ga",
+      "title": "E-kaubanduse tulevik Payload CMS-i ja Next.js-ga",
+      "id": "673e1f80c175added852dbd9",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Koolitusekspert Logo",
+          "filename": "koolitusekspert-logo.webp",
+          "mimeType": "image/webp",
+          "filesize": 9134,
+          "width": 784,
+          "height": 192,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 73,
+              "mimeType": "image/webp",
+              "filesize": 3606,
+              "filename": "koolitusekspert-logo-300x73.webp",
+              "url": "/api/media/file/koolitusekspert-logo-300x73.webp"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/webp",
+              "filesize": 2870,
+              "filename": "koolitusekspert-logo-500x500.webp",
+              "url": "/api/media/file/koolitusekspert-logo-500x500.webp"
+            },
+            "small": {
+              "width": 600,
+              "height": 147,
+              "mimeType": "image/webp",
+              "filesize": 6736,
+              "filename": "koolitusekspert-logo-600x147.webp",
+              "url": "/api/media/file/koolitusekspert-logo-600x147.webp"
+            },
+            "medium": {
+              "width": 900,
+              "height": 220,
+              "mimeType": "image/webp",
+              "filesize": 9712,
+              "filename": "koolitusekspert-logo-900x220.webp",
+              "url": "/api/media/file/koolitusekspert-logo-900x220.webp"
+            },
+            "large": {
+              "width": 1400,
+              "height": 343,
+              "mimeType": "image/webp",
+              "filesize": 14684,
+              "filename": "koolitusekspert-logo-1400x343.webp",
+              "url": "/api/media/file/koolitusekspert-logo-1400x343.webp"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 470,
+              "mimeType": "image/webp",
+              "filesize": 21184,
+              "filename": "koolitusekspert-logo-1920x470.webp",
+              "url": "/api/media/file/koolitusekspert-logo-1920x470.webp"
+            }
+          },
+          "createdAt": "2024-11-17T11:27:02.949Z",
+          "updatedAt": "2024-11-17T11:27:02.949Z",
+          "id": "6739d306b86c0119235d3b40",
+          "url": "/api/media/file/koolitusekspert-logo.webp",
+          "thumbnailURL": "/api/media/file/koolitusekspert-logo-300x73.webp"
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-17T11:25:11.974Z",
+      "updatedAt": "2024-11-18T18:46:21.890Z",
+      "client": "Atlanto Arendus OÜ",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil koduleht koolituste ja kalendri võimekusega.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "homepage": "https://koolitusekspert.ee/",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil koduleht koolituste ja kalendri võimekusega.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-17T11:29:15.037Z",
+      "service": "Wordpress",
+      "slug": "koolitusekspert",
+      "title": "Koolitusekspert",
+      "year": "2023",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "media": {
+        "alt": "Koolitusekspert",
+        "filename": "koolitusekspert.webp",
+        "mimeType": "image/webp",
+        "filesize": 204538,
+        "width": 1661,
+        "height": 2844,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 514,
+            "mimeType": "image/webp",
+            "filesize": 15566,
+            "filename": "koolitusekspert-300x514.webp",
+            "url": "/api/media/file/koolitusekspert-300x514.webp"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/webp",
+            "filesize": 20786,
+            "filename": "koolitusekspert-500x500.webp",
+            "url": "/api/media/file/koolitusekspert-500x500.webp"
+          },
+          "small": {
+            "width": 600,
+            "height": 1027,
+            "mimeType": "image/webp",
+            "filesize": 43016,
+            "filename": "koolitusekspert-600x1027.webp",
+            "url": "/api/media/file/koolitusekspert-600x1027.webp"
+          },
+          "medium": {
+            "width": 900,
+            "height": 1541,
+            "mimeType": "image/webp",
+            "filesize": 77820,
+            "filename": "koolitusekspert-900x1541.webp",
+            "url": "/api/media/file/koolitusekspert-900x1541.webp"
+          },
+          "large": {
+            "width": 1400,
+            "height": 2397,
+            "mimeType": "image/webp",
+            "filesize": 139222,
+            "filename": "koolitusekspert-1400x2397.webp",
+            "url": "/api/media/file/koolitusekspert-1400x2397.webp"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 3287,
+            "mimeType": "image/webp",
+            "filesize": 220206,
+            "filename": "koolitusekspert-1920x3287.webp",
+            "url": "/api/media/file/koolitusekspert-1920x3287.webp"
+          }
+        },
+        "createdAt": "2024-11-18T18:46:02.054Z",
+        "updatedAt": "2024-11-18T18:46:02.054Z",
+        "id": "673b8b6a8a951fc9f82c5d4d",
+        "url": "/api/media/file/koolitusekspert.webp",
+        "thumbnailURL": "/api/media/file/koolitusekspert-300x514.webp"
+      },
+      "id": "6739d297b86c0119235d39ec",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "title": "",
+        "image": {
+          "alt": "El Logo",
+          "filename": "el-logo.png",
+          "mimeType": "image/png",
+          "filesize": 6568,
+          "width": 185,
+          "height": 90,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 146,
+              "mimeType": "image/png",
+              "filesize": 21062,
+              "filename": "el-logo-300x146.png",
+              "url": "/api/media/file/el-logo-300x146.png"
+            },
+            "square": {
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null,
+              "url": null
+            },
+            "small": {
+              "width": 600,
+              "height": 292,
+              "mimeType": "image/png",
+              "filesize": 70138,
+              "filename": "el-logo-600x292.png",
+              "url": "/api/media/file/el-logo-600x292.png"
+            },
+            "medium": {
+              "width": 900,
+              "height": 438,
+              "mimeType": "image/png",
+              "filesize": 148012,
+              "filename": "el-logo-900x438.png",
+              "url": "/api/media/file/el-logo-900x438.png"
+            },
+            "large": {
+              "width": 1400,
+              "height": 681,
+              "mimeType": "image/png",
+              "filesize": 331384,
+              "filename": "el-logo-1400x681.png",
+              "url": "/api/media/file/el-logo-1400x681.png"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 934,
+              "mimeType": "image/png",
+              "filesize": 584499,
+              "filename": "el-logo-1920x934.png",
+              "url": "/api/media/file/el-logo-1920x934.png"
+            }
+          },
+          "createdAt": "2024-11-15T15:03:46.827Z",
+          "updatedAt": "2024-11-15T15:03:46.827Z",
+          "id": "673762d2bf4499c943ce8fd1",
+          "url": "/api/media/file/el-logo.png",
+          "thumbnailURL": "/api/media/file/el-logo-300x146.png"
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-14T16:01:06.835Z",
+      "updatedAt": "2024-11-18T18:47:39.165Z",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil sündmuste võimekusega koduleht.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-14T16:01:16.364Z",
+      "slug": "elektriliit",
+      "title": "Elektriliit",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "client": "Eesti Elektritööstuse Liit",
+      "homepage": "https://elektriliit.ee/et/",
+      "service": "Wordpress, Multisite",
+      "year": "2023",
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil sündmuste võimekusega koduleht.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "media": {
+        "alt": "Elektriliit",
+        "filename": "elektriliit.webp",
+        "mimeType": "image/webp",
+        "filesize": 229380,
+        "width": 1659,
+        "height": 3154,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 570,
+            "mimeType": "image/webp",
+            "filesize": 15388,
+            "filename": "elektriliit-300x570.webp",
+            "url": "/api/media/file/elektriliit-300x570.webp"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/webp",
+            "filesize": 21562,
+            "filename": "elektriliit-500x500.webp",
+            "url": "/api/media/file/elektriliit-500x500.webp"
+          },
+          "small": {
+            "width": 600,
+            "height": 1141,
+            "mimeType": "image/webp",
+            "filesize": 46598,
+            "filename": "elektriliit-600x1141.webp",
+            "url": "/api/media/file/elektriliit-600x1141.webp"
+          },
+          "medium": {
+            "width": 900,
+            "height": 1711,
+            "mimeType": "image/webp",
+            "filesize": 87688,
+            "filename": "elektriliit-900x1711.webp",
+            "url": "/api/media/file/elektriliit-900x1711.webp"
+          },
+          "large": {
+            "width": 1400,
+            "height": 2662,
+            "mimeType": "image/webp",
+            "filesize": 165040,
+            "filename": "elektriliit-1400x2662.webp",
+            "url": "/api/media/file/elektriliit-1400x2662.webp"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 3650,
+            "mimeType": "image/webp",
+            "filesize": 258938,
+            "filename": "elektriliit-1920x3650.webp",
+            "url": "/api/media/file/elektriliit-1920x3650.webp"
+          }
+        },
+        "createdAt": "2024-11-18T18:47:37.434Z",
+        "updatedAt": "2024-11-18T18:47:37.434Z",
+        "id": "673b8bc98a951fc9f82c5e7e",
+        "url": "/api/media/file/elektriliit.webp",
+        "thumbnailURL": "/api/media/file/elektriliit-300x570.webp"
+      },
+      "id": "67361ec2aeb2a95ce4a25fa0",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Minusadam Logo",
+          "filename": "minusadam-logo.webp",
+          "mimeType": "image/webp",
+          "filesize": 4722,
+          "width": 300,
+          "height": 72,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 72,
+              "mimeType": "image/webp",
+              "filesize": 4722,
+              "filename": "minusadam-logo-300x72.webp",
+              "url": "/api/media/file/minusadam-logo-300x72.webp"
+            },
+            "square": {
+              "width": null,
+              "height": null,
+              "mimeType": null,
+              "filesize": null,
+              "filename": null,
+              "url": null
+            },
+            "small": {
+              "width": 600,
+              "height": 144,
+              "mimeType": "image/webp",
+              "filesize": 15570,
+              "filename": "minusadam-logo-600x144.webp",
+              "url": "/api/media/file/minusadam-logo-600x144.webp"
+            },
+            "medium": {
+              "width": 900,
+              "height": 216,
+              "mimeType": "image/webp",
+              "filesize": 29002,
+              "filename": "minusadam-logo-900x216.webp",
+              "url": "/api/media/file/minusadam-logo-900x216.webp"
+            },
+            "large": {
+              "width": 1400,
+              "height": 336,
+              "mimeType": "image/webp",
+              "filesize": 48198,
+              "filename": "minusadam-logo-1400x336.webp",
+              "url": "/api/media/file/minusadam-logo-1400x336.webp"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 461,
+              "mimeType": "image/webp",
+              "filesize": 72048,
+              "filename": "minusadam-logo-1920x461.webp",
+              "url": "/api/media/file/minusadam-logo-1920x461.webp"
+            }
+          },
+          "createdAt": "2024-11-15T16:32:37.368Z",
+          "updatedAt": "2024-11-15T16:32:37.368Z",
+          "id": "673777a5ff422136aff1781b",
+          "url": "/api/media/file/minusadam-logo.webp",
+          "thumbnailURL": "/api/media/file/minusadam-logo-300x72.webp"
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-14T16:00:56.119Z",
+      "updatedAt": "2024-11-18T18:47:56.201Z",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress/Woocommerce baasil mitmekeelne e-pood.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-14T16:01:03.191Z",
+      "slug": "minusadam",
+      "title": "Minusadam",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress/Woocommerce baasil mitmekeelne e-pood.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "client": "OÜ MinuSadam",
+      "homepage": "https://minusadam.com/et/",
+      "service": "E-pood - Wordpress, Woocommerce",
+      "year": "2022",
+      "media": {
+        "alt": "Minusadam",
+        "filename": "minusadam.webp",
+        "mimeType": "image/webp",
+        "filesize": 157314,
+        "width": 1661,
+        "height": 1669,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 301,
+            "mimeType": "image/webp",
+            "filesize": 11938,
+            "filename": "minusadam-300x301.webp",
+            "url": "/api/media/file/minusadam-300x301.webp"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/webp",
+            "filesize": 25690,
+            "filename": "minusadam-500x500.webp",
+            "url": "/api/media/file/minusadam-500x500.webp"
+          },
+          "small": {
+            "width": 600,
+            "height": 603,
+            "mimeType": "image/webp",
+            "filesize": 34100,
+            "filename": "minusadam-600x603.webp",
+            "url": "/api/media/file/minusadam-600x603.webp"
+          },
+          "medium": {
+            "width": 900,
+            "height": 904,
+            "mimeType": "image/webp",
+            "filesize": 61574,
+            "filename": "minusadam-900x904.webp",
+            "url": "/api/media/file/minusadam-900x904.webp"
+          },
+          "large": {
+            "width": 1400,
+            "height": 1407,
+            "mimeType": "image/webp",
+            "filesize": 110202,
+            "filename": "minusadam-1400x1407.webp",
+            "url": "/api/media/file/minusadam-1400x1407.webp"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 1929,
+            "mimeType": "image/webp",
+            "filesize": 171268,
+            "filename": "minusadam-1920x1929.webp",
+            "url": "/api/media/file/minusadam-1920x1929.webp"
+          }
+        },
+        "createdAt": "2024-11-18T18:45:25.554Z",
+        "updatedAt": "2024-11-18T18:45:25.554Z",
+        "id": "673b8b458a951fc9f82c5bae",
+        "url": "/api/media/file/minusadam.webp",
+        "thumbnailURL": "/api/media/file/minusadam-300x301.webp"
+      },
+      "id": "67361eb8aeb2a95ce4a25e87",
+      "generateSlug": true
+    },
+    {
+      "meta": {
+        "image": {
+          "alt": "Neeme Logo",
+          "filename": "neeme-logo.svg",
+          "mimeType": "image/svg+xml",
+          "filesize": 12815,
+          "width": 119,
+          "height": 130,
+          "sizes": {
+            "thumbnail": { "url": null },
+            "square": { "url": null },
+            "small": { "url": null },
+            "medium": { "url": null },
+            "large": { "url": null },
+            "xlarge": { "url": null }
+          },
+          "createdAt": "2024-11-15T16:31:35.352Z",
+          "updatedAt": "2024-11-15T16:31:35.352Z",
+          "id": "67377767ff422136aff17705",
+          "url": "/api/media/file/neeme-logo.svg",
+          "thumbnailURL": null
+        }
+      },
+      "_status": "published",
+      "createdAt": "2024-11-14T15:59:59.852Z",
+      "updatedAt": "2024-12-07T16:31:46.342Z",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil koduleht sündmuste ja uudiste võimekusega.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "populatedAuthors": [],
+      "publishedAt": "2024-11-14T16:00:48.739Z",
+      "slug": "neeme-kla",
+      "title": "Neeme küla",
+      "categories": [
+        {
+          "title": "Projektid",
+          "breadcrumbs": [
+            {
+              "doc": "673760b5bf4499c943ce8cb9",
+              "label": "Projektid",
+              "id": "6739c5bcc9f77923381baa28"
+            }
+          ],
+          "createdAt": "2024-11-15T14:54:45.749Z",
+          "updatedAt": "2024-11-17T10:30:20.600Z",
+          "id": "673760b5bf4499c943ce8cb9"
+        }
+      ],
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Wordpress baasil koduleht sündmuste ja uudiste võimekusega.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "client": "MTÜ Neeme Rannavalve Selts",
+      "homepage": "https://neemekula.ee/",
+      "service": "Wordpress",
+      "year": "2024",
+      "media": {
+        "alt": "Neemekula New",
+        "filename": "neemekula-new.webp",
+        "mimeType": "image/webp",
+        "filesize": 477416,
+        "width": 1624,
+        "height": 4670,
+        "focalX": 50,
+        "focalY": 50,
+        "sizes": {
+          "thumbnail": {
+            "width": 300,
+            "height": 863,
+            "mimeType": "image/webp",
+            "filesize": 27536,
+            "filename": "neemekula-new-300x863.webp",
+            "url": "/api/media/file/neemekula-new-300x863.webp"
+          },
+          "square": {
+            "width": 500,
+            "height": 500,
+            "mimeType": "image/webp",
+            "filesize": 23802,
+            "filename": "neemekula-new-500x500.webp",
+            "url": "/api/media/file/neemekula-new-500x500.webp"
+          },
+          "small": {
+            "width": 600,
+            "height": 1725,
+            "mimeType": "image/webp",
+            "filesize": 92156,
+            "filename": "neemekula-new-600x1725.webp",
+            "url": "/api/media/file/neemekula-new-600x1725.webp"
+          },
+          "medium": {
+            "width": 900,
+            "height": 2588,
+            "mimeType": "image/webp",
+            "filesize": 177146,
+            "filename": "neemekula-new-900x2588.webp",
+            "url": "/api/media/file/neemekula-new-900x2588.webp"
+          },
+          "large": {
+            "width": 1400,
+            "height": 4026,
+            "mimeType": "image/webp",
+            "filesize": 339068,
+            "filename": "neemekula-new-1400x4026.webp",
+            "url": "/api/media/file/neemekula-new-1400x4026.webp"
+          },
+          "xlarge": {
+            "width": 1920,
+            "height": 5521,
+            "mimeType": "image/webp",
+            "filesize": 543356,
+            "filename": "neemekula-new-1920x5521.webp",
+            "url": "/api/media/file/neemekula-new-1920x5521.webp"
+          }
+        },
+        "createdAt": "2024-12-07T16:31:18.883Z",
+        "updatedAt": "2024-12-07T16:31:18.883Z",
+        "id": "6754785683ee7f99f115db07",
+        "url": "/api/media/file/neemekula-new.webp",
+        "thumbnailURL": "/api/media/file/neemekula-new-300x863.webp"
+      },
+      "id": "67361e7faeb2a95ce4a25cfd",
+      "generateSlug": true
+    }
+  ],
+  "totalDocs": 10,
+  "limit": 10,
+  "totalPages": 1,
+  "page": 1,
+  "pagingCounter": 1,
+  "hasPrevPage": false,
+  "hasNextPage": false,
+  "prevPage": null,
+  "nextPage": null
+}

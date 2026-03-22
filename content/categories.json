@@ -1,0 +1,39 @@
+{
+  "docs": [
+    {
+      "title": "Blogi",
+      "breadcrumbs": [
+        {
+          "doc": "673e1f2cc175added852d90e",
+          "label": "Blogi",
+          "id": "673e1f2c83b6e44229e3bb81"
+        }
+      ],
+      "createdAt": "2024-11-20T17:41:00.314Z",
+      "updatedAt": "2024-11-20T17:41:00.344Z",
+      "id": "673e1f2cc175added852d90e"
+    },
+    {
+      "title": "Projektid",
+      "breadcrumbs": [
+        {
+          "doc": "673760b5bf4499c943ce8cb9",
+          "label": "Projektid",
+          "id": "6739c5bcc9f77923381baa28"
+        }
+      ],
+      "createdAt": "2024-11-15T14:54:45.749Z",
+      "updatedAt": "2024-11-17T10:30:20.600Z",
+      "id": "673760b5bf4499c943ce8cb9"
+    }
+  ],
+  "totalDocs": 2,
+  "limit": 10,
+  "totalPages": 1,
+  "page": 1,
+  "pagingCounter": 1,
+  "hasPrevPage": false,
+  "hasNextPage": false,
+  "prevPage": null,
+  "nextPage": null
+}

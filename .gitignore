@@ -3,6 +3,8 @@ dist / media
 node_modules
 .DS_Store
 .env
+.env.local
+.env.production
 .next
 .vercel
 .idea
@@ -12,3 +14,9 @@ db
 # Payload default media upload directory
 public/media/
 src/public/media
+
+tsconfig.tsbuildinfo
+
+# OpenNext
+.open-next
+.wrangler

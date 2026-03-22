@@ -1,7 +1,4 @@
-// storage-adapter-import-placeholder
-import { mongooseAdapter } from '@payloadcms/db-mongodb'
-
-import { payloadCloudPlugin } from '@payloadcms/payload-cloud'
+import { sqliteD1Adapter } from '@payloadcms/db-d1-sqlite'
 import { formBuilderPlugin } from '@payloadcms/plugin-form-builder'
 import { nestedDocsPlugin } from '@payloadcms/plugin-nested-docs'
 import { redirectsPlugin } from '@payloadcms/plugin-redirects'
@@ -16,7 +13,6 @@ import {
   ParagraphFeature,
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
-import sharp from 'sharp' // editor-import
 import { UnderlineFeature } from '@payloadcms/richtext-lexical'
 import path from 'path'
 import { buildConfig } from 'payload'
@@ -37,9 +33,16 @@ import { nodemailerAdapter } from '@payloadcms/email-nodemailer'
 
 import { searchFields } from '@/search/fieldOverrides'
 import { beforeSyncWithSearch } from '@/search/beforeSync'
+import { r2Storage } from '@payloadcms/storage-r2'
+import { getPayloadCloudflareContext } from '@/utilities/getCloudflareContext'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
+
+const cloudflare = await getPayloadCloudflareContext()
+const MEDIA_BASE_URL = (
+  process.env.NEXT_PUBLIC_MEDIA_BASE_URL || 'https://media.mehh.ee'
+).replace(/\/$/, '')
 
 const generateTitle: GenerateTitle<Post | Page> = ({ doc }) => {
   return doc?.title ? `${doc.title} | Mehh Meedia OÜ` : 'Mehh Meedia OÜ'
@@ -121,8 +124,9 @@ export default buildConfig({
       ]
     },
   }),
-  db: mongooseAdapter({
-    url: process.env.DATABASE_URI || '',
+  db: sqliteD1Adapter({
+    binding: cloudflare.env.D1,
+    push: false,
   }),
   collections: [Pages, Posts, Media, Categories, Users],
   cors: [process.env.NEXT_PUBLIC_SERVER_URL || ''].filter(Boolean),
@@ -201,10 +205,18 @@ export default buildConfig({
         },
       },
     }),
-    payloadCloudPlugin(), // storage-adapter-placeholder
+    r2Storage({
+      bucket: cloudflare.env.R2 as unknown as Parameters<typeof r2Storage>[0]['bucket'],
+      collections: {
+        media: {
+          disablePayloadAccessControl: true,
+          generateFileURL: ({ filename, prefix }) =>
+            `${MEDIA_BASE_URL}/${path.posix.join(prefix || '', filename)}`,
+        },
+      },
+    }),
   ],
   secret: process.env.PAYLOAD_SECRET,
-  sharp,
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
   },

@@ -1,0 +1,3123 @@
+{
+  "docs": [
+    {
+      "hero": {
+        "type": "none",
+        "richText": {
+          "root": {
+            "children": [
+              {
+                "children": [],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        },
+        "links": []
+      },
+      "layout": [
+        {
+          "richText": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Tänud, võtame ühendust!",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "heading",
+                  "version": 1,
+                  "tag": "h2"
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Mehh Meedia OÜ",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "links": [],
+          "id": "677b88a0fbaa20001d9e7032",
+          "blockType": "cta"
+        }
+      ],
+      "meta": {},
+      "_status": "published",
+      "createdAt": "2025-01-06T07:36:45.345Z",
+      "updatedAt": "2025-01-06T07:39:16.376Z",
+      "publishedAt": "2025-01-06T07:37:55.543Z",
+      "slug": "tname-pringu-eest",
+      "title": "Täname päringu eest",
+      "id": "677b880d7013ed3e7da73494",
+      "generateSlug": true
+    },
+    {
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Kodulehe hooldus ja tugiteenused",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h1"
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "39 EUR / kuu (kuutasu, kui makstakse aastas)",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h3"
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "65 EUR (kuutasu, kui makstakse igakuiselt)",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h3"
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Me pakume veebisaidi hooldusteenust soodsa hinnaga, kuna halvasti hooldatud veebisait võib teile kallilt maksta. Sisu võib kaduda ja veebisait võib tulla vaja algusest peale taastada. Kui veebisaidi tarkvara ei ole regulaarselt värskendatud, võib leht tekkida vigu. Mida sagedamini värskendusi tehakse, seda vähem tõenäoline on, et midagi juhtub.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lisaks teeme kõik endast oleneva, et takistada ",
+                    "type": "text",
+                    "version": 1
+                  },
+                  {
+                    "detail": 0,
+                    "format": 1,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "häkkerirünnakuid teie veebisaidile.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [],
+                "direction": null,
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 1,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Sisaldab:",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h2"
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "1. Uuendamine",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "WordPressi ja kasutatavate pluginate regulaarne uuendamine tagab kodulehe turvalisuse ning toimivuse. Enamasti toimuvad kodulehtede pahavara ründed uuendamata tarkvarast. Tavaliselt paigaldan vajalikud uuendused 24 tunni jooksul.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "2. Varukoopiad",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Kord nädalas teen sinu kodulehest varukoopia. Kui kodulehte tabab suurem probleem, siis saab vajadusel mõne minutiga varasema versiooni taastada.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "3. PHP uuendamine",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Kui koduleht võimaldab, siis teen vajalikud PHP versiooni uuendused. Uuem PHP versioon parandab kodulehe kiirust ning turvalisust.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "4. E-posti kodeerimine",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Rämpsposti robotid skanneerivad regulaarselt kodulehti, et leida sealt lihtsasti tuvastatavaid e-posti aadresse. Kodeerin kodulehel kasutatavad e-posti aadressid, et need ei oleks rämpsposti skännerite jaoks nähtavad.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "5. Raportid",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Kord kuus saadan kodulehel tehtud tööde raporti.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "6. Google Search Console",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Google Search Console on keskkond, mille kaudu Google monitoorib lehte ning vajadusel teavitab probleemidest. Lisan kodulehe Google Search Console keskkonda.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "7. Kommunikatsioon",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Vastan ning tegutsen professionaalselt tekkivate kodulehe küsimuste osas. Minu jaoks on oluline kliendi rahulolu ning tema kodulehe toimivus.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "8. Vahemälu kasutamine",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Vahemälu kasutamise ilu seisneb selles, et veebiserver peab lehe näitamiseks vähem tööd tegema ja võimaldab hallata rohkem liiklust. Selle eeliseks on kodulehe sisu kiirem toimetamine kasutajatele. Kiirem lehe laadimine parandab ka selle leitavust otsingumootoris.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "9. Failide optimeerimine",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Kodulehe kuvamisel peab veebilehitseja laadima ja käivitama mitmeid CSS ja JavaScripti faile. Selle tegevuse peale võib kuluda märgatavalt kaua aega.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Optimeerimisel pakitakse need üheks CSS ja JS failiks, mille tulemusena saab veebilehitseja oma töö kiiremini tehtud ning kodulehe laadimise kiirus paraneb oluliselt.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "10. Google PageSpeed",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Kodulehe optimeerimine ja seadistamine Google PageSpeed tulemuse parandamiseks. Google PageSpeed lehel on välja toodud olulisemad parameetrid, mida tuleb lehel muuta, et selle laadimise kiirust parandada.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "start",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        },
+        "links": []
+      },
+      "layout": [
+        {
+          "form": {
+            "title": "Kontakt",
+            "fields": [
+              {
+                "name": "nimi",
+                "label": "Nimi",
+                "width": null,
+                "required": true,
+                "id": "6739f3d9b99a72233810483e",
+                "blockType": "text"
+              },
+              {
+                "name": "email",
+                "label": "E-mail",
+                "width": null,
+                "required": true,
+                "id": "6739f3d9b99a72233810483f",
+                "blockType": "email"
+              },
+              {
+                "name": "telefon",
+                "label": "Telefon",
+                "width": null,
+                "required": false,
+                "id": "6739f3d9b99a722338104840",
+                "blockType": "number"
+              },
+              {
+                "name": "ettevote",
+                "label": "Ettevõte",
+                "width": null,
+                "id": "6739f3d9b99a722338104841",
+                "blockType": "text"
+              },
+              {
+                "name": "sonum",
+                "label": "Sõnum",
+                "width": null,
+                "required": true,
+                "id": "6739f3d9b99a722338104842",
+                "blockType": "textarea"
+              },
+              {
+                "name": "teenus",
+                "label": "Teenus",
+                "options": [
+                  { "label": "Veebileht", "value": "veebileht", "id": "6744959440ef9f78d73c2073" },
+                  { "label": "E-pood", "value": "epood", "id": "674495b140ef9f78d73c2074" },
+                  { "label": "Disain", "value": "disain", "id": "674495b940ef9f78d73c2075" }
+                ],
+                "id": "6744958940ef9f78d73c2072",
+                "blockType": "select"
+              }
+            ],
+            "submitButtonLabel": "Saada",
+            "confirmationType": "redirect",
+            "confirmationMessage": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Tänud, võtame ühendust!",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "heading",
+                    "version": 1,
+                    "tag": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Mehh Meedia OÜ",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            },
+            "redirect": { "url": "https://mehh.ee/thank-you" },
+            "emails": [
+              {
+                "emailTo": "info@mehh.ee",
+                "replyTo": "info@mehh.ee",
+                "emailFrom": "info@mehh.ee",
+                "subject": "Uus sõnum mehh.ee kodulehelt",
+                "message": {
+                  "root": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "{{*:table}}",
+                            "type": "text",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                  }
+                },
+                "id": "6739f3d9b99a722338104843"
+              }
+            ],
+            "createdAt": "2024-11-17T13:47:05.640Z",
+            "updatedAt": "2025-01-06T11:50:31.459Z",
+            "id": "6739f3d9b86c0119235d64aa"
+          },
+          "id": "673e2d1678e0cedacf9cabe4",
+          "blockType": "formBlock"
+        }
+      ],
+      "meta": {
+        "title": "Mehh Meedia OÜ | Digilahendused, mis toetavad sinu äri",
+        "image": {
+          "alt": "Slider 1",
+          "filename": "slider-1.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 90547,
+          "width": 1920,
+          "height": 1369,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 214,
+              "mimeType": "image/jpeg",
+              "filesize": 8341,
+              "filename": "slider-1-300x214.jpg",
+              "url": "/api/media/file/slider-1-300x214.jpg"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/jpeg",
+              "filesize": 18742,
+              "filename": "slider-1-500x500.jpg",
+              "url": "/api/media/file/slider-1-500x500.jpg"
+            },
+            "small": {
+              "width": 600,
+              "height": 428,
+              "mimeType": "image/jpeg",
+              "filesize": 20853,
+              "filename": "slider-1-600x428.jpg",
+              "url": "/api/media/file/slider-1-600x428.jpg"
+            },
+            "medium": {
+              "width": 900,
+              "height": 642,
+              "mimeType": "image/jpeg",
+              "filesize": 34284,
+              "filename": "slider-1-900x642.jpg",
+              "url": "/api/media/file/slider-1-900x642.jpg"
+            },
+            "large": {
+              "width": 1400,
+              "height": 998,
+              "mimeType": "image/jpeg",
+              "filesize": 60008,
+              "filename": "slider-1-1400x998.jpg",
+              "url": "/api/media/file/slider-1-1400x998.jpg"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1369,
+              "mimeType": "image/jpeg",
+              "filesize": 90547,
+              "filename": "slider-1-1920x1369.jpg",
+              "url": "/api/media/file/slider-1-1920x1369.jpg"
+            }
+          },
+          "createdAt": "2024-11-14T15:40:04.228Z",
+          "updatedAt": "2024-11-14T15:40:04.228Z",
+          "id": "673619d4aeb2a95ce4a2554a",
+          "url": "/api/media/file/slider-1.jpg",
+          "thumbnailURL": "/api/media/file/slider-1-300x214.jpg"
+        },
+        "description": "Pakume professionaalset WordPress ja WooCommerce arendust, et kasvatada sinu äri. "
+      },
+      "_status": "published",
+      "createdAt": "2024-11-20T18:33:27.553Z",
+      "updatedAt": "2024-11-30T14:21:51.349Z",
+      "publishedAt": "2024-11-20T18:35:08.844Z",
+      "slug": "kodulehe-hooldus-ja-tugiteenused",
+      "title": "Kodulehe hooldus ja tugiteenused",
+      "id": "673e2b77c2e6b4f189d78b72",
+      "generateSlug": true
+    },
+    {
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Blogi",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h1"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Miks wordpress ja gutenberg block editor aastal 2024?",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "link",
+                    "version": 3,
+                    "fields": {
+                      "doc": {
+                        "relationTo": "posts",
+                        "value": {
+                          "meta": {
+                            "title": "Miks wordpress ja gutenberg block editor aastal 2024? | Mehh Meedia OÜ",
+                            "image": {
+                              "alt": "WordPress Logotype Alternative",
+                              "filename": "WordPress-logotype-alternative.png",
+                              "mimeType": "image/png",
+                              "filesize": 74351,
+                              "width": 2000,
+                              "height": 1080,
+                              "focalX": 50,
+                              "focalY": 50,
+                              "sizes": {
+                                "thumbnail": {
+                                  "width": 300,
+                                  "height": 162,
+                                  "mimeType": "image/png",
+                                  "filesize": 13700,
+                                  "filename": "WordPress-logotype-alternative-300x162.png",
+                                  "url": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+                                },
+                                "square": {
+                                  "width": 500,
+                                  "height": 500,
+                                  "mimeType": "image/png",
+                                  "filesize": 38831,
+                                  "filename": "WordPress-logotype-alternative-500x500.png",
+                                  "url": "/api/media/file/WordPress-logotype-alternative-500x500.png"
+                                },
+                                "small": {
+                                  "width": 600,
+                                  "height": 324,
+                                  "mimeType": "image/png",
+                                  "filesize": 30851,
+                                  "filename": "WordPress-logotype-alternative-600x324.png",
+                                  "url": "/api/media/file/WordPress-logotype-alternative-600x324.png"
+                                },
+                                "medium": {
+                                  "width": 900,
+                                  "height": 486,
+                                  "mimeType": "image/png",
+                                  "filesize": 49853,
+                                  "filename": "WordPress-logotype-alternative-900x486.png",
+                                  "url": "/api/media/file/WordPress-logotype-alternative-900x486.png"
+                                },
+                                "large": {
+                                  "width": 1400,
+                                  "height": 756,
+                                  "mimeType": "image/png",
+                                  "filesize": 88783,
+                                  "filename": "WordPress-logotype-alternative-1400x756.png",
+                                  "url": "/api/media/file/WordPress-logotype-alternative-1400x756.png"
+                                },
+                                "xlarge": {
+                                  "width": 1920,
+                                  "height": 1037,
+                                  "mimeType": "image/png",
+                                  "filesize": 133211,
+                                  "filename": "WordPress-logotype-alternative-1920x1037.png",
+                                  "url": "/api/media/file/WordPress-logotype-alternative-1920x1037.png"
+                                }
+                              },
+                              "createdAt": "2024-12-07T21:49:17.846Z",
+                              "updatedAt": "2024-12-07T21:49:17.846Z",
+                              "id": "6754c2dde878fcb8a2c98b0e",
+                              "url": "/api/media/file/WordPress-logotype-alternative.png",
+                              "thumbnailURL": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+                            },
+                            "description": "WordPress on 2024. aastal jätkuvalt üks populaarsemaid sisuhaldussüsteeme, pakkudes kasutajatele paindlikkust ja kasutusmugavust."
+                          },
+                          "_status": "published",
+                          "createdAt": "2024-12-07T21:46:09.873Z",
+                          "updatedAt": "2024-12-15T12:22:48.296Z",
+                          "categories": [
+                            {
+                              "title": "Blogi",
+                              "breadcrumbs": [
+                                {
+                                  "doc": "673e1f2cc175added852d90e",
+                                  "label": "Blogi",
+                                  "id": "673e1f2c83b6e44229e3bb81"
+                                }
+                              ],
+                              "createdAt": "2024-11-20T17:41:00.314Z",
+                              "updatedAt": "2024-11-20T17:41:00.344Z",
+                              "id": "673e1f2cc175added852d90e"
+                            }
+                          ],
+                          "content": {
+                            "root": {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "WordPress on 2024. aastal jätkuvalt üks populaarsemaid sisuhaldussüsteeme, pakkudes kasutajatele paindlikkust ja kasutusmugavust. Gutenbergi plokkide redaktor, mis tutvustati esmakordselt 2018. aastal, on selle aja jooksul märkimisväärselt arenenud, muutudes võimsaks tööriistaks nii arendajatele kui ka sisuloojatele.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 0,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Gutenbergi plokkide redaktori eelised 2024. aastal:",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "heading",
+                                  "version": 1,
+                                  "tag": "h2"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Täielik lehe redigeerimine (Full Site Editing):",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " Gutenbergi arendus on jõudnud faasi, kus kasutajad saavad plokkide abil hallata kogu veebisaidi kujundust, sealhulgas päiseid, jaluseid ja külgribasid. See võimaldab luua ja kohandada veebisaite ilma vajaduseta keerulise koodi järele.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Reaalajas koostöö:",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " Gutenbergi kolmas arendusfaas toob WordPressi reaalajas koostöö võimalused, mis võimaldab mitmel kasutajal samaaegselt sisu redigeerida, parandades meeskonnatöö efektiivsust.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Paindlikkus ja kasutusmugavus:",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " Plokipõhine lähenemine võimaldab kasutajatel lihtsalt lisada ja korraldada erinevaid sisuplokke, nagu tekstid, pildid, videod ja galeriid, muutes sisu loomise intuitiivseks ja visuaalselt atraktiivseks.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Arendajate tugi ja laiendatavus:",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " Gutenberg pakub arendajatele võimalust luua kohandatud plokke ja mustreid, mis vastavad spetsiifilistele vajadustele, võimaldades luua unikaalseid ja funktsionaalseid veebisaite.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Miks valida WordPress ja Gutenbergi plokkide redaktor 2024. aastal?",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "heading",
+                                  "version": 1,
+                                  "tag": "h2"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Kogukonna tugi ja pidev areng:",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " WordPressi avatud lähtekoodiga platvormi toetab aktiivne arendajate ja kasutajate kogukond, tagades pidevad uuendused ja täiustused.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Kohandatavus ja laiendatavus:",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " Tänu tuhandetele saadaval olevatele pluginatele ja teemadele saab WordPressi kohandada vastavalt iga ettevõtte või isiku vajadustele.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 1,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Kasutajasõbralikkus:",
+                                      "type": "text",
+                                      "version": 1
+                                    },
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": " Gutenbergi plokkide redaktor muudab sisu loomise ja haldamise lihtsaks ka neile, kellel puudub tehniline taust, võimaldades keskenduda sisule ilma keerulise koodi kirjutamiseta.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 1,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [],
+                                  "direction": null,
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 0,
+                                  "textStyle": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "Kokkuvõttes pakuvad WordPress ja Gutenbergi plokkide redaktor 2024. aastal kaasaegseid ja paindlikke lahendusi veebisaitide loomiseks ja haldamiseks, vastates nii arendajate kui ka sisuloojate vajadustele.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 0,
+                                  "textStyle": ""
+                                }
+                              ],
+                              "direction": "ltr",
+                              "format": "",
+                              "indent": 0,
+                              "type": "root",
+                              "version": 1
+                            }
+                          },
+                          "media": {
+                            "alt": "WordPress Logotype Alternative",
+                            "filename": "WordPress-logotype-alternative.png",
+                            "mimeType": "image/png",
+                            "filesize": 74351,
+                            "width": 2000,
+                            "height": 1080,
+                            "focalX": 50,
+                            "focalY": 50,
+                            "sizes": {
+                              "thumbnail": {
+                                "width": 300,
+                                "height": 162,
+                                "mimeType": "image/png",
+                                "filesize": 13700,
+                                "filename": "WordPress-logotype-alternative-300x162.png",
+                                "url": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+                              },
+                              "square": {
+                                "width": 500,
+                                "height": 500,
+                                "mimeType": "image/png",
+                                "filesize": 38831,
+                                "filename": "WordPress-logotype-alternative-500x500.png",
+                                "url": "/api/media/file/WordPress-logotype-alternative-500x500.png"
+                              },
+                              "small": {
+                                "width": 600,
+                                "height": 324,
+                                "mimeType": "image/png",
+                                "filesize": 30851,
+                                "filename": "WordPress-logotype-alternative-600x324.png",
+                                "url": "/api/media/file/WordPress-logotype-alternative-600x324.png"
+                              },
+                              "medium": {
+                                "width": 900,
+                                "height": 486,
+                                "mimeType": "image/png",
+                                "filesize": 49853,
+                                "filename": "WordPress-logotype-alternative-900x486.png",
+                                "url": "/api/media/file/WordPress-logotype-alternative-900x486.png"
+                              },
+                              "large": {
+                                "width": 1400,
+                                "height": 756,
+                                "mimeType": "image/png",
+                                "filesize": 88783,
+                                "filename": "WordPress-logotype-alternative-1400x756.png",
+                                "url": "/api/media/file/WordPress-logotype-alternative-1400x756.png"
+                              },
+                              "xlarge": {
+                                "width": 1920,
+                                "height": 1037,
+                                "mimeType": "image/png",
+                                "filesize": 133211,
+                                "filename": "WordPress-logotype-alternative-1920x1037.png",
+                                "url": "/api/media/file/WordPress-logotype-alternative-1920x1037.png"
+                              }
+                            },
+                            "createdAt": "2024-12-07T21:49:17.846Z",
+                            "updatedAt": "2024-12-07T21:49:17.846Z",
+                            "id": "6754c2dde878fcb8a2c98b0e",
+                            "url": "/api/media/file/WordPress-logotype-alternative.png",
+                            "thumbnailURL": "/api/media/file/WordPress-logotype-alternative-300x162.png"
+                          },
+                          "populatedAuthors": [],
+                          "publishedAt": "2024-12-07T21:49:20.101Z",
+                          "slug": "miks-wordpress-ja-gutenberg-block-editor-aastal-2024",
+                          "title": "Miks wordpress ja gutenberg block editor aastal 2024?",
+                          "intro": {
+                            "root": {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "detail": 0,
+                                      "format": 0,
+                                      "mode": "normal",
+                                      "style": "",
+                                      "text": "WordPress on 2024. aastal jätkuvalt üks populaarsemaid sisuhaldussüsteeme, pakkudes kasutajatele paindlikkust ja kasutusmugavust.",
+                                      "type": "text",
+                                      "version": 1
+                                    }
+                                  ],
+                                  "direction": "ltr",
+                                  "format": "",
+                                  "indent": 0,
+                                  "type": "paragraph",
+                                  "version": 1,
+                                  "textFormat": 0,
+                                  "textStyle": ""
+                                }
+                              ],
+                              "direction": "ltr",
+                              "format": "",
+                              "indent": 0,
+                              "type": "root",
+                              "version": 1
+                            }
+                          },
+                          "id": "6754c221e878fcb8a2c98740",
+                          "generateSlug": true
+                        }
+                      },
+                      "url": "https://",
+                      "newTab": false,
+                      "linkType": "internal"
+                    },
+                    "id": "6754c4b418696e4c6308c9c1"
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h3"
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        },
+        "links": []
+      },
+      "layout": [
+        {
+          "introContent": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 1,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Arhiiv",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 1,
+                  "textStyle": ""
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "populateBy": "collection",
+          "relationTo": "posts",
+          "categories": [
+            {
+              "title": "Blogi",
+              "breadcrumbs": [
+                {
+                  "doc": "673e1f2cc175added852d90e",
+                  "label": "Blogi",
+                  "id": "673e1f2c83b6e44229e3bb81"
+                }
+              ],
+              "createdAt": "2024-11-20T17:41:00.314Z",
+              "updatedAt": "2024-11-20T17:41:00.344Z",
+              "id": "673e1f2cc175added852d90e"
+            }
+          ],
+          "limit": 10,
+          "isModuleStyle": true,
+          "link": { "type": "reference", "appearance": "default" },
+          "id": "673e232f3b8905dacfb5bde7",
+          "blockType": "archive"
+        }
+      ],
+      "meta": {
+        "title": "Mehh Meedia OÜ | Digilahendused, mis toetavad sinu äri",
+        "image": {
+          "alt": "Slider 1",
+          "filename": "slider-1.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 90547,
+          "width": 1920,
+          "height": 1369,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 214,
+              "mimeType": "image/jpeg",
+              "filesize": 8341,
+              "filename": "slider-1-300x214.jpg",
+              "url": "/api/media/file/slider-1-300x214.jpg"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/jpeg",
+              "filesize": 18742,
+              "filename": "slider-1-500x500.jpg",
+              "url": "/api/media/file/slider-1-500x500.jpg"
+            },
+            "small": {
+              "width": 600,
+              "height": 428,
+              "mimeType": "image/jpeg",
+              "filesize": 20853,
+              "filename": "slider-1-600x428.jpg",
+              "url": "/api/media/file/slider-1-600x428.jpg"
+            },
+            "medium": {
+              "width": 900,
+              "height": 642,
+              "mimeType": "image/jpeg",
+              "filesize": 34284,
+              "filename": "slider-1-900x642.jpg",
+              "url": "/api/media/file/slider-1-900x642.jpg"
+            },
+            "large": {
+              "width": 1400,
+              "height": 998,
+              "mimeType": "image/jpeg",
+              "filesize": 60008,
+              "filename": "slider-1-1400x998.jpg",
+              "url": "/api/media/file/slider-1-1400x998.jpg"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1369,
+              "mimeType": "image/jpeg",
+              "filesize": 90547,
+              "filename": "slider-1-1920x1369.jpg",
+              "url": "/api/media/file/slider-1-1920x1369.jpg"
+            }
+          },
+          "createdAt": "2024-11-14T15:40:04.228Z",
+          "updatedAt": "2024-11-14T15:40:04.228Z",
+          "id": "673619d4aeb2a95ce4a2554a",
+          "url": "/api/media/file/slider-1.jpg",
+          "thumbnailURL": "/api/media/file/slider-1-300x214.jpg"
+        },
+        "description": "Pakume professionaalset WordPress ja WooCommerce arendust, et kasvatada sinu äri. "
+      },
+      "_status": "published",
+      "createdAt": "2024-11-20T17:57:57.859Z",
+      "updatedAt": "2024-12-07T21:58:48.327Z",
+      "publishedAt": "2024-11-20T17:58:20.856Z",
+      "slug": "blogi",
+      "title": "Blogi",
+      "id": "673e2325c2e6b4f189d77e20",
+      "generateSlug": true
+    },
+    {
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Vajad abi?",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h1"
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        },
+        "links": []
+      },
+      "layout": [
+        {
+          "columns": [
+            {
+              "size": "half",
+              "richText": {
+                "root": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Võta ühendust",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "heading",
+                      "version": 1,
+                      "tag": "h2"
+                    },
+                    {
+                      "children": [],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 0,
+                      "textStyle": ""
+                    },
+                    {
+                      "children": [],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 0,
+                      "textStyle": ""
+                    },
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Mehh Meedia OÜ ",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "heading",
+                      "version": 1,
+                      "tag": "h3"
+                    },
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Registrikood",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": ": 16677696",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 1,
+                      "textStyle": ""
+                    },
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Telefon",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": ": 56577769",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 1,
+                      "textStyle": ""
+                    },
+                    {
+                      "children": [
+                        {
+                          "type": "autolink",
+                          "children": [
+                            {
+                              "detail": 0,
+                              "format": 0,
+                              "mode": "normal",
+                              "style": "",
+                              "text": "info@mehh.ee",
+                              "type": "text",
+                              "version": 1
+                            }
+                          ],
+                          "direction": "ltr",
+                          "fields": { "linkType": "custom", "url": "mailto:info@mehh.ee" },
+                          "format": "",
+                          "indent": 0,
+                          "version": 2
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 0,
+                      "textStyle": ""
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "root",
+                  "version": 1
+                }
+              },
+              "link": { "type": "reference", "appearance": "default" },
+              "id": "6739c0e69a5e5008d0fb74b6"
+            },
+            {
+              "size": "half",
+              "richText": {
+                "root": {
+                  "children": [
+                    {
+                      "children": [],
+                      "direction": null,
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 0,
+                      "textStyle": ""
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "root",
+                  "version": 1
+                }
+              },
+              "link": { "type": "reference", "appearance": "default" },
+              "id": "6739f3eab99a722338104844"
+            }
+          ],
+          "id": "6739c0e49a5e5008d0fb74b5",
+          "blockType": "content"
+        }
+      ],
+      "meta": {
+        "title": "Mehh Meedia OÜ | Digilahendused, mis toetavad sinu äri",
+        "image": {
+          "alt": "Slider 1",
+          "filename": "slider-1.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 90547,
+          "width": 1920,
+          "height": 1369,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 214,
+              "mimeType": "image/jpeg",
+              "filesize": 8341,
+              "filename": "slider-1-300x214.jpg",
+              "url": "/api/media/file/slider-1-300x214.jpg"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/jpeg",
+              "filesize": 18742,
+              "filename": "slider-1-500x500.jpg",
+              "url": "/api/media/file/slider-1-500x500.jpg"
+            },
+            "small": {
+              "width": 600,
+              "height": 428,
+              "mimeType": "image/jpeg",
+              "filesize": 20853,
+              "filename": "slider-1-600x428.jpg",
+              "url": "/api/media/file/slider-1-600x428.jpg"
+            },
+            "medium": {
+              "width": 900,
+              "height": 642,
+              "mimeType": "image/jpeg",
+              "filesize": 34284,
+              "filename": "slider-1-900x642.jpg",
+              "url": "/api/media/file/slider-1-900x642.jpg"
+            },
+            "large": {
+              "width": 1400,
+              "height": 998,
+              "mimeType": "image/jpeg",
+              "filesize": 60008,
+              "filename": "slider-1-1400x998.jpg",
+              "url": "/api/media/file/slider-1-1400x998.jpg"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1369,
+              "mimeType": "image/jpeg",
+              "filesize": 90547,
+              "filename": "slider-1-1920x1369.jpg",
+              "url": "/api/media/file/slider-1-1920x1369.jpg"
+            }
+          },
+          "createdAt": "2024-11-14T15:40:04.228Z",
+          "updatedAt": "2024-11-14T15:40:04.228Z",
+          "id": "673619d4aeb2a95ce4a2554a",
+          "url": "/api/media/file/slider-1.jpg",
+          "thumbnailURL": "/api/media/file/slider-1-300x214.jpg"
+        },
+        "description": "Pakume professionaalset WordPress ja WooCommerce arendust, et kasvatada sinu äri. "
+      },
+      "_status": "published",
+      "createdAt": "2024-11-17T10:08:45.845Z",
+      "updatedAt": "2025-01-06T11:45:48.227Z",
+      "publishedAt": "2024-11-17T10:10:50.743Z",
+      "slug": "kontakt",
+      "title": "Kontakt",
+      "id": "6739c0ad572f040a98d8789d",
+      "generateSlug": true
+    },
+    {
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Projektid",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h1"
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Valminud 40+ projekti",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        },
+        "links": []
+      },
+      "layout": [
+        {
+          "populateBy": "collection",
+          "relationTo": "posts",
+          "categories": [
+            {
+              "title": "Projektid",
+              "breadcrumbs": [
+                {
+                  "doc": "673760b5bf4499c943ce8cb9",
+                  "label": "Projektid",
+                  "id": "6739c5bcc9f77923381baa28"
+                }
+              ],
+              "createdAt": "2024-11-15T14:54:45.749Z",
+              "updatedAt": "2024-11-17T10:30:20.600Z",
+              "id": "673760b5bf4499c943ce8cb9"
+            }
+          ],
+          "limit": 9999,
+          "isModuleStyle": true,
+          "selectedDocs": [
+            {
+              "relationTo": "posts",
+              "value": {
+                "meta": {
+                  "image": {
+                    "alt": "Neeme Logo",
+                    "filename": "neeme-logo.svg",
+                    "mimeType": "image/svg+xml",
+                    "filesize": 12815,
+                    "width": 119,
+                    "height": 130,
+                    "sizes": {
+                      "thumbnail": { "url": null },
+                      "square": { "url": null },
+                      "small": { "url": null },
+                      "medium": { "url": null },
+                      "large": { "url": null },
+                      "xlarge": { "url": null }
+                    },
+                    "createdAt": "2024-11-15T16:31:35.352Z",
+                    "updatedAt": "2024-11-15T16:31:35.352Z",
+                    "id": "67377767ff422136aff17705",
+                    "url": "/api/media/file/neeme-logo.svg",
+                    "thumbnailURL": null
+                  }
+                },
+                "_status": "published",
+                "createdAt": "2024-11-14T15:59:59.852Z",
+                "updatedAt": "2024-12-07T16:31:46.342Z",
+                "content": {
+                  "root": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Wordpress baasil koduleht sündmuste ja uudiste võimekusega.",
+                            "type": "text",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                  }
+                },
+                "populatedAuthors": [],
+                "publishedAt": "2024-11-14T16:00:48.739Z",
+                "slug": "neeme-kla",
+                "title": "Neeme küla",
+                "categories": [
+                  {
+                    "title": "Projektid",
+                    "breadcrumbs": [
+                      {
+                        "doc": "673760b5bf4499c943ce8cb9",
+                        "label": "Projektid",
+                        "id": "6739c5bcc9f77923381baa28"
+                      }
+                    ],
+                    "createdAt": "2024-11-15T14:54:45.749Z",
+                    "updatedAt": "2024-11-17T10:30:20.600Z",
+                    "id": "673760b5bf4499c943ce8cb9"
+                  }
+                ],
+                "intro": {
+                  "root": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "Wordpress baasil koduleht sündmuste ja uudiste võimekusega.",
+                            "type": "text",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                  }
+                },
+                "client": "MTÜ Neeme Rannavalve Selts",
+                "homepage": "https://neemekula.ee/",
+                "service": "Wordpress",
+                "year": "2024",
+                "media": {
+                  "alt": "Neemekula New",
+                  "filename": "neemekula-new.webp",
+                  "mimeType": "image/webp",
+                  "filesize": 477416,
+                  "width": 1624,
+                  "height": 4670,
+                  "focalX": 50,
+                  "focalY": 50,
+                  "sizes": {
+                    "thumbnail": {
+                      "width": 300,
+                      "height": 863,
+                      "mimeType": "image/webp",
+                      "filesize": 27536,
+                      "filename": "neemekula-new-300x863.webp",
+                      "url": "/api/media/file/neemekula-new-300x863.webp"
+                    },
+                    "square": {
+                      "width": 500,
+                      "height": 500,
+                      "mimeType": "image/webp",
+                      "filesize": 23802,
+                      "filename": "neemekula-new-500x500.webp",
+                      "url": "/api/media/file/neemekula-new-500x500.webp"
+                    },
+                    "small": {
+                      "width": 600,
+                      "height": 1725,
+                      "mimeType": "image/webp",
+                      "filesize": 92156,
+                      "filename": "neemekula-new-600x1725.webp",
+                      "url": "/api/media/file/neemekula-new-600x1725.webp"
+                    },
+                    "medium": {
+                      "width": 900,
+                      "height": 2588,
+                      "mimeType": "image/webp",
+                      "filesize": 177146,
+                      "filename": "neemekula-new-900x2588.webp",
+                      "url": "/api/media/file/neemekula-new-900x2588.webp"
+                    },
+                    "large": {
+                      "width": 1400,
+                      "height": 4026,
+                      "mimeType": "image/webp",
+                      "filesize": 339068,
+                      "filename": "neemekula-new-1400x4026.webp",
+                      "url": "/api/media/file/neemekula-new-1400x4026.webp"
+                    },
+                    "xlarge": {
+                      "width": 1920,
+                      "height": 5521,
+                      "mimeType": "image/webp",
+                      "filesize": 543356,
+                      "filename": "neemekula-new-1920x5521.webp",
+                      "url": "/api/media/file/neemekula-new-1920x5521.webp"
+                    }
+                  },
+                  "createdAt": "2024-12-07T16:31:18.883Z",
+                  "updatedAt": "2024-12-07T16:31:18.883Z",
+                  "id": "6754785683ee7f99f115db07",
+                  "url": "/api/media/file/neemekula-new.webp",
+                  "thumbnailURL": "/api/media/file/neemekula-new-300x863.webp"
+                },
+                "id": "67361e7faeb2a95ce4a25cfd",
+                "generateSlug": true
+              }
+            }
+          ],
+          "link": { "type": "reference", "appearance": "default" },
+          "id": "673763cedd48bf312a39fa6c",
+          "blockType": "archive"
+        }
+      ],
+      "meta": {
+        "title": "Mehh Meedia OÜ | Digilahendused, mis toetavad sinu äri",
+        "image": {
+          "alt": "Slider 1",
+          "filename": "slider-1.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 90547,
+          "width": 1920,
+          "height": 1369,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 214,
+              "mimeType": "image/jpeg",
+              "filesize": 8341,
+              "filename": "slider-1-300x214.jpg",
+              "url": "/api/media/file/slider-1-300x214.jpg"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/jpeg",
+              "filesize": 18742,
+              "filename": "slider-1-500x500.jpg",
+              "url": "/api/media/file/slider-1-500x500.jpg"
+            },
+            "small": {
+              "width": 600,
+              "height": 428,
+              "mimeType": "image/jpeg",
+              "filesize": 20853,
+              "filename": "slider-1-600x428.jpg",
+              "url": "/api/media/file/slider-1-600x428.jpg"
+            },
+            "medium": {
+              "width": 900,
+              "height": 642,
+              "mimeType": "image/jpeg",
+              "filesize": 34284,
+              "filename": "slider-1-900x642.jpg",
+              "url": "/api/media/file/slider-1-900x642.jpg"
+            },
+            "large": {
+              "width": 1400,
+              "height": 998,
+              "mimeType": "image/jpeg",
+              "filesize": 60008,
+              "filename": "slider-1-1400x998.jpg",
+              "url": "/api/media/file/slider-1-1400x998.jpg"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1369,
+              "mimeType": "image/jpeg",
+              "filesize": 90547,
+              "filename": "slider-1-1920x1369.jpg",
+              "url": "/api/media/file/slider-1-1920x1369.jpg"
+            }
+          },
+          "createdAt": "2024-11-14T15:40:04.228Z",
+          "updatedAt": "2024-11-14T15:40:04.228Z",
+          "id": "673619d4aeb2a95ce4a2554a",
+          "url": "/api/media/file/slider-1.jpg",
+          "thumbnailURL": "/api/media/file/slider-1-300x214.jpg"
+        },
+        "description": "Pakume professionaalset WordPress ja WooCommerce arendust, et kasvatada sinu äri."
+      },
+      "_status": "published",
+      "createdAt": "2024-11-15T15:07:45.598Z",
+      "updatedAt": "2024-12-06T19:57:30.278Z",
+      "publishedAt": "2024-11-15T15:08:11.671Z",
+      "slug": "projektid",
+      "title": "Projektid",
+      "id": "673763c1bf4499c943ce914c",
+      "generateSlug": true
+    },
+    {
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Digilahendused, mis toetavad sinu äri",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "heading",
+                "version": 1,
+                "tag": "h1"
+              },
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Lahendame sinu digitaalsed vajadused – alates kohandatud veebilehtedest ja e-poodidest kuni tervikliku haldusteenuseni. Loome toimivaid ja müüki toetavaid lahendusi, mis vastavad sinu ettevõtte vajadustele.",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": ""
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "type": "root",
+            "version": 1
+          }
+        },
+        "links": [],
+        "media": null
+      },
+      "layout": [
+        {
+          "richText": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 1,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Teenused",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 1,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Millega saame aidata?",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "heading",
+                  "version": 1,
+                  "tag": "h2"
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Professionaalsed veebilahendused teie ettevõtte jaoks. Disain, arendus, juurutamine ja hooldus - oleme teile toeks terve arendusprotsessi vältel.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "serviceItems": [
+            {
+              "richText": {
+                "root": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Kodulehed. ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Disainime ja arendame läbimõeldud veebilehti, mis aitavad realiseerida Sinu ettevõtte ärieesmärke.",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "start",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 1,
+                      "textStyle": ""
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "root",
+                  "version": 1
+                }
+              },
+              "stack": "Tehnoloogiad: Wordpress või react Payload + Next.js",
+              "id": "67360a0d5cae981fd862cc76"
+            },
+            {
+              "richText": {
+                "root": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "E-poed. ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "On pikaajaline kogemus Wordpress/WooCommerce’i lahendusega. Samas on ka siin võimalus kasutada Payload CMS-i + Next.js Stripe integratsiooniga.",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "start",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 1,
+                      "textStyle": ""
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "root",
+                  "version": 1
+                }
+              },
+              "stack": "Tehnoloogiad: Wordpress/Woocommerce või react Payload + Next.js + Stripe",
+              "id": "67360a8432a0bf1fd80a6a1e"
+            },
+            {
+              "richText": {
+                "root": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Disain. Bränding. ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Veebidisain, CVI koostamine, visuaalne identiteet, logo loomine, stiiliraamat. Loome ettevõtte identiteedile kõik vajaliku.",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 1,
+                      "textStyle": ""
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "root",
+                  "version": 1
+                }
+              },
+              "stack": "Rakendused: Figma, Adobe",
+              "id": "67361d6a762b371fd89aaa51"
+            },
+            {
+              "richText": {
+                "root": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Hooldusteenus ja kasutajatugi. ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "WordPressi uuendamine",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": ", ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Pluginate uuendamine",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": ", ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Varukoopiad ja taastamine",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 1,
+                          "mode": "normal",
+                          "style": "",
+                          "text": ", ",
+                          "type": "text",
+                          "version": 1
+                        },
+                        {
+                          "detail": 0,
+                          "format": 0,
+                          "mode": "normal",
+                          "style": "",
+                          "text": "Kasutajatugi e-posti teel",
+                          "type": "text",
+                          "version": 1
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1,
+                      "textFormat": 1,
+                      "textStyle": ""
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "root",
+                  "version": 1
+                }
+              },
+              "id": "6738a72dcefddbad82d75352"
+            }
+          ],
+          "media": {
+            "alt": "A Creative And Cheerful Depiction Of A Web Developer At Work",
+            "filename": "A creative and cheerful depiction of a web developer at work.webp",
+            "mimeType": "image/webp",
+            "filesize": 142398,
+            "width": 1024,
+            "height": 1024,
+            "focalX": 50,
+            "focalY": 50,
+            "sizes": {
+              "thumbnail": {
+                "width": 300,
+                "height": 300,
+                "mimeType": "image/webp",
+                "filesize": 23282,
+                "filename": "A creative and cheerful depiction of a web developer at work-300x300.webp",
+                "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-300x300.webp"
+              },
+              "square": {
+                "width": 500,
+                "height": 500,
+                "mimeType": "image/webp",
+                "filesize": 45916,
+                "filename": "A creative and cheerful depiction of a web developer at work-500x500.webp",
+                "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-500x500.webp"
+              },
+              "small": {
+                "width": 600,
+                "height": 600,
+                "mimeType": "image/webp",
+                "filesize": 57644,
+                "filename": "A creative and cheerful depiction of a web developer at work-600x600.webp",
+                "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-600x600.webp"
+              },
+              "medium": {
+                "width": 900,
+                "height": 900,
+                "mimeType": "image/webp",
+                "filesize": 96498,
+                "filename": "A creative and cheerful depiction of a web developer at work-900x900.webp",
+                "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-900x900.webp"
+              },
+              "large": {
+                "width": 1400,
+                "height": 1400,
+                "mimeType": "image/webp",
+                "filesize": 172258,
+                "filename": "A creative and cheerful depiction of a web developer at work-1400x1400.webp",
+                "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-1400x1400.webp"
+              },
+              "xlarge": {
+                "width": 1920,
+                "height": 1920,
+                "mimeType": "image/webp",
+                "filesize": 235064,
+                "filename": "A creative and cheerful depiction of a web developer at work-1920x1920.webp",
+                "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-1920x1920.webp"
+              }
+            },
+            "createdAt": "2024-11-15T20:40:54.490Z",
+            "updatedAt": "2024-11-15T20:40:54.490Z",
+            "id": "6737b1d6ff422136aff18934",
+            "url": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work.webp",
+            "thumbnailURL": "/api/media/file/A%20creative%20and%20cheerful%20depiction%20of%20a%20web%20developer%20at%20work-300x300.webp"
+          },
+          "id": "67360a045cae981fd862cc75",
+          "blockType": "servicesBlock"
+        },
+        {
+          "form": {
+            "title": "Kontakt",
+            "fields": [
+              {
+                "name": "nimi",
+                "label": "Nimi",
+                "width": null,
+                "required": true,
+                "id": "6739f3d9b99a72233810483e",
+                "blockType": "text"
+              },
+              {
+                "name": "email",
+                "label": "E-mail",
+                "width": null,
+                "required": true,
+                "id": "6739f3d9b99a72233810483f",
+                "blockType": "email"
+              },
+              {
+                "name": "telefon",
+                "label": "Telefon",
+                "width": null,
+                "required": false,
+                "id": "6739f3d9b99a722338104840",
+                "blockType": "number"
+              },
+              {
+                "name": "ettevote",
+                "label": "Ettevõte",
+                "width": null,
+                "id": "6739f3d9b99a722338104841",
+                "blockType": "text"
+              },
+              {
+                "name": "sonum",
+                "label": "Sõnum",
+                "width": null,
+                "required": true,
+                "id": "6739f3d9b99a722338104842",
+                "blockType": "textarea"
+              },
+              {
+                "name": "teenus",
+                "label": "Teenus",
+                "options": [
+                  { "label": "Veebileht", "value": "veebileht", "id": "6744959440ef9f78d73c2073" },
+                  { "label": "E-pood", "value": "epood", "id": "674495b140ef9f78d73c2074" },
+                  { "label": "Disain", "value": "disain", "id": "674495b940ef9f78d73c2075" }
+                ],
+                "id": "6744958940ef9f78d73c2072",
+                "blockType": "select"
+              }
+            ],
+            "submitButtonLabel": "Saada",
+            "confirmationType": "redirect",
+            "confirmationMessage": {
+              "root": {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Tänud, võtame ühendust!",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "heading",
+                    "version": 1,
+                    "tag": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Mehh Meedia OÜ",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+              }
+            },
+            "redirect": { "url": "https://mehh.ee/thank-you" },
+            "emails": [
+              {
+                "emailTo": "info@mehh.ee",
+                "replyTo": "info@mehh.ee",
+                "emailFrom": "info@mehh.ee",
+                "subject": "Uus sõnum mehh.ee kodulehelt",
+                "message": {
+                  "root": {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "{{*:table}}",
+                            "type": "text",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                  }
+                },
+                "id": "6739f3d9b99a722338104843"
+              }
+            ],
+            "createdAt": "2024-11-17T13:47:05.640Z",
+            "updatedAt": "2025-01-06T11:50:31.459Z",
+            "id": "6739f3d9b86c0119235d64aa"
+          },
+          "enableIntro": true,
+          "introContent": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Saada päring",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "heading",
+                  "version": 1,
+                  "tag": "h2"
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "id": "6744ae9740ef9f78d73c2076",
+          "blockType": "formBlock"
+        },
+        {
+          "introContent": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 1,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Projektid",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 1,
+                  "textStyle": ""
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Oleme ellu viinud 40+ edukat projekti erinevate valdkondade ettevõtetega.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "heading",
+                  "version": 1,
+                  "tag": "h2"
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "populateBy": "collection",
+          "relationTo": "posts",
+          "categories": [
+            {
+              "title": "Projektid",
+              "breadcrumbs": [
+                {
+                  "doc": "673760b5bf4499c943ce8cb9",
+                  "label": "Projektid",
+                  "id": "6739c5bcc9f77923381baa28"
+                }
+              ],
+              "createdAt": "2024-11-15T14:54:45.749Z",
+              "updatedAt": "2024-11-17T10:30:20.600Z",
+              "id": "673760b5bf4499c943ce8cb9"
+            }
+          ],
+          "limit": 3,
+          "isModuleStyle": true,
+          "enableLink": true,
+          "link": {
+            "type": "reference",
+            "reference": {
+              "relationTo": "pages",
+              "value": {
+                "hero": {
+                  "type": "lowImpact",
+                  "richText": {
+                    "root": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "detail": 0,
+                              "format": 0,
+                              "mode": "normal",
+                              "style": "",
+                              "text": "Projektid",
+                              "type": "text",
+                              "version": 1
+                            }
+                          ],
+                          "direction": "ltr",
+                          "format": "",
+                          "indent": 0,
+                          "type": "heading",
+                          "version": 1,
+                          "tag": "h1"
+                        },
+                        {
+                          "children": [
+                            {
+                              "detail": 0,
+                              "format": 0,
+                              "mode": "normal",
+                              "style": "",
+                              "text": "Valminud 40+ projekti",
+                              "type": "text",
+                              "version": 1
+                            }
+                          ],
+                          "direction": "ltr",
+                          "format": "",
+                          "indent": 0,
+                          "type": "paragraph",
+                          "version": 1,
+                          "textFormat": 0,
+                          "textStyle": ""
+                        }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "root",
+                      "version": 1
+                    }
+                  },
+                  "links": []
+                },
+                "layout": [
+                  {
+                    "populateBy": "collection",
+                    "relationTo": "posts",
+                    "categories": ["673760b5bf4499c943ce8cb9"],
+                    "limit": 9999,
+                    "isModuleStyle": true,
+                    "selectedDocs": [
+                      { "relationTo": "posts", "value": "67361e7faeb2a95ce4a25cfd" }
+                    ],
+                    "link": { "type": "reference", "appearance": "default" },
+                    "id": "673763cedd48bf312a39fa6c",
+                    "blockType": "archive"
+                  }
+                ],
+                "meta": {
+                  "title": "Mehh Meedia OÜ | Digilahendused, mis toetavad sinu äri",
+                  "image": "673619d4aeb2a95ce4a2554a",
+                  "description": "Pakume professionaalset WordPress ja WooCommerce arendust, et kasvatada sinu äri."
+                },
+                "_status": "published",
+                "createdAt": "2024-11-15T15:07:45.598Z",
+                "updatedAt": "2024-12-06T19:57:30.278Z",
+                "publishedAt": "2024-11-15T15:08:11.671Z",
+                "slug": "projektid",
+                "title": "Projektid",
+                "id": "673763c1bf4499c943ce914c",
+                "generateSlug": true
+              }
+            },
+            "label": "Kõik projektid",
+            "appearance": "default"
+          },
+          "id": "67376b69963a93312a55e1ad",
+          "blockType": "archive"
+        }
+      ],
+      "meta": {
+        "title": "Mehh Meedia OÜ | Digilahendused, mis toetavad sinu äri",
+        "image": {
+          "alt": "Slider 1",
+          "filename": "slider-1.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 90547,
+          "width": 1920,
+          "height": 1369,
+          "focalX": 50,
+          "focalY": 50,
+          "sizes": {
+            "thumbnail": {
+              "width": 300,
+              "height": 214,
+              "mimeType": "image/jpeg",
+              "filesize": 8341,
+              "filename": "slider-1-300x214.jpg",
+              "url": "/api/media/file/slider-1-300x214.jpg"
+            },
+            "square": {
+              "width": 500,
+              "height": 500,
+              "mimeType": "image/jpeg",
+              "filesize": 18742,
+              "filename": "slider-1-500x500.jpg",
+              "url": "/api/media/file/slider-1-500x500.jpg"
+            },
+            "small": {
+              "width": 600,
+              "height": 428,
+              "mimeType": "image/jpeg",
+              "filesize": 20853,
+              "filename": "slider-1-600x428.jpg",
+              "url": "/api/media/file/slider-1-600x428.jpg"
+            },
+            "medium": {
+              "width": 900,
+              "height": 642,
+              "mimeType": "image/jpeg",
+              "filesize": 34284,
+              "filename": "slider-1-900x642.jpg",
+              "url": "/api/media/file/slider-1-900x642.jpg"
+            },
+            "large": {
+              "width": 1400,
+              "height": 998,
+              "mimeType": "image/jpeg",
+              "filesize": 60008,
+              "filename": "slider-1-1400x998.jpg",
+              "url": "/api/media/file/slider-1-1400x998.jpg"
+            },
+            "xlarge": {
+              "width": 1920,
+              "height": 1369,
+              "mimeType": "image/jpeg",
+              "filesize": 90547,
+              "filename": "slider-1-1920x1369.jpg",
+              "url": "/api/media/file/slider-1-1920x1369.jpg"
+            }
+          },
+          "createdAt": "2024-11-14T15:40:04.228Z",
+          "updatedAt": "2024-11-14T15:40:04.228Z",
+          "id": "673619d4aeb2a95ce4a2554a",
+          "url": "/api/media/file/slider-1.jpg",
+          "thumbnailURL": "/api/media/file/slider-1-300x214.jpg"
+        },
+        "description": "Pakume professionaalset WordPress ja WooCommerce arendust, et kasvatada sinu äri. Loo oma brändile turvaline ja usaldusväärne e-pood WooCommerce'iga."
+      },
+      "_status": "published",
+      "createdAt": "2024-11-11T21:27:08.387Z",
+      "updatedAt": "2025-01-06T10:04:23.634Z",
+      "publishedAt": "2024-11-11T21:27:30.371Z",
+      "slug": "home",
+      "title": "Home",
+      "id": "673276ac8b3792b205695cb6",
+      "generateSlug": true
+    }
+  ],
+  "totalDocs": 6,
+  "limit": 10,
+  "totalPages": 1,
+  "page": 1,
+  "pagingCounter": 1,
+  "hasPrevPage": false,
+  "hasNextPage": false,
+  "prevPage": null,
+  "nextPage": null
+}
