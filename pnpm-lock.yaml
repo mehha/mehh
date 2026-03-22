@@ -157,6 +157,12 @@ importers:
       copyfiles:
         specifier: ^2.4.1
         version: 2.4.1
+      drizzle-kit:
+        specifier: 0.31.7
+        version: 0.31.7
+      drizzle-orm:
+        specifier: 0.44.7
+        version: 0.44.7
       eslint:
         specifier: ^9.16.0
         version: 9.39.4(jiti@1.21.7)
