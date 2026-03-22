@@ -2,12 +2,10 @@
 import { cn } from '@/utilities/cn'
 import useClickableCard from '@/utilities/useClickableCard'
 import Link from 'next/link'
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import type { Post } from '@/payload-types'
 
-import { Media } from '@/components/Media'
-import RichText from "@/components/RichText";
 import Image from 'next/image'
 
 export const CardModule: React.FC<{
@@ -23,6 +21,10 @@ export const CardModule: React.FC<{
 
   const { slug, categories, meta, title, client, homepage, service, year, content, intro } = doc || {}
   const { description, image: metaImage } = meta || {}
+  const metaImageDoc =
+    metaImage && typeof metaImage === 'object'
+      ? (metaImage as { url?: string | null; alt?: string | null })
+      : null
 
   const hasCategories = categories && Array.isArray(categories) && categories.length > 0
   const titleToUse = titleFromProps || title
@@ -39,7 +41,16 @@ export const CardModule: React.FC<{
     >
       <div className="relative w-full">
         {!metaImage && <div className="">No image</div>}
-        {metaImage && typeof metaImage !== 'string' && <div className="h-[48px] w-auto relative"><Image className="object-contain object-left" src={metaImage?.url || ''} alt={metaImage?.alt || ''} fill /></div>}
+        {metaImageDoc && (
+          <div className="h-[48px] w-auto relative">
+            <Image
+              className="object-contain object-left"
+              src={metaImageDoc.url || ''}
+              alt={metaImageDoc.alt || ''}
+              fill
+            />
+          </div>
+        )}
       </div>
       <div className=" mt-8 flex flex-wrap gap-x-2 text-sm">
         {year && <time className="font-semibold text-neutral-600">{year}</time>}

@@ -2,14 +2,6 @@ import { useId } from 'react'
 import Image, { type ImageProps } from 'next/image'
 import clsx from 'clsx'
 
-function randomizePath(path) {
-  return path.replace(/([ML])([\d.-]+)\s([\d.-]+)/g, (_, command, x, y) => {
-    const randomX = parseFloat(x) + (Math.random() - 0.5) * 10; // Random offset within +/- 5 units
-    const randomY = parseFloat(y) + (Math.random() - 0.5) * 10;
-    return `${command}${randomX.toFixed(3)} ${randomY.toFixed(3)}`;
-  });
-}
-
 const shapes = [
   {
     width: 655,

@@ -11,7 +11,7 @@ import {
 } from '@payloadcms/richtext-lexical'
 
 import { link } from '@/fields/link'
-import {MediaBlock} from "@/blocks/MediaBlock/config";
+import { MediaBlock } from '@/blocks/MediaBlock/config'
 
 const columnFields: Field[] = [
   {
@@ -62,7 +62,8 @@ const columnFields: Field[] = [
   link({
     overrides: {
       admin: {
-        condition: (_, { enableLink }) => Boolean(enableLink),
+        condition: (_data: unknown, siblingData: { enableLink?: boolean }) =>
+          Boolean(siblingData.enableLink),
       },
     },
   }),

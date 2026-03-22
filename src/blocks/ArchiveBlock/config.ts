@@ -6,7 +6,7 @@ import {
   InlineToolbarFeature,
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
-import {link} from "@/fields/link";
+import { link } from '@/fields/link'
 
 export const Archive: Block = {
   slug: 'archive',
@@ -99,7 +99,8 @@ export const Archive: Block = {
     link({
       overrides: {
         admin: {
-          condition: (_, { enableLink }) => Boolean(enableLink),
+          condition: (_data: unknown, siblingData: { enableLink?: boolean }) =>
+            Boolean(siblingData.enableLink),
         },
       },
     }),

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Logo = (props) => {
+export const Logo: React.FC<{ isDark?: boolean }> = (props) => {
   const { isDark } = props
   return (
     <>

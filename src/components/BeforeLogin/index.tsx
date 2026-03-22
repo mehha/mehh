@@ -1,6 +1,4 @@
 import React from 'react'
-import { ExternalLink } from 'lucide-react'
-import cssVariables from '@/cssVariables'
 import Link from 'next/link'
 
 const BeforeLogin: React.FC = () => {

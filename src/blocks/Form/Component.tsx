@@ -3,21 +3,17 @@ import type { Form as FormType } from '@payloadcms/plugin-form-builder/types'
 
 import { useRouter } from 'next/navigation'
 import React, { useCallback, useState } from 'react'
-import { useForm, FormProvider } from 'react-hook-form'
+import { FormProvider, type FieldValues, type SubmitHandler, useForm } from 'react-hook-form'
 import RichText from '@/components/RichText'
 import { Button } from '@/components/ui/button'
 
 import { buildInitialFormState } from './buildInitialFormState'
 import { fields } from './fields'
 
-export type Value = unknown
+type SupportedFieldType = keyof typeof fields
 
-export interface Property {
-  [key: string]: Value
-}
-
-export interface Data {
-  [key: string]: Property | Property[]
+const isSupportedFieldType = (blockType: string): blockType is SupportedFieldType => {
+  return blockType in fields
 }
 
 export type FormBlockType = {
@@ -42,8 +38,8 @@ export const FormBlock: React.FC<
     introContent,
   } = props
 
-  const formMethods = useForm({
-    defaultValues: buildInitialFormState(formFromProps.fields),
+  const formMethods = useForm<FieldValues>({
+    defaultValues: buildInitialFormState(formFromProps.fields || []),
   })
   const {
     control,
@@ -57,8 +53,8 @@ export const FormBlock: React.FC<
   const [error, setError] = useState<{ message: string; status?: string } | undefined>()
   const router = useRouter()
 
-  const onSubmit = useCallback(
-    (data: Data) => {
+  const onSubmit = useCallback<SubmitHandler<FieldValues>>(
+    (data) => {
       let loadingTimerID: ReturnType<typeof setTimeout>
       const submitForm = async () => {
         setError(undefined)
@@ -138,7 +134,8 @@ export const FormBlock: React.FC<
               {formFromProps &&
                 formFromProps.fields &&
                 formFromProps.fields?.map((field, index) => {
-                  const Field: React.FC<any> = fields?.[field.blockType]
+                  if (!isSupportedFieldType(field.blockType)) return null
+                  const Field = fields[field.blockType] as React.FC<Record<string, unknown>>
                   if (Field) {
                     return (
                       <div className="" key={index}>

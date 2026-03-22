@@ -15,10 +15,10 @@ const SuccessMessage: React.FC = () => (
 export const SeedButton: React.FC = () => {
   const [loading, setLoading] = useState(false)
   const [seeded, setSeeded] = useState(false)
-  const [error, setError] = useState(null)
+  const [error, setError] = useState<string | null>(null)
 
   const handleClick = useCallback(
-    async (e) => {
+    async (e: React.MouseEvent<HTMLAnchorElement>) => {
       e.preventDefault()
       if (loading || seeded) return
 
@@ -29,7 +29,9 @@ export const SeedButton: React.FC = () => {
         setSeeded(true)
         toast.success(<SuccessMessage />, { duration: 5000 })
       } catch (err) {
-        setError(err)
+        setError(err instanceof Error ? err.message : 'Unknown error')
+      } finally {
+        setLoading(false)
       }
     },
     [loading, seeded],

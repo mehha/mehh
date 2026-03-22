@@ -33,11 +33,11 @@ export async function GET(req: NextRequest): Promise<Response> {
     }
 
     if (!token) {
-      new Response('You are not allowed to preview this page', { status: 403 })
+      return new Response('You are not allowed to preview this page', { status: 403 })
     }
 
     if (!path.startsWith('/')) {
-      new Response('This endpoint can only be used for internal previews', { status: 500 })
+      return new Response('This endpoint can only be used for internal previews', { status: 500 })
     }
 
     let user
@@ -76,7 +76,7 @@ export async function GET(req: NextRequest): Promise<Response> {
         return new Response('Document not found', { status: 404 })
       }
     } catch (error) {
-      payload.logger.error('Error verifying token for live preview:', error)
+      payload.logger.error({ err: error }, 'Error verifying token for live preview')
     }
 
     draft.enable()

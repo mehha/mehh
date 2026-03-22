@@ -27,6 +27,8 @@ const collectionLabels = {
   },
 }
 
+type CollectionSlug = keyof typeof collectionLabels
+
 const Title: React.FC = () => <span>Dashboard</span>
 
 export const AdminBar: React.FC<{
@@ -35,11 +37,13 @@ export const AdminBar: React.FC<{
   const { adminBarProps } = props || {}
   const segments = useSelectedLayoutSegments()
   const [show, setShow] = useState(false)
-  const collection = collectionLabels?.[segments?.[1]] ? segments?.[1] : 'pages'
+  const segment = segments?.[1]
+  const collection: CollectionSlug =
+    segment && segment in collectionLabels ? (segment as CollectionSlug) : 'pages'
   const router = useRouter()
 
-  const onAuthChange = React.useCallback((user) => {
-    setShow(user?.id)
+  const onAuthChange = React.useCallback((user: { id?: unknown } | null | undefined) => {
+    setShow(Boolean(user?.id))
   }, [])
 
   return (
