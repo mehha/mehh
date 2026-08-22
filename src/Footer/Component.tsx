@@ -11,7 +11,7 @@ import RichText from '@/components/RichText'
 
 export async function Footer() {
   const footer: Footer = await getCachedGlobal('footer')()
-  const header: Header = await getCachedGlobal('header')()
+  const header: Header = await getCachedGlobal('header', 1)()
 
   // console.log('header', header)
 
