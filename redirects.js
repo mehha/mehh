@@ -18,29 +18,6 @@ const redirects = async () => {
       permanent: true,
       source: '/home',
     },
-    {
-      destination: 'https://mehh.ee/:path*',
-      has: [
-        {
-          type: 'host',
-          value: 'www.mehh.ee',
-        },
-      ],
-      permanent: true,
-      source: '/:path*',
-    },
-    {
-      destination: 'https://mehh.ee/:path*',
-      has: [
-        {
-          key: 'x-forwarded-proto',
-          type: 'header',
-          value: 'http',
-        },
-      ],
-      permanent: true,
-      source: '/:path*',
-    },
     internetExplorerRedirect,
   ]
 
