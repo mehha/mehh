@@ -43,12 +43,13 @@ type Args = {
 
 export default async function Page({ params: paramsPromise }: Args) {
   const { slug = 'home' } = await paramsPromise
-  const url = '/' + slug
+  const decodedSlug = decodeURIComponent(slug)
+  const url = '/' + decodedSlug
 
   let page: PageType | null
 
   page = await queryPageBySlug({
-    slug,
+    slug: decodedSlug,
   })
 
   // Remove this code once your website is seeded
@@ -61,7 +62,7 @@ export default async function Page({ params: paramsPromise }: Args) {
   }
 
   const { hero, layout } = page
-  const path = slug === 'home' ? '/' : `/${slug}`
+  const path = decodedSlug === 'home' ? '/' : `/${decodedSlug}`
 
   return (
     <article className="pt-16 pb-24">
@@ -98,13 +99,14 @@ export default async function Page({ params: paramsPromise }: Args) {
 
 export async function generateMetadata({ params: paramsPromise }: Args): Promise<Metadata> {
   const { slug = 'home' } = await paramsPromise
+  const decodedSlug = decodeURIComponent(slug)
   const page = await queryPageBySlug({
-    slug,
+    slug: decodedSlug,
   })
 
   return generateMeta({
     doc: page,
-    path: slug === 'home' ? '/' : `/${slug}`,
+    path: decodedSlug === 'home' ? '/' : `/${decodedSlug}`,
   })
 }
 

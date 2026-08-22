@@ -1,4 +1,4 @@
-import type { CollectionAfterChangeHook } from 'payload'
+import type { CollectionAfterChangeHook, CollectionAfterDeleteHook } from 'payload'
 
 import { revalidatePath } from 'next/cache'
 
@@ -7,23 +7,32 @@ import type { Post } from '../../../payload-types'
 export const revalidatePost: CollectionAfterChangeHook<Post> = ({
   doc,
   previousDoc,
-  req: { payload },
+  req: { payload, context },
 }) => {
-  if (doc._status === 'published') {
-    const path = `/posts/${doc.slug}`
+  if (!context.disableRevalidate) {
+    if (doc._status === 'published') {
+      const path = `/posts/${doc.slug}`
 
-    payload.logger.info(`Revalidating post at path: ${path}`)
+      payload.logger.info(`Revalidating post at path: ${path}`)
 
-    revalidatePath(path)
+      revalidatePath(path)
+    }
+
+    if (previousDoc._status === 'published' && doc._status !== 'published') {
+      const oldPath = `/posts/${previousDoc.slug}`
+
+      payload.logger.info(`Revalidating old post at path: ${oldPath}`)
+
+      revalidatePath(oldPath)
+    }
   }
 
-  // If the post was previously published, we need to revalidate the old path
-  if (previousDoc._status === 'published' && doc._status !== 'published') {
-    const oldPath = `/posts/${previousDoc.slug}`
+  return doc
+}
 
-    payload.logger.info(`Revalidating old post at path: ${oldPath}`)
-
-    revalidatePath(oldPath)
+export const revalidateDelete: CollectionAfterDeleteHook<Post> = ({ doc, req: { context } }) => {
+  if (!context.disableRevalidate) {
+    revalidatePath(`/posts/${doc?.slug}`)
   }
 
   return doc

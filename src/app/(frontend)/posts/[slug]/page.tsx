@@ -41,8 +41,9 @@ type Args = {
 
 export default async function Post({ params: paramsPromise }: Args) {
   const { slug = '' } = await paramsPromise
-  const url = '/posts/' + slug
-  const post = await queryPostBySlug({ slug })
+  const decodedSlug = decodeURIComponent(slug)
+  const url = '/posts/' + decodedSlug
+  const post = await queryPostBySlug({ slug: decodedSlug })
 
   if (!post) return <PayloadRedirects url={url} />
 
@@ -187,11 +188,12 @@ export default async function Post({ params: paramsPromise }: Args) {
 
 export async function generateMetadata({ params: paramsPromise }: Args): Promise<Metadata> {
   const { slug = '' } = await paramsPromise
-  const post = await queryPostBySlug({ slug })
+  const decodedSlug = decodeURIComponent(slug)
+  const post = await queryPostBySlug({ slug: decodedSlug })
 
   return generateMeta({
     doc: post,
-    path: `/posts/${slug}`,
+    path: `/posts/${decodedSlug}`,
   })
 }
 

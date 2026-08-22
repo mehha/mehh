@@ -1,4 +1,5 @@
-import { CollectionSlug } from 'payload'
+import type { PreviewSearchParams } from '@/app/(frontend)/next/preview/route'
+import type { CollectionSlug, PayloadRequest } from 'payload'
 
 const collectionPrefixMap: Partial<Record<CollectionSlug, string>> = {
   posts: '/posts',
@@ -8,22 +9,19 @@ const collectionPrefixMap: Partial<Record<CollectionSlug, string>> = {
 type Props = {
   collection: keyof typeof collectionPrefixMap
   slug: string
+  req: PayloadRequest
 }
 
 export const generatePreviewPath = ({ collection, slug }: Props) => {
-  const path = `${collectionPrefixMap[collection]}/${slug}`
-
-  const params = {
-    slug,
-    collection,
-    path,
+  if (slug === undefined || slug === null) {
+    return null
   }
 
-  const encodedParams = new URLSearchParams()
-
-  Object.entries(params).forEach(([key, value]) => {
-    encodedParams.append(key, value)
-  })
+  const encodedSlug = encodeURIComponent(slug)
+  const encodedParams = new URLSearchParams({
+    path: `${collectionPrefixMap[collection]}/${encodedSlug}`,
+    previewSecret: process.env.PREVIEW_SECRET || '',
+  } satisfies PreviewSearchParams)
 
   return `/next/preview?${encodedParams.toString()}`
 }

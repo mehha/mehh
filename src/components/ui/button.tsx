@@ -1,3 +1,5 @@
+'use client'
+
 import { cn } from 'src/utilities/cn'
 import { Slot } from '@radix-ui/react-slot'
 import { type VariantProps, cva } from 'class-variance-authority'
