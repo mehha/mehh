@@ -1,48 +1,41 @@
 import type { MetadataRoute } from 'next'
 import configPromise from '@payload-config'
+import { getCanonicalURL } from '@/utilities/getURL'
 import { getPayload } from 'payload'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const payload = await getPayload({ config: configPromise })
   const { docs: pages } = await payload.find({
     collection: 'pages',
+    draft: false,
     limit: 0,
+    overrideAccess: false,
   })
 
   const { docs: posts } = await payload.find({
     collection: 'posts',
+    draft: false,
     limit: 0,
+    overrideAccess: false,
   })
 
   const sitemap: MetadataRoute.Sitemap = []
-  const baseUrl = process.env.NEXT_PUBLIC_SERVER_URL
 
   for (const page of pages) {
+    if (page.slug === 'tname-pringu-eest') continue
+
     sitemap.push({
-      changeFrequency: 'weekly',
       lastModified: page.updatedAt,
-      priority: 1,
-      url: `${baseUrl}/${page.slug}`,
+      url: getCanonicalURL(page.slug === 'home' ? '/' : `/${page.slug}`),
     })
   }
 
   for (const post of posts) {
     sitemap.push({
-      changeFrequency: 'weekly',
       lastModified: post.updatedAt,
-      priority: 1,
-      url: `${baseUrl}/posts/${post.slug}`,
+      url: getCanonicalURL(`/posts/${post.slug}`),
     })
   }
 
-  return [
-    ...sitemap,
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1,
-    },
-
-  ]
+  return sitemap
 }

@@ -13,7 +13,7 @@
     "skipLibCheck": true,
     "noEmit": true,
     "incremental": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
@@ -27,9 +27,6 @@
     "paths": {
       "@payload-config": [
         "./src/payload.config.ts"
-      ],
-      "react": [
-        "./node_modules/@types/react"
       ],
       "@/*": [
         "./src/*"

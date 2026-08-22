@@ -1,5 +1,3 @@
-'use client'
-
 import type { StaticImageData } from 'next/image'
 
 import NextImage from 'next/image'
@@ -7,11 +5,9 @@ import React from 'react'
 
 import type { Props as MediaProps } from '../types'
 
-import { cssVariables } from '@/cssVariables'
 import { getMediaUrl } from '@/utilities/getMediaUrl'
 import { cn } from '@/utilities/cn'
 
-const { breakpoints } = cssVariables
 const PUBLIC_MEDIA_BASE_URL = (
   process.env.NEXT_PUBLIC_MEDIA_BASE_URL || 'https://media.mehh.ee'
 ).replace(/\/$/, '')
@@ -84,11 +80,7 @@ export const ImageMedia: React.FC<MediaProps> = (props) => {
     (src === PUBLIC_MEDIA_BASE_URL || src.startsWith(`${PUBLIC_MEDIA_BASE_URL}/`))
 
   // NOTE: this is used by the browser to determine which image to download at different screen sizes
-  const sizes = sizeFromProps
-    ? sizeFromProps
-    : Object.entries(breakpoints)
-        .map(([, value]) => `(max-width: ${value}px) ${value * 2}w`)
-        .join(', ')
+  const sizes = sizeFromProps || '(max-width: 768px) 100vw, (max-width: 1280px) 80vw, 1024px'
 
   return (
     <picture className={cn(pictureClassName)}>

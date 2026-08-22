@@ -1,13 +1,14 @@
 import type { Metadata } from 'next'
 
+import { getCanonicalURL } from './getURL'
+
 const defaultOpenGraph: Metadata['openGraph'] = {
   type: 'website',
-  description: 'An open-source website built with Payload and Next.js.',
+  description:
+    'Mehh Meedia aitab organisatsioonidel luua selgeid digilahendusi, veebilehti ja visuaalset identiteeti.',
   images: [
     {
-      url: process.env.NEXT_PUBLIC_SERVER_URL
-        ? `${process.env.NEXT_PUBLIC_SERVER_URL}/mehh-og.webp`
-        : '/mehh-og.webp',
+      url: getCanonicalURL('/mehh-og.webp'),
     },
   ],
   siteName: 'Mehh Meedia OÜ',

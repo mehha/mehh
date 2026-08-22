@@ -48,6 +48,7 @@ export const CardModule: React.FC<{
               src={metaImageDoc.url || ''}
               alt={metaImageDoc.alt || ''}
               fill
+              sizes="(max-width: 639px) calc(100vw - 48px), (max-width: 1023px) calc(50vw - 64px), 320px"
             />
           </div>
         )}

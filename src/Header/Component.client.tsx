@@ -1,8 +1,6 @@
 'use client'
-import { useHeaderTheme } from '@/providers/HeaderTheme'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import type { Header } from '@/payload-types'
 
@@ -19,16 +17,17 @@ export const HeaderClient: React.FC<HeaderClientProps> = ({ header }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header
-      className="container relative z-20 py-8 flex justify-between items-center"
-    >
-      <Link href="/">
+    <header className="container relative z-20 py-8 flex justify-between items-center">
+      <Link aria-label="Mehh Meedia avaleht" href="/">
         <Logo isDark={true} />
       </Link>
       <div className="hidden lg:block">
         <HeaderNav header={header} />
       </div>
       <button
+        aria-controls="mobile-navigation"
+        aria-expanded={mobileMenuOpen}
+        aria-label={mobileMenuOpen ? 'Sulge menüü' : 'Ava menüü'}
         type="button"
         className="lg:hidden"
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -36,12 +35,13 @@ export const HeaderClient: React.FC<HeaderClientProps> = ({ header }) => {
         <Hamburger />
       </button>
       <div
+        id="mobile-navigation"
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         className={`${mobileMenuOpen ? '' : 'hidden'} fixed inset-0 z-10 w-full overflow-y-auto bg-white px-4 py-8 sm:ring-1 sm:ring-gray-900/10`}
       >
         <div className="flex justify-between items-center mb-10">
-          <Link href="/">
-            <Logo isDark={true}/>
+          <Link aria-label="Mehh Meedia avaleht" href="/">
+            <Logo isDark={true} />
           </Link>
           <button type="button" className="rounded-md text-neutral-950">
             <span className="sr-only">Close menu</span>

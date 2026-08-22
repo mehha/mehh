@@ -9,9 +9,10 @@ import { homeStatic } from '@/endpoints/seed/home-static'
 import type { Page as PageType } from '@/payload-types'
 
 import { RenderBlocks } from '@/blocks/RenderBlocks'
+import { StructuredData } from '@/components/StructuredData'
 import { RenderHero } from '@/heros/RenderHero'
+import { getCanonicalURL } from '@/utilities/getURL'
 import { generateMeta } from '@/utilities/generateMeta'
-import PageClient from './page.client'
 import { getPayload } from 'payload'
 
 export async function generateStaticParams() {
@@ -60,10 +61,32 @@ export default async function Page({ params: paramsPromise }: Args) {
   }
 
   const { hero, layout } = page
+  const path = slug === 'home' ? '/' : `/${slug}`
 
   return (
     <article className="pt-16 pb-24">
-      <PageClient />
+      {path !== '/' && (
+        <StructuredData
+          data={{
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                item: getCanonicalURL('/'),
+                name: 'Avaleht',
+                position: 1,
+              },
+              {
+                '@type': 'ListItem',
+                item: getCanonicalURL(path),
+                name: page.title,
+                position: 2,
+              },
+            ],
+          }}
+        />
+      )}
       {/* Allows redirects for valid pages too */}
       <PayloadRedirects disableNotFound url={url} />
 
@@ -79,7 +102,10 @@ export async function generateMetadata({ params: paramsPromise }: Args): Promise
     slug,
   })
 
-  return generateMeta({ doc: page })
+  return generateMeta({
+    doc: page,
+    path: slug === 'home' ? '/' : `/${slug}`,
+  })
 }
 
 const queryPageBySlug = cache(async ({ slug }: { slug: string }) => {

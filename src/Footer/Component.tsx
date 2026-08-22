@@ -21,7 +21,7 @@ export async function Footer() {
     <footer className="border-t border-border bg-black dark:bg-card">
       <div className="container py-8 gap-8 flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col gap-4">
-          <Link className="flex items-center" href="/">
+          <Link aria-label="Mehh Meedia avaleht" className="flex items-center" href="/">
             <Logo isDark={false} />
           </Link>
           {footer?.richText && (

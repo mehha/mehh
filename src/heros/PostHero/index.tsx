@@ -1,16 +1,14 @@
-import { formatDateTime } from 'src/utilities/formatDateTime'
 import React from 'react'
 
 import type { Post } from '@/payload-types'
 
-import { Media } from '@/components/Media'
-import RichText from "@/components/RichText";
+import RichText from '@/components/RichText'
 
 export const PostHero: React.FC<{
   post: Post
 }> = ({ post }) => {
-  console.log('post', post)
-  const { categories, meta: { image: metaImage } = {}, populatedAuthors, publishedAt, title, intro, client, year, service } = post
+  const { categories, publishedAt, title, intro, client, year, service } = post
+  const isArticle = !client && !year && !service
 
   return (
     <div className="relative">
@@ -19,7 +17,7 @@ export const PostHero: React.FC<{
           <div className="block font-display text-base font-semibold text-neutral-950 mb-6">
             {categories?.map((category, index) => {
               if (typeof category === 'object' && category !== null) {
-                const {title: categoryTitle} = category
+                const { title: categoryTitle } = category
 
                 const titleToUse = categoryTitle || 'Untitled category'
 
@@ -37,8 +35,9 @@ export const PostHero: React.FC<{
           </div>
 
           <div className="">
-            <h1
-              className="mb-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl mx-auto">{title}</h1>
+            <h1 className="mb-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl mx-auto">
+              {title}
+            </h1>
           </div>
 
           <div>
@@ -49,6 +48,16 @@ export const PostHero: React.FC<{
               enableGutter={false}
             />
           </div>
+          {isArticle && publishedAt && (
+            <time className="mt-4 block text-sm text-neutral-600" dateTime={publishedAt}>
+              Avaldatud{' '}
+              {new Intl.DateTimeFormat('et-EE', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric',
+              }).format(new Date(publishedAt))}
+            </time>
+          )}
         </div>
       </div>
     </div>

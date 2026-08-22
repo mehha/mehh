@@ -27,16 +27,11 @@ export function StylizedImage({
   className,
   ...props
 }: ImagePropsWithOptionalAlt & { shape?: 0 | 1 | 2 }) {
-  let id = useId()
-  let { width, height, path } = shapes[shape]
+  const id = useId()
+  const { width, height, path } = shapes[shape]
 
   return (
-    <div
-      className={clsx(
-        className,
-        'relative flex aspect-[719/680] w-full',
-      )}
-    >
+    <div className={clsx(className, 'relative flex aspect-[719/680] w-full')}>
       <svg viewBox={`0 0 ${width} ${height}`} fill="none" className="h-full">
         <g clipPath={`url(#${id}-clip)`} className="group">
           <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
@@ -49,20 +44,11 @@ export function StylizedImage({
               />
             </foreignObject>
           </g>
-          <use
-            href={`#${id}-shape`}
-            strokeWidth="2"
-            className="stroke-neutral-950/10"
-          />
+          <use href={`#${id}-shape`} strokeWidth="2" className="stroke-neutral-950/10" />
         </g>
         <defs>
           <clipPath id={`${id}-clip`}>
-            <path
-              id={`${id}-shape`}
-              d={path}
-              fillRule="evenodd"
-              clipRule="evenodd"
-            />
+            <path id={`${id}-shape`} d={path} fillRule="evenodd" clipRule="evenodd" />
           </clipPath>
         </defs>
       </svg>
