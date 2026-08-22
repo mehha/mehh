@@ -4,8 +4,8 @@ import configPromise from '@payload-config'
 import React from 'react'
 import RichText from '@/components/RichText'
 
-import { CollectionArchive } from '@/components/CollectionArchive'
-import {CMSLink} from "@/components/Link";
+import { CollectionArchive, type ArchivePost } from '@/components/CollectionArchive'
+import { CMSLink } from '@/components/Link'
 import { getPayload } from 'payload'
 
 export const ArchiveBlock: React.FC<
@@ -13,12 +13,22 @@ export const ArchiveBlock: React.FC<
     id?: string
   }
 > = async (props) => {
-  const { id, categories, introContent, limit: limitFromProps, populateBy, selectedDocs, isModuleStyle, enableLink, link } = props
+  const {
+    id,
+    categories,
+    introContent,
+    limit: limitFromProps,
+    populateBy,
+    selectedDocs,
+    isModuleStyle,
+    enableLink,
+    link,
+  } = props
 
   const limit = limitFromProps || 3
-  const isModuleStyleBoolean = !!isModuleStyle;
+  const isModuleStyleBoolean = !!isModuleStyle
 
-  let posts: Post[] = []
+  let posts: ArchivePost[] = []
 
   if (populateBy === 'collection') {
     const payload = await getPayload({ config: configPromise })
@@ -33,6 +43,14 @@ export const ArchiveBlock: React.FC<
       depth: 1,
       limit,
       sort: 'createdAt',
+      select: {
+        categories: true,
+        meta: true,
+        service: true,
+        slug: true,
+        title: true,
+        year: true,
+      },
       ...(flattenedCategories && flattenedCategories.length > 0
         ? {
             where: {
@@ -64,7 +82,11 @@ export const ArchiveBlock: React.FC<
       )}
       <CollectionArchive posts={posts} isModuleStyle={isModuleStyleBoolean} />
 
-      {enableLink && <div className="container text-center mt-10"><CMSLink {...link} /></div>}
+      {enableLink && (
+        <div className="container text-center mt-10">
+          <CMSLink {...link} />
+        </div>
+      )}
     </div>
   )
 }

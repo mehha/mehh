@@ -4,10 +4,15 @@ import React from 'react'
 import type { Post } from '@/payload-types'
 
 import { Card } from '@/components/Card'
-import {CardModule} from "@/components/CardModule";
+import { CardModule } from '@/components/CardModule'
+
+export type ArchivePost = Pick<
+  Post,
+  'categories' | 'meta' | 'service' | 'slug' | 'title' | 'year'
+>
 
 export type Props = {
-  posts: Post[],
+  posts: ArchivePost[]
   isModuleStyle?: boolean
 }
 

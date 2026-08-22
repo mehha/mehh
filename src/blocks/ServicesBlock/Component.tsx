@@ -21,6 +21,7 @@ export const ServicesBlock: React.FC<ServicesBlockType> = (props) => {
               width={mediaDoc?.width || 720}
               height={mediaDoc?.height || 680}
               loading="eager"
+              sizes="(max-width: 1023px) calc(100vw - 48px), 50vw"
             />
           </div>
           <div className="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">

@@ -4,14 +4,14 @@ import useClickableCard from '@/utilities/useClickableCard'
 import Link from 'next/link'
 import React, { Fragment } from 'react'
 
-import type { Post } from '@/payload-types'
+import type { ArchivePost } from '@/components/CollectionArchive'
 
 import { Media } from '@/components/Media'
 
 export const Card: React.FC<{
   alignItems?: 'center'
   className?: string
-  doc?: Post
+  doc?: ArchivePost
   relationTo?: 'posts'
   showCategories?: boolean
   title?: string

@@ -42,4 +42,33 @@ const nextConfig = {
   },
 }
 
-export default withPayload(nextConfig, { devBundleServerPackages: false })
+const payloadNextConfig = withPayload(nextConfig, { devBundleServerPackages: false })
+const payloadHeaders = payloadNextConfig.headers
+
+// Payload requests the preferred color scheme as a critical client hint on every route. Browsers
+// then retry the first public page request after receiving the hint. Keep that behavior for the
+// admin UI, where the request theme is used, but avoid the extra navigation on the public site.
+payloadNextConfig.headers = async () => {
+  const headers = (await payloadHeaders?.()) || []
+
+  return [
+    ...headers.map((rule) => ({
+      ...rule,
+      headers:
+        rule.source === '/:path*'
+          ? rule.headers.filter(({ key }) => key.toLowerCase() !== 'critical-ch')
+          : rule.headers,
+    })),
+    {
+      source: '/admin/:path*',
+      headers: [
+        {
+          key: 'Critical-CH',
+          value: 'Sec-CH-Prefers-Color-Scheme',
+        },
+      ],
+    },
+  ]
+}
+
+export default payloadNextConfig

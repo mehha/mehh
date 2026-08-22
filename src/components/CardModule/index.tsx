@@ -4,29 +4,28 @@ import useClickableCard from '@/utilities/useClickableCard'
 import Link from 'next/link'
 import React from 'react'
 
-import type { Post } from '@/payload-types'
+import type { ArchivePost } from '@/components/CollectionArchive'
 
 import Image from 'next/image'
 
 export const CardModule: React.FC<{
   alignItems?: 'center'
   className?: string
-  doc?: Post
+  doc?: ArchivePost
   relationTo?: 'posts'
   showCategories?: boolean
   title?: string
 }> = (props) => {
   const { card, link } = useClickableCard({})
-  const { className, doc, relationTo, showCategories, title: titleFromProps } = props
+  const { className, doc, relationTo, title: titleFromProps } = props
 
-  const { slug, categories, meta, title, client, homepage, service, year, content, intro } = doc || {}
+  const { slug, meta, title, service, year } = doc || {}
   const { description, image: metaImage } = meta || {}
   const metaImageDoc =
     metaImage && typeof metaImage === 'object'
       ? (metaImage as { url?: string | null; alt?: string | null })
       : null
 
-  const hasCategories = categories && Array.isArray(categories) && categories.length > 0
   const titleToUse = titleFromProps || title
   const sanitizedDescription = description?.replace(/\s/g, ' ') // replace non-breaking space with white space
   const href = `/${relationTo}/${slug}`
