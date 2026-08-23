@@ -3,6 +3,13 @@
 This project uses the Payload CMS skill at `.agents/skills/payload/`.
 Start with `.agents/skills/payload/SKILL.md` for a quick reference, then see `.agents/skills/payload/reference/` for detailed docs.
 
+## Database migrations
+
+Database migrations are owned and run manually by the project owner. Agents must never create,
+apply, roll back, refresh, reset, or otherwise execute migrations. This includes commands that run
+migrations indirectly, such as `pnpm run deploy` and `pnpm run deploy:database`. Agents may inspect
+existing migration files and describe the command that the project owner should run.
+
 # Repository Guidelines
 
 ## Project Structure & Module Organization

@@ -24,7 +24,8 @@
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "prebuild": "pnpm generate:importmap && pnpm generate:types:payload",
     "deploy": "pnpm run deploy:database && pnpm run deploy:app",
-    "deploy:app": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "deploy:app": "opennextjs-cloudflare build && rm -rf .open-next/cache/__fetch && opennextjs-cloudflare deploy --cacheChunkSize 10",
+    "deploy:app:full": "opennextjs-cloudflare build && opennextjs-cloudflare deploy --cacheChunkSize 10",
     "deploy:database": "cross-env NODE_ENV=production PAYLOAD_SECRET=ignore payload migrate && wrangler d1 execute D1 --command 'PRAGMA optimize' --remote",
     "wrangler:login": "pnpm exec wrangler login"
   },
