@@ -13,6 +13,7 @@ import { LivePreviewListener } from '@/components/LivePreviewListener'
 import { StructuredData } from '@/components/StructuredData'
 import { getCanonicalURL, getServerSideURL } from '@/utilities/getURL'
 import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
+import { NavigationSectionProvider } from '@/providers/NavigationSection'
 import { cookies, draftMode } from 'next/headers'
 
 import './globals.css'
@@ -56,24 +57,26 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         />
       </head>
       <body>
-        {hasPayloadSession && (
-          <AdminBar
-            adminBarProps={{
-              preview: isEnabled,
-            }}
+        <NavigationSectionProvider>
+          {hasPayloadSession && (
+            <AdminBar
+              adminBarProps={{
+                preview: isEnabled,
+              }}
+            />
+          )}
+          {isEnabled && <LivePreviewListener />}
+
+          <Header />
+
+          <GridPattern
+            className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
+            yOffset={-96}
           />
-        )}
-        {isEnabled && <LivePreviewListener />}
 
-        <Header />
-
-        <GridPattern
-          className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
-          yOffset={-96}
-        />
-
-        {children}
-        <Footer />
+          {children}
+          <Footer />
+        </NavigationSectionProvider>
         <GoogleAnalytics gaId="AW-835198629" />
       </body>
     </html>

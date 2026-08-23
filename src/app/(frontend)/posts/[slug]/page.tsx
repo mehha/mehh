@@ -14,6 +14,7 @@ import { PostHero } from '@/heros/PostHero'
 import { generateMeta } from '@/utilities/generateMeta'
 import { getCanonicalURL } from '@/utilities/getURL'
 import { Media } from '@/components/Media'
+import { NavigationSectionSetter } from '@/providers/NavigationSection'
 import Link from 'next/link'
 import { unstable_cache } from 'next/cache'
 import { getPayload } from 'payload'
@@ -75,6 +76,7 @@ export default async function Post({ params: paramsPromise }: Args) {
 
   return (
     <article className="pt-16 md:pt-36 pb-16">
+      <NavigationSectionSetter section={isCaseStudy ? 'projektid' : 'blogi'} />
       <StructuredData
         data={[
           {
