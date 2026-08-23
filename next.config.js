@@ -46,29 +46,19 @@ const payloadNextConfig = withPayload(nextConfig, { devBundleServerPackages: fal
 const payloadHeaders = payloadNextConfig.headers
 
 // Payload requests the preferred color scheme as a critical client hint on every route. Browsers
-// then retry the first public page request after receiving the hint. Keep that behavior for the
-// admin UI, where the request theme is used, but avoid the extra navigation on the public site.
+// then retry the first request after receiving the hint, which can leave the admin login on a blank
+// page until it is refreshed. Keep Accept-CH so later requests still include the preference, but do
+// not force a navigation retry.
 payloadNextConfig.headers = async () => {
   const headers = (await payloadHeaders?.()) || []
 
-  return [
-    ...headers.map((rule) => ({
-      ...rule,
-      headers:
-        rule.source === '/:path*'
-          ? rule.headers.filter(({ key }) => key.toLowerCase() !== 'critical-ch')
-          : rule.headers,
-    })),
-    {
-      source: '/admin/:path*',
-      headers: [
-        {
-          key: 'Critical-CH',
-          value: 'Sec-CH-Prefers-Color-Scheme',
-        },
-      ],
-    },
-  ]
+  return headers.map((rule) => ({
+    ...rule,
+    headers:
+      rule.source === '/:path*'
+        ? rule.headers.filter(({ key }) => key.toLowerCase() !== 'critical-ch')
+        : rule.headers,
+  }))
 }
 
 export default payloadNextConfig
