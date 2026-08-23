@@ -24,8 +24,7 @@
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "prebuild": "pnpm generate:importmap && pnpm generate:types:payload",
     "deploy": "pnpm run deploy:database && pnpm run deploy:app",
-    "deploy:app": "opennextjs-cloudflare build && rm -rf .open-next/cache/__fetch && opennextjs-cloudflare deploy --cacheChunkSize 10",
-    "deploy:app:full": "opennextjs-cloudflare build && opennextjs-cloudflare deploy --cacheChunkSize 10",
+    "deploy:app": "opennextjs-cloudflare build && opennextjs-cloudflare deploy --rclone",
     "deploy:database": "cross-env NODE_ENV=production PAYLOAD_SECRET=ignore payload migrate && wrangler d1 execute D1 --command 'PRAGMA optimize' --remote",
     "wrangler:login": "pnpm exec wrangler login"
   },
@@ -76,6 +75,7 @@
     "eslint-config-next": "16.3.2",
     "postcss": "8.5.26",
     "prettier": "3.9.6",
+    "rclone.js": "0.6.6",
     "tailwindcss": "^3.4.3",
     "typescript": "5.9.3",
     "wrangler": "4.125.0"
@@ -87,6 +87,7 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild",
+      "rclone.js",
       "sharp",
       "unrs-resolver"
     ]
