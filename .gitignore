@@ -17,6 +17,10 @@ src/public/media
 
 tsconfig.tsbuildinfo
 
+# Local generated artifacts
+/output/
+/tmp/
+
 # OpenNext
 .open-next
 .wrangler

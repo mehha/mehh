@@ -85,6 +85,10 @@
   },
   "packageManager": "pnpm@10.33.0",
   "pnpm": {
+    "patchedDependencies": {
+      "@payloadcms/next@3.88.0": "patches/@payloadcms__next@3.88.0.patch",
+      "payload@3.88.0": "patches/payload@3.88.0.patch"
+    },
     "onlyBuiltDependencies": [
       "esbuild",
       "rclone.js",
