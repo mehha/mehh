@@ -15,6 +15,7 @@ import { generateMeta } from '@/utilities/generateMeta'
 import { getCanonicalURL } from '@/utilities/getURL'
 import { Media } from '@/components/Media'
 import Link from 'next/link'
+import { unstable_cache } from 'next/cache'
 import { getPayload } from 'payload'
 
 export async function generateStaticParams() {
@@ -24,6 +25,10 @@ export async function generateStaticParams() {
     draft: false,
     limit: 1000,
     overrideAccess: false,
+    pagination: false,
+    select: {
+      slug: true,
+    },
   })
 
   const params = posts.docs.map(({ slug }) => {
@@ -197,9 +202,7 @@ export async function generateMetadata({ params: paramsPromise }: Args): Promise
   })
 }
 
-const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
-  const { isEnabled: draft } = await draftMode()
-
+const findPostBySlug = async ({ slug, draft }: { slug: string; draft: boolean }) => {
   const payload = await getPayload({ config: configPromise })
 
   const result = await payload.find({
@@ -207,6 +210,7 @@ const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
     draft,
     limit: 1,
     overrideAccess: draft,
+    pagination: false,
     where: {
       slug: {
         equals: slug,
@@ -215,4 +219,19 @@ const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
   })
 
   return result.docs?.[0] || null
+}
+
+const getCachedPostBySlug = (slug: string) =>
+  unstable_cache(() => findPostBySlug({ slug, draft: false }), ['post', slug], {
+    tags: [`post_${slug}`],
+  })
+
+const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
+  const { isEnabled: draft } = await draftMode()
+
+  if (draft) {
+    return findPostBySlug({ slug, draft: true })
+  }
+
+  return getCachedPostBySlug(slug)()
 })

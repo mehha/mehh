@@ -23,6 +23,10 @@ export async function generateStaticParams() {
     draft: false,
     limit: 1000,
     overrideAccess: false,
+    pagination: false,
+    select: {
+      slug: true,
+    },
   })
 
   const params = pages.docs
@@ -119,6 +123,7 @@ const findPageBySlug = async ({ slug, draft }: { slug: string; draft: boolean })
     draft,
     limit: 1,
     overrideAccess: draft,
+    pagination: false,
     where: {
       slug: {
         equals: slug,

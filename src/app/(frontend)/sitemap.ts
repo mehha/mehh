@@ -7,16 +7,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const payload = await getPayload({ config: configPromise })
   const { docs: pages } = await payload.find({
     collection: 'pages',
+    depth: 0,
     draft: false,
-    limit: 0,
+    limit: 1000,
     overrideAccess: false,
+    pagination: false,
+    select: {
+      slug: true,
+      updatedAt: true,
+    },
   })
 
   const { docs: posts } = await payload.find({
     collection: 'posts',
+    depth: 0,
     draft: false,
-    limit: 0,
+    limit: 1000,
     overrideAccess: false,
+    pagination: false,
+    select: {
+      slug: true,
+      updatedAt: true,
+    },
   })
 
   const sitemap: MetadataRoute.Sitemap = []
