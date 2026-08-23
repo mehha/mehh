@@ -11,7 +11,7 @@
   h6 {
     font-size: auto;
     font-weight: auto;
-    font-variation-settings: "wdth" 125;
+    font-variation-settings: 'wdth' 125;
   }
 
   :root {
@@ -94,17 +94,8 @@
   }
 }
 
-html {
-  opacity: 0;
-}
-
-html[data-theme='dark'],
-html[data-theme='light'] {
-  opacity: initial;
-}
-
 .logo {
   font-size: auto;
   font-weight: auto;
-  font-variation-settings: "wdth" 125;
+  font-variation-settings: 'wdth' 125;
 }

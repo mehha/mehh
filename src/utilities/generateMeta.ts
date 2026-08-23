@@ -43,9 +43,38 @@ const getDescription = (doc: Page | Post | null, path: string) => {
   if (metaDescription && !metaDescription.startsWith(DEFAULT_META_DESCRIPTION))
     return metaDescription
 
-  return doc?.title
-    ? `${doc.title} – Mehh Meedia veebiarenduse ja digilahenduste projekt või artikkel.`
-    : undefined
+  if (!doc) return undefined
+
+  if ('content' in doc) {
+    const projectDetails = [
+      doc.service?.trim() || 'veebilahendus',
+      doc.client?.trim() ? `kliendile ${doc.client.trim()}` : undefined,
+    ]
+      .filter(Boolean)
+      .join(' ')
+
+    const isProject = Boolean(doc.client || doc.service || doc.year)
+
+    return isProject
+      ? `${doc.title} – Mehh Meedia teostatud ${projectDetails}.`
+      : `Loe Mehh Meedia artiklit „${doc.title}” ja saa praktilisi teadmisi kaasaegsest veebiarendusest.`
+  }
+
+  return `${doc.title} – Mehh Meedia veebilahendus.`
+}
+
+const getOpenGraphImage = (doc: Page | Post | null) => {
+  const image =
+    typeof doc?.meta?.image === 'object' && doc.meta.image !== null ? doc.meta.image : null
+  const imageURL = image?.url?.trim()
+
+  if (!image || !imageURL) return undefined
+
+  const isSVG =
+    image.mimeType === 'image/svg+xml' ||
+    new URL(imageURL, 'https://mehh.ee').pathname.endsWith('.svg')
+
+  return isSVG ? undefined : getCanonicalURL(imageURL)
 }
 
 export const generateMeta = async (args: {
@@ -55,13 +84,7 @@ export const generateMeta = async (args: {
   const { doc, path } = args
   const canonicalURL = getCanonicalURL(path)
 
-  const ogImage =
-    typeof doc?.meta?.image === 'object' &&
-    doc.meta.image !== null &&
-    'url' in doc.meta.image &&
-    doc.meta.image.url
-      ? getCanonicalURL(doc.meta.image.url)
-      : undefined
+  const ogImage = getOpenGraphImage(doc)
 
   const description = getDescription(doc, path)
   const title = getTitle(doc, path)

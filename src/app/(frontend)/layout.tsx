@@ -58,6 +58,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </head>
       <body>
         <NavigationSectionProvider>
+          <a
+            className="fixed left-4 top-4 z-50 -translate-y-24 rounded-md bg-neutral-950 px-4 py-2 text-sm font-semibold text-white transition-transform focus:translate-y-0"
+            href="#main-content"
+          >
+            Liigu põhisisu juurde
+          </a>
           {hasPayloadSession && (
             <AdminBar
               adminBarProps={{
@@ -74,7 +80,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             yOffset={-96}
           />
 
-          {children}
+          <main id="main-content" tabIndex={-1}>
+            {children}
+          </main>
           <Footer />
         </NavigationSectionProvider>
         <GoogleAnalytics gaId="AW-835198629" />
