@@ -16,7 +16,7 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
       payload.logger.info(`Revalidating post at path: ${path}`)
 
       revalidatePath(path)
-      revalidateTag(`post_${doc.slug}`, 'max')
+      revalidateTag(`post_${doc.slug}`)
     }
 
     if (previousDoc._status === 'published' && doc._status !== 'published') {
@@ -25,7 +25,7 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
       payload.logger.info(`Revalidating old post at path: ${oldPath}`)
 
       revalidatePath(oldPath)
-      revalidateTag(`post_${previousDoc.slug}`, 'max')
+      revalidateTag(`post_${previousDoc.slug}`)
     } else if (
       previousDoc._status === 'published' &&
       doc._status === 'published' &&
@@ -36,11 +36,11 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
       payload.logger.info(`Revalidating old post at path: ${oldPath}`)
 
       revalidatePath(oldPath)
-      revalidateTag(`post_${previousDoc.slug}`, 'max')
+      revalidateTag(`post_${previousDoc.slug}`)
     }
 
     if (doc._status === 'published' || previousDoc._status === 'published') {
-      revalidateTag('posts_archive', 'max')
+      revalidateTag('posts_archive')
     }
   }
 
@@ -50,8 +50,8 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
 export const revalidateDelete: CollectionAfterDeleteHook<Post> = ({ doc, req: { context } }) => {
   if (!context.disableRevalidate) {
     revalidatePath(`/posts/${doc?.slug}`)
-    if (doc?.slug) revalidateTag(`post_${doc.slug}`, 'max')
-    revalidateTag('posts_archive', 'max')
+    if (doc?.slug) revalidateTag(`post_${doc.slug}`)
+    revalidateTag('posts_archive')
   }
 
   return doc

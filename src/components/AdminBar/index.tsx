@@ -1,16 +1,14 @@
 'use client'
 
-import type { PayloadAdminBarProps, PayloadMeUser } from '@payloadcms/admin-bar'
+import type { PayloadAdminBarProps } from 'payload-admin-bar'
 
 import { cn } from '@/utilities/cn'
 import { useSelectedLayoutSegments } from 'next/navigation'
-import { PayloadAdminBar } from '@payloadcms/admin-bar'
+import { PayloadAdminBar } from 'payload-admin-bar'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 import './index.scss'
-
-import { getClientSideURL } from '@/utilities/getURL'
 
 const baseClass = 'admin-bar'
 
@@ -44,7 +42,7 @@ export const AdminBar: React.FC<{
     segment && segment in collectionLabels ? (segment as CollectionSlug) : 'pages'
   const router = useRouter()
 
-  const onAuthChange = React.useCallback((user: PayloadMeUser) => {
+  const onAuthChange = React.useCallback((user: { id?: unknown } | null | undefined) => {
     setShow(Boolean(user?.id))
   }, [])
 
@@ -64,8 +62,8 @@ export const AdminBar: React.FC<{
             logo: 'text-white',
             user: 'text-white',
           }}
-          cmsURL={getClientSideURL()}
-          collectionSlug={collection}
+          cmsURL={process.env.NEXT_PUBLIC_SERVER_URL}
+          collection={collection}
           collectionLabels={{
             plural: collectionLabels[collection]?.plural || 'Pages',
             singular: collectionLabels[collection]?.singular || 'Page',
