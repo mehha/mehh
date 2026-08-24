@@ -9,7 +9,7 @@ import { Logo } from '@/components/Logo/Logo'
 import RichText from '@/components/RichText'
 
 export async function Footer() {
-  const footer: Footer = await getCachedGlobal('footer')()
+  const footer: Footer = await getCachedGlobal('footer', 1)()
   const header: Header = await getCachedGlobal('header', 1)()
 
   // console.log('header', header)
