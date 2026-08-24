@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Deploy database and app
+      - name: Deploy app
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           PAYLOAD_SECRET: ${{ secrets.PAYLOAD_SECRET }}
@@ -44,4 +44,4 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           NEXT_PUBLIC_SERVER_URL: ${{ vars.NEXT_PUBLIC_SERVER_URL }}
           NEXT_PUBLIC_MEDIA_BASE_URL: ${{ vars.NEXT_PUBLIC_MEDIA_BASE_URL }}
-        run: pnpm run deploy
+        run: pnpm run deploy:app

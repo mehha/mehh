@@ -209,6 +209,31 @@ To run Payload in production, you need to build and start the Admin panel. To do
 1. Finally run `pnpm start` or `npm run start` to run Node in production and serve Payload from the `.build` directory.
 1. When you're ready to go live, see [Deployment](#deployment) for more details.
 
+## Deployment
+
+### Deploying to Cloudflare Workers
+
+Database migrations are manual owner actions and are not part of the normal application deploy.
+Check and apply committed migrations to the remote D1 database before deploying a schema-dependent
+application change:
+
+```bash
+pnpm migrate:status:remote
+pnpm migrate:remote
+```
+
+Deploy only the application with:
+
+```bash
+pnpm deploy
+```
+
+Remote D1 optimization is also a separate owner-run operation:
+
+```bash
+pnpm database:optimize:remote
+```
+
 ### Deploying to Payload Cloud
 
 The easiest way to deploy your project is to use [Payload Cloud](https://payloadcms.com/new/import), a one-click hosting solution to deploy production-ready instances of your Payload apps directly from your GitHub repo.

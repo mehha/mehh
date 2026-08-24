@@ -7,8 +7,10 @@ Start with `.agents/skills/payload/SKILL.md` for a quick reference, then see `.a
 
 Database migrations are owned and run manually by the project owner. Agents must never create,
 apply, roll back, refresh, reset, or otherwise execute migrations. This includes commands that run
-migrations indirectly, such as `pnpm run deploy` and `pnpm run deploy:database`. Agents may inspect
-existing migration files and describe the command that the project owner should run.
+migrations indirectly. `pnpm run deploy` and `pnpm run deploy:app` are application-only and do not
+run Payload migrations. Owner-run database commands include `pnpm migrate`, `pnpm migrate:create`,
+`pnpm migrate:remote`, `pnpm migrate:status:remote`, and `pnpm database:optimize:remote`. Agents may
+inspect existing migration files and describe the command that the project owner should run.
 
 # Repository Guidelines
 
