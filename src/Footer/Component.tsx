@@ -5,6 +5,7 @@ import React from 'react'
 import type { Footer, Header } from '@/payload-types'
 
 import { CMSLink } from '@/components/Link'
+import { CookieSettingsButton } from '@/components/CookieSettingsButton'
 import { Logo } from '@/components/Logo/Logo'
 import RichText from '@/components/RichText'
 
@@ -50,10 +51,11 @@ export async function Footer() {
         </div>
 
         <div className="flex flex-col-reverse items-start md:flex-row gap-4 md:items-center">
-          <nav aria-label="Jaluse navigatsioon" className="flex flex-col md:flex-row gap-4">
+          <nav aria-label="Jaluse navigatsioon" className="flex flex-col gap-4 md:flex-row">
             {navItems.map(({ link }, i) => {
               return <CMSLink className="text-white" key={i} {...link} />
             })}
+            <CookieSettingsButton />
           </nav>
         </div>
       </div>

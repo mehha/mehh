@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 const monaSans = localFont({ src: 'fonts/Mona-Sans.var.woff2' })
 import React from 'react'
@@ -11,6 +10,7 @@ import { Header } from '@/Header/Component'
 import { GridPattern } from '@/components/StudioComponents/GridPattern'
 import { LivePreviewListener } from '@/components/LivePreviewListener'
 import { StructuredData } from '@/components/StructuredData'
+import { CookieConsent } from '@/components/CookieConsent'
 import { getCanonicalURL, getServerSideURL } from '@/utilities/getURL'
 import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
 import { NavigationSectionProvider } from '@/providers/NavigationSection'
@@ -85,7 +85,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </main>
           <Footer />
         </NavigationSectionProvider>
-        <GoogleAnalytics gaId="AW-835198629" />
+        <CookieConsent />
       </body>
     </html>
   )

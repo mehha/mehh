@@ -31,7 +31,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   })
 
-  const sitemap: MetadataRoute.Sitemap = []
+  const sitemap: MetadataRoute.Sitemap = [
+    {
+      url: getCanonicalURL('/google-ads-api'),
+    },
+  ]
 
   for (const page of pages) {
     if (page.slug === 'tname-pringu-eest') continue
