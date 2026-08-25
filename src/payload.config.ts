@@ -204,6 +204,10 @@ export default buildConfig({
   email: nodemailerAdapter({
     defaultFromAddress: 'info@mehh.ee',
     defaultFromName: 'MEHH Meedia OÜ',
+    // Payload initializes this adapter for every fresh Worker isolate. Avoid an
+    // SMTP DNS/connectivity check on the request path; sendEmail still connects
+    // through the configured transport when a message is actually sent.
+    skipVerify: true,
     transportOptions: {
       host: process.env.SMTP_HOST,
       port: 587,
