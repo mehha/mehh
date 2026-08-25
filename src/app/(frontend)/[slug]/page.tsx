@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { PayloadRedirects } from '@/components/PayloadRedirects'
 import configPromise from '@payload-config'
 import { draftMode } from 'next/headers'
-import { unstable_cache } from 'next/cache'
 import React, { cache } from 'react'
 import { homeStatic } from '@/endpoints/seed/home-static'
 
@@ -115,7 +114,9 @@ export async function generateMetadata({ params: paramsPromise }: Args): Promise
   })
 }
 
-const findPageBySlug = async ({ slug, draft }: { slug: string; draft: boolean }) => {
+const queryPageBySlug = cache(async ({ slug }: { slug: string }) => {
+  const { isEnabled: draft } = await draftMode()
+
   const payload = await getPayload({ config: configPromise })
 
   const result = await payload.find({
@@ -132,19 +133,4 @@ const findPageBySlug = async ({ slug, draft }: { slug: string; draft: boolean })
   })
 
   return result.docs?.[0] || null
-}
-
-const getCachedPageBySlug = (slug: string) =>
-  unstable_cache(() => findPageBySlug({ slug, draft: false }), ['page', slug], {
-    tags: [`page_${slug}`],
-  })
-
-const queryPageBySlug = cache(async ({ slug }: { slug: string }) => {
-  const { isEnabled: draft } = await draftMode()
-
-  if (draft) {
-    return findPageBySlug({ slug, draft: true })
-  }
-
-  return getCachedPageBySlug(slug)()
 })

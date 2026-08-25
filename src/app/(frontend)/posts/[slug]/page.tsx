@@ -16,7 +16,6 @@ import { getCanonicalURL } from '@/utilities/getURL'
 import { Media } from '@/components/Media'
 import { NavigationSectionSetter } from '@/providers/NavigationSection'
 import Link from 'next/link'
-import { unstable_cache } from 'next/cache'
 import { getPayload } from 'payload'
 
 export async function generateStaticParams() {
@@ -204,7 +203,9 @@ export async function generateMetadata({ params: paramsPromise }: Args): Promise
   })
 }
 
-const findPostBySlug = async ({ slug, draft }: { slug: string; draft: boolean }) => {
+const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
+  const { isEnabled: draft } = await draftMode()
+
   const payload = await getPayload({ config: configPromise })
 
   const result = await payload.find({
@@ -221,19 +222,4 @@ const findPostBySlug = async ({ slug, draft }: { slug: string; draft: boolean })
   })
 
   return result.docs?.[0] || null
-}
-
-const getCachedPostBySlug = (slug: string) =>
-  unstable_cache(() => findPostBySlug({ slug, draft: false }), ['post', slug], {
-    tags: [`post_${slug}`],
-  })
-
-const queryPostBySlug = cache(async ({ slug }: { slug: string }) => {
-  const { isEnabled: draft } = await draftMode()
-
-  if (draft) {
-    return findPostBySlug({ slug, draft: true })
-  }
-
-  return getCachedPostBySlug(slug)()
 })

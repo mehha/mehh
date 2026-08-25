@@ -3,7 +3,7 @@
   "main": ".open-next/worker.js",
   "name": "mehh",
   "account_id": "5e14935f8ec5af079f9a4b1090f57456",
-  "compatibility_date": "2025-08-15",
+  "compatibility_date": "2025-09-15",
   "compatibility_flags": [
     // Enable Node.js API
     // see https://developers.cloudflare.com/workers/configuration/compatibility-flags/#nodejs-compatibility-flag

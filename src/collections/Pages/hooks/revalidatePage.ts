@@ -1,6 +1,6 @@
 import type { CollectionAfterChangeHook, CollectionAfterDeleteHook } from 'payload'
 
-import { revalidatePath, revalidateTag } from 'next/cache'
+import { revalidatePath } from 'next/cache'
 
 import type { Page } from '../../../payload-types'
 
@@ -16,7 +16,6 @@ export const revalidatePage: CollectionAfterChangeHook<Page> = ({
       payload.logger.info(`Revalidating page at path: ${path}`)
 
       revalidatePath(path)
-      revalidateTag(`page_${doc.slug}`, 'max')
     }
 
     if (
@@ -28,7 +27,6 @@ export const revalidatePage: CollectionAfterChangeHook<Page> = ({
       payload.logger.info(`Revalidating old page at path: ${oldPath}`)
 
       revalidatePath(oldPath)
-      revalidateTag(`page_${previousDoc.slug}`, 'max')
     }
   }
 
@@ -39,7 +37,6 @@ export const revalidateDelete: CollectionAfterDeleteHook<Page> = ({ doc, req: { 
   if (!context.disableRevalidate) {
     const path = doc?.slug === 'home' ? '/' : `/${doc?.slug}`
     revalidatePath(path)
-    if (doc?.slug) revalidateTag(`page_${doc.slug}`, 'max')
   }
 
   return doc

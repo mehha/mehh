@@ -6,45 +6,7 @@ import RichText from '@/components/RichText'
 
 import { CollectionArchive, type ArchivePost } from '@/components/CollectionArchive'
 import { CMSLink } from '@/components/Link'
-import { unstable_cache } from 'next/cache'
 import { getPayload } from 'payload'
-
-const getCachedArchivePosts = unstable_cache(
-  async ({ categories, limit }: { categories: (number | string)[]; limit: number }) => {
-    const payload = await getPayload({ config: configPromise })
-
-    const result = await payload.find({
-      collection: 'posts',
-      depth: 1,
-      limit,
-      pagination: false,
-      sort: 'createdAt',
-      select: {
-        categories: true,
-        meta: true,
-        service: true,
-        slug: true,
-        title: true,
-        year: true,
-      },
-      ...(categories.length > 0
-        ? {
-            where: {
-              categories: {
-                in: categories,
-              },
-            },
-          }
-        : {}),
-    })
-
-    return result.docs
-  },
-  ['archive-posts'],
-  {
-    tags: ['posts_archive'],
-  },
-)
 
 export const ArchiveBlock: React.FC<
   ArchiveBlockProps & {
@@ -69,15 +31,39 @@ export const ArchiveBlock: React.FC<
   let posts: ArchivePost[] = []
 
   if (populateBy === 'collection') {
+    const payload = await getPayload({ config: configPromise })
+
     const flattenedCategories = categories?.map((category) => {
       if (typeof category === 'object') return category.id
       else return category
     })
 
-    posts = await getCachedArchivePosts({
-      categories: flattenedCategories || [],
+    const fetchedPosts = await payload.find({
+      collection: 'posts',
+      depth: 1,
       limit,
+      pagination: false,
+      sort: 'createdAt',
+      select: {
+        categories: true,
+        meta: true,
+        service: true,
+        slug: true,
+        title: true,
+        year: true,
+      },
+      ...(flattenedCategories && flattenedCategories.length > 0
+        ? {
+            where: {
+              categories: {
+                in: flattenedCategories,
+              },
+            },
+          }
+        : {}),
     })
+
+    posts = fetchedPosts.docs
   } else {
     if (selectedDocs?.length) {
       const filteredSelectedPosts = selectedDocs.map((post) => {
