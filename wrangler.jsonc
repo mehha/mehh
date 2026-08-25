@@ -19,14 +19,14 @@
   "d1_databases": [
     {
       "binding": "D1",
-      "database_id": "f8fe77fa-c879-4280-b97c-f7b0babdcb3d",
-      "database_name": "mehh-v2",
+      "database_id": "fc9f17fb-9e19-4490-bf7f-3205447cae8e",
+      "database_name": "mehh",
       "remote": true
     },
     {
       "binding": "NEXT_TAG_CACHE_D1",
-      "database_id": "f8fe77fa-c879-4280-b97c-f7b0babdcb3d",
-      "database_name": "mehh-v2",
+      "database_id": "fc9f17fb-9e19-4490-bf7f-3205447cae8e",
+      "database_name": "mehh",
       "remote": true
     }
   ],
