@@ -42,23 +42,4 @@ const nextConfig = {
   },
 }
 
-const payloadNextConfig = withPayload(nextConfig, { devBundleServerPackages: false })
-const payloadHeaders = payloadNextConfig.headers
-
-// Payload requests the preferred color scheme as a critical client hint on every route. Browsers
-// then retry the first request after receiving the hint, which can leave a streamed response on its
-// loading boundary if the connection is interrupted. Keep Accept-CH for subsequent requests, but do
-// not force a navigation retry.
-payloadNextConfig.headers = async () => {
-  const headers = (await payloadHeaders?.()) || []
-
-  return headers.map((rule) => ({
-    ...rule,
-    headers:
-      rule.source === '/:path*'
-        ? rule.headers.filter(({ key }) => key.toLowerCase() !== 'critical-ch')
-        : rule.headers,
-  }))
-}
-
-export default payloadNextConfig
+export default withPayload(nextConfig, { devBundleServerPackages: false })
