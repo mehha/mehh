@@ -48,6 +48,14 @@
       "preview_bucket_name": "mehh"
     }
   ],
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "allowed_sender_addresses": [
+        "info@mehh.ee"
+      ]
+    }
+  ],
   "vars": {
     "NEXT_PUBLIC_SERVER_URL": "https://mehh.ee",
     "NEXT_PUBLIC_MEDIA_BASE_URL": "https://media.mehh.ee",

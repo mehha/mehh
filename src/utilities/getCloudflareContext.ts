@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import type { R2StorageOptions } from '@payloadcms/storage-r2'
 import type { GetPlatformProxyOptions } from 'wrangler'
+import type { CloudflareEmailBinding } from './cloudflareEmailAdapter'
 
 const payloadBinPath = path.join('payload', 'bin.js')
 
@@ -15,6 +16,7 @@ const isPayloadCLI = (): boolean =>
 type PayloadCloudflareContext = CloudflareContext & {
   env: CloudflareContext['env'] & {
     D1: Parameters<typeof import('@payloadcms/db-d1-sqlite').sqliteD1Adapter>[0]['binding']
+    EMAIL?: CloudflareEmailBinding
     R2: R2StorageOptions['bucket']
   }
 }

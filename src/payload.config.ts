@@ -29,12 +29,11 @@ import { Header } from './Header/config'
 import { revalidateRedirects } from './hooks/revalidateRedirects'
 import { GenerateTitle, GenerateURL } from '@payloadcms/plugin-seo/types'
 import { Page, Post } from 'src/payload-types'
-import { nodemailerAdapter } from '@payloadcms/email-nodemailer'
-
 import { searchFields } from '@/search/fieldOverrides'
 import { beforeSyncWithSearch } from '@/search/beforeSync'
 import { r2Storage } from '@payloadcms/storage-r2'
 import { getPayloadCloudflareContext } from '@/utilities/getCloudflareContext'
+import { cloudflareEmailAdapter } from '@/utilities/cloudflareEmailAdapter'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -201,20 +200,5 @@ export default buildConfig({
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
   },
-  email: nodemailerAdapter({
-    defaultFromAddress: 'info@mehh.ee',
-    defaultFromName: 'MEHH Meedia OÜ',
-    // Payload initializes this adapter for every fresh Worker isolate. Avoid an
-    // SMTP DNS/connectivity check on the request path; sendEmail still connects
-    // through the configured transport when a message is actually sent.
-    skipVerify: true,
-    transportOptions: {
-      host: process.env.SMTP_HOST,
-      port: 587,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    },
-  }),
+  email: cloudflareEmailAdapter(cloudflare.env.EMAIL),
 })
