@@ -3,7 +3,11 @@ import React, { useEffect, useRef } from 'react'
 import { COOKIE_CONSENT_CHANGED_EVENT, hasAnalyticsConsent } from '@/utilities/cookieConsent'
 
 type GoogleTagWindow = Window & {
-  gtag?: (command: 'event', eventName: string, parameters: Record<string, string>) => void
+  gtag?: (
+    command: 'event',
+    eventName: string,
+    parameters: Record<string, number | string>,
+  ) => void
 }
 
 const PageClient: React.FC = () => {
@@ -20,7 +24,9 @@ const PageClient: React.FC = () => {
       if (!gtag) return false
 
       gtag('event', 'conversion', {
-        send_to: 'AW-835198629/akcmCLfwsvgZEKW9oI4D',
+        currency: 'EUR',
+        send_to: 'AW-18417265091/MgjRCOrSjuocEMPThM5E',
+        value: 1,
       })
       hasSentConversion.current = true
 

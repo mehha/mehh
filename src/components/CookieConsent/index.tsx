@@ -13,7 +13,12 @@ import {
   getCookieConsent,
 } from '@/utilities/cookieConsent'
 
-const GOOGLE_ADS_ID = 'AW-835198629'
+const GOOGLE_TAG_ID = 'AW-835198629'
+const GOOGLE_ADS_ID = 'AW-18417265091'
+
+type GoogleTagWindow = Window & {
+  gtag?: (command: 'config', targetId: string) => void
+}
 
 export const CookieConsent: React.FC = () => {
   const [settingsOpen, setSettingsOpen] = useState(false)
@@ -38,6 +43,31 @@ export const CookieConsent: React.FC = () => {
     return () => window.removeEventListener(COOKIE_SETTINGS_OPEN_EVENT, openSettings)
   }, [])
 
+  useEffect(() => {
+    if (consent !== 'accepted') return
+
+    let retryTimeout: number | undefined
+    let retryCount = 0
+
+    const configureGoogleAds = () => {
+      const gtag = (window as GoogleTagWindow).gtag
+
+      if (gtag) {
+        gtag('config', GOOGLE_ADS_ID)
+        return
+      }
+
+      if (retryCount >= 20) return
+
+      retryCount += 1
+      retryTimeout = window.setTimeout(configureGoogleAds, 250)
+    }
+
+    configureGoogleAds()
+
+    return () => window.clearTimeout(retryTimeout)
+  }, [consent])
+
   const updateConsent = useCallback(
     (value: CookieConsentValue) => {
       const shouldReload = consent === 'accepted' && value === 'declined'
@@ -53,7 +83,7 @@ export const CookieConsent: React.FC = () => {
 
   return (
     <>
-      {consent === 'accepted' && <GoogleAnalytics gaId={GOOGLE_ADS_ID} />}
+      {consent === 'accepted' && <GoogleAnalytics gaId={GOOGLE_TAG_ID} />}
 
       {(consent === null || settingsOpen) && (
         <section
