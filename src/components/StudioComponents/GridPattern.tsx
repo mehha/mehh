@@ -1,32 +1,121 @@
-import React from 'react'
+'use client'
 
-const staticBlocks = [
-  { color: 'rgba(236, 72, 153, 0.12)', x: 1, y: 1 },
-  { color: 'rgba(14, 165, 233, 0.12)', x: 2, y: 2 },
-  { color: 'rgba(168, 85, 247, 0.12)', x: 4, y: 3 },
-  { color: 'rgba(34, 197, 94, 0.12)', x: 6, y: 2 },
-  { color: 'rgba(249, 115, 22, 0.12)', x: 7, y: 4 },
-  { color: 'rgba(234, 179, 8, 0.12)', x: 5, y: 5 },
+import { motion } from 'framer-motion'
+import { useEffect, useId, useRef, useState } from 'react'
+
+type HoveredBlock = [x: number, y: number, key: number]
+
+const blockColors = [
+  'rgba(236, 72, 153, 0.2)',
+  'rgba(14, 165, 233, 0.2)',
+  'rgba(168, 85, 247, 0.2)',
+  'rgba(34, 197, 94, 0.2)',
+  'rgba(249, 115, 22, 0.2)',
+  'rgba(234, 179, 8, 0.2)',
 ]
+
+function Block({
+  colorSeed = 0,
+  x,
+  y,
+  ...props
+}: Omit<React.ComponentPropsWithoutRef<typeof motion.path>, 'x' | 'y'> & {
+  colorSeed?: number
+  x: number
+  y: number
+}) {
+  const colorIndex = Math.abs(x * 17 + y * 31 + colorSeed) % blockColors.length
+
+  return (
+    <motion.path
+      transform={`translate(${-32 * y + 96 * x} ${160 * y})`}
+      d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"
+      fill={blockColors[colorIndex]}
+      {...props}
+    />
+  )
+}
 
 export function GridPattern({
   yOffset = 0,
+  interactive = false,
   ...props
 }: React.ComponentPropsWithoutRef<'svg'> & {
   yOffset?: number
+  interactive?: boolean
 }) {
-  const id = React.useId()
+  const id = useId()
+  const ref = useRef<SVGSVGElement>(null)
+  const currentBlock = useRef<[x: number, y: number] | null>(null)
+  const counter = useRef(0)
+  const [hoveredBlocks, setHoveredBlocks] = useState<HoveredBlock[]>([])
+  const staticBlocks: Array<[x: number, y: number]> = [
+    [1, 1],
+    [2, 2],
+    [4, 3],
+    [6, 2],
+    [7, 4],
+    [5, 5],
+  ]
+
+  useEffect(() => {
+    if (!interactive) return
+
+    function onMouseMove(event: MouseEvent) {
+      if (!ref.current) return
+
+      const rect = ref.current.getBoundingClientRect()
+      let x = event.clientX - rect.left
+      let y = event.clientY - rect.top
+
+      if (x < 0 || y < 0 || x > rect.width || y > rect.height) return
+
+      x = x - rect.width / 2 - 32
+      y = y - yOffset
+      x += Math.tan(32 / 160) * y
+      x = Math.floor(x / 96)
+      y = Math.floor(y / 160)
+
+      if (currentBlock.current?.[0] === x && currentBlock.current?.[1] === y) return
+
+      currentBlock.current = [x, y]
+
+      setHoveredBlocks((blocks) => {
+        const key = counter.current++
+        const block: HoveredBlock = [x, y, key]
+
+        return [...blocks, block].filter(
+          (existingBlock) =>
+            !(existingBlock[0] === x && existingBlock[1] === y && existingBlock[2] !== key),
+        )
+      })
+    }
+
+    window.addEventListener('mousemove', onMouseMove)
+
+    return () => {
+      window.removeEventListener('mousemove', onMouseMove)
+    }
+  }, [interactive, yOffset])
 
   return (
-    <svg aria-hidden="true" {...props}>
+    <svg ref={ref} aria-hidden="true" {...props}>
       <rect width="100%" height="100%" fill={`url(#${id})`} strokeWidth="0" />
       <svg x="50%" y={yOffset} strokeWidth="0" className="overflow-visible">
-        {staticBlocks.map((block) => (
-          <path
-            key={`${block.x}-${block.y}`}
-            d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"
-            fill={block.color}
-            transform={`translate(${-32 * block.y + 96 * block.x} ${160 * block.y})`}
+        {staticBlocks.map(([x, y]) => (
+          <Block key={`${x}-${y}`} x={x} y={y} />
+        ))}
+        {hoveredBlocks.map(([x, y, key]) => (
+          <Block
+            key={key}
+            colorSeed={key}
+            x={x}
+            y={y}
+            animate={{ opacity: [0, 1, 0] }}
+            transition={{ duration: 1, times: [0, 0, 1] }}
+            onAnimationComplete={() => {
+              setHoveredBlocks((blocks) => blocks.filter((block) => block[2] !== key))
+            }}
           />
         ))}
       </svg>
