@@ -11,12 +11,37 @@ import { GridPattern } from '@/components/StudioComponents/GridPattern'
 import { LivePreviewListener } from '@/components/LivePreviewListener'
 import { StructuredData } from '@/components/StructuredData'
 import { CookieConsent } from '@/components/CookieConsent'
+import { COOKIE_CONSENT_STORAGE_KEY } from '@/utilities/cookieConsent'
 import { getCanonicalURL, getServerSideURL } from '@/utilities/getURL'
 import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
 import { NavigationSectionProvider } from '@/providers/NavigationSection'
 import { cookies, draftMode } from 'next/headers'
 
 import './globals.css'
+
+const googleConsentModeScript = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  analytics_storage: 'denied',
+  wait_for_update: 500
+});
+
+try {
+  if (window.localStorage.getItem('${COOKIE_CONSENT_STORAGE_KEY}') === 'accepted') {
+    gtag('consent', 'update', {
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+      analytics_storage: 'granted'
+    });
+  }
+} catch {}
+`
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const { isEnabled } = await draftMode()
@@ -28,6 +53,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html className={monaSans.className} lang="et" suppressHydrationWarning data-theme="light">
       <head>
+        <script
+          dangerouslySetInnerHTML={{ __html: googleConsentModeScript }}
+          id="google-consent-mode-default"
+        />
         <link href="/favicon.ico" rel="icon" sizes="32x32" />
         <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
         <StructuredData

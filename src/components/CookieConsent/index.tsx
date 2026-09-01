@@ -2,7 +2,7 @@
 
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Link from 'next/link'
-import React, { useCallback, useEffect, useState, useSyncExternalStore } from 'react'
+import React, { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -16,11 +16,31 @@ import {
 const GOOGLE_TAG_ID = 'AW-835198629'
 const GOOGLE_ADS_ID = 'AW-18417265091'
 
-type GoogleTagWindow = Window & {
-  gtag?: (command: 'config', targetId: string) => void
+type GoogleConsentState = {
+  ad_personalization: 'denied' | 'granted'
+  ad_storage: 'denied' | 'granted'
+  ad_user_data: 'denied' | 'granted'
+  analytics_storage: 'denied' | 'granted'
 }
 
+type GoogleTag = {
+  (command: 'config', targetId: string): void
+  (command: 'consent', action: 'update', state: GoogleConsentState): void
+}
+
+type GoogleTagWindow = Window & {
+  gtag?: GoogleTag
+}
+
+const getGoogleConsentState = (granted: boolean): GoogleConsentState => ({
+  ad_personalization: granted ? 'granted' : 'denied',
+  ad_storage: granted ? 'granted' : 'denied',
+  ad_user_data: granted ? 'granted' : 'denied',
+  analytics_storage: granted ? 'granted' : 'denied',
+})
+
 export const CookieConsent: React.FC = () => {
+  const hasConfiguredAdditionalGoogleTag = useRef(false)
   const [settingsOpen, setSettingsOpen] = useState(false)
   const consent = useSyncExternalStore(
     (onStoreChange) => {
@@ -44,26 +64,31 @@ export const CookieConsent: React.FC = () => {
   }, [])
 
   useEffect(() => {
-    if (consent !== 'accepted') return
-
     let retryTimeout: number | undefined
     let retryCount = 0
 
-    const configureGoogleAds = () => {
+    const updateGoogleConsent = () => {
       const gtag = (window as GoogleTagWindow).gtag
 
       if (gtag) {
-        gtag('config', GOOGLE_ADS_ID)
+        const effectiveConsent = consent ?? getCookieConsent()
+        gtag('consent', 'update', getGoogleConsentState(effectiveConsent === 'accepted'))
+
+        if (!hasConfiguredAdditionalGoogleTag.current) {
+          gtag('config', GOOGLE_TAG_ID)
+          hasConfiguredAdditionalGoogleTag.current = true
+        }
+
         return
       }
 
       if (retryCount >= 20) return
 
       retryCount += 1
-      retryTimeout = window.setTimeout(configureGoogleAds, 250)
+      retryTimeout = window.setTimeout(updateGoogleConsent, 250)
     }
 
-    configureGoogleAds()
+    updateGoogleConsent()
 
     return () => window.clearTimeout(retryTimeout)
   }, [consent])
@@ -83,7 +108,7 @@ export const CookieConsent: React.FC = () => {
 
   return (
     <>
-      {consent === 'accepted' && <GoogleAnalytics gaId={GOOGLE_TAG_ID} />}
+      <GoogleAnalytics gaId={GOOGLE_ADS_ID} />
 
       {(consent === null || settingsOpen) && (
         <section
