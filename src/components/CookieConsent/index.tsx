@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 
 import { Button } from '@/components/ui/button'
+import { cn } from '@/utilities/cn'
 import {
   COOKIE_CONSENT_CHANGED_EVENT,
   COOKIE_CONSENT_STORAGE_KEY,
@@ -113,7 +114,10 @@ export const CookieConsent: React.FC = () => {
       {(consent === null || settingsOpen) && (
         <section
           aria-labelledby="cookie-consent-title"
-          className="fixed inset-x-4 bottom-4 z-[100] mx-auto max-w-3xl rounded-2xl border border-neutral-700 bg-neutral-950 p-5 text-white shadow-2xl sm:p-6"
+          className={cn(
+            'fixed inset-x-4 bottom-4 z-[100] mx-auto max-w-3xl rounded-2xl border border-neutral-700 bg-neutral-950 p-5 text-white shadow-2xl sm:p-6',
+            !settingsOpen && '[html[data-cookie-consent]_&]:hidden',
+          )}
           role="dialog"
         >
           <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">

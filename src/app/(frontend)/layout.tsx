@@ -43,6 +43,16 @@ try {
 } catch {}
 `
 
+// Marks a stored consent choice before first paint so the prerendered cookie bar stays hidden.
+const cookieConsentStateScript = `
+try {
+  var cookieConsent = window.localStorage.getItem('${COOKIE_CONSENT_STORAGE_KEY}');
+  if (cookieConsent === 'accepted' || cookieConsent === 'declined') {
+    document.documentElement.dataset.cookieConsent = cookieConsent;
+  }
+} catch {}
+`
+
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const { isEnabled } = await draftMode()
 
@@ -54,6 +64,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <script
           dangerouslySetInnerHTML={{ __html: googleConsentModeScript }}
           id="google-consent-mode-default"
+        />
+        <script
+          dangerouslySetInnerHTML={{ __html: cookieConsentStateScript }}
+          id="cookie-consent-state"
         />
         <link href="/favicon.ico" rel="icon" sizes="32x32" />
         <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
