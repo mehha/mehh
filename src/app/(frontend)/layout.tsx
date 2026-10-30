@@ -15,7 +15,7 @@ import { COOKIE_CONSENT_STORAGE_KEY } from '@/utilities/cookieConsent'
 import { getCanonicalURL, getServerSideURL } from '@/utilities/getURL'
 import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
 import { NavigationSectionProvider } from '@/providers/NavigationSection'
-import { cookies, draftMode } from 'next/headers'
+import { draftMode } from 'next/headers'
 
 import './globals.css'
 
@@ -45,8 +45,6 @@ try {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const { isEnabled } = await draftMode()
-  const cookieStore = await cookies()
-  const hasPayloadSession = Boolean(cookieStore.get('payload-token')?.value)
 
   const organizationURL = getCanonicalURL('/')
 
@@ -93,13 +91,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           >
             Liigu põhisisu juurde
           </a>
-          {hasPayloadSession && (
-            <AdminBar
-              adminBarProps={{
-                preview: isEnabled,
-              }}
-            />
-          )}
+          <AdminBar
+            adminBarProps={{
+              preview: isEnabled,
+            }}
+          />
           {isEnabled && <LivePreviewListener />}
 
           <Header />
