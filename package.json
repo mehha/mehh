@@ -15,6 +15,7 @@
     "generate:types:payload": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
     "ii": "cross-env NODE_OPTIONS=--no-deprecation pnpm --ignore-workspace install",
     "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
+    "test:migrations": "node --test tests/migrations.test.mjs",
     "lint:fix": "cross-env NODE_OPTIONS=--no-deprecation eslint . --fix",
     "migrate": "pnpm payload migrate",
     "migrate:create": "pnpm payload migrate:create",
@@ -27,7 +28,8 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "prebuild": "pnpm generate:importmap && pnpm generate:types:payload",
-    "deploy": "pnpm run deploy:app",
+    "deploy": "pnpm run deploy:database && pnpm run deploy:app",
+    "deploy:database": "pnpm run migrate:remote && pnpm run database:optimize:remote",
     "deploy:app": "opennextjs-cloudflare build && opennextjs-cloudflare deploy --rclone --cacheChunkSize 10",
     "wrangler:login": "pnpm exec wrangler login"
   },

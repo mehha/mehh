@@ -5,12 +5,25 @@ Start with `.agents/skills/payload/SKILL.md` for a quick reference, then see `.a
 
 ## Database migrations
 
-Database migrations are owned and run manually by the project owner. Agents must never create,
-apply, roll back, refresh, reset, or otherwise execute migrations. This includes commands that run
-migrations indirectly. `pnpm run deploy` and `pnpm run deploy:app` are application-only and do not
-run Payload migrations. Owner-run database commands include `pnpm migrate`, `pnpm migrate:create`,
-`pnpm migrate:remote`, `pnpm migrate:status:remote`, and `pnpm database:optimize:remote`. Agents may
-inspect existing migration files and describe the command that the project owner should run.
+Production D1 migrations run in the deploy: a push to `master` starts the GitHub Actions workflow,
+which checks the migrations and then runs `pnpm run deploy` (`deploy:database`, that is
+`payload migrate` and `PRAGMA optimize`, before `deploy:app`). Every schema change needs a committed
+Payload migration, and pushing it to `master` applies it to production.
+
+Locally, agents run `pnpm migrate:create <name>` and then `pnpm migrate` themselves after a schema
+change (collection, field or block config), without asking. These use the local D1. Review the
+generated migration before committing it; it must contain only the intended changes. Agents must
+not run `migrate:remote`, `deploy:database`, `pnpm run deploy` or any command with
+`NODE_ENV=production` unless asked, and must not push to `master` unless asked, because that
+migrates production. `.claude/settings.json` blocks the remote migration commands for Claude.
+
+A migration's `up()` must not rebuild a table: create a `__new_<table>`, fill it from the old table,
+then drop the old table and rename the new one. Drizzle generates this for changes SQLite can't make
+in place, such as a new column default or dropping a column with a foreign key. D1 ignores
+`PRAGMA foreign_keys=OFF`, so dropping the old table cascade-deletes rows in its child tables. Write
+such migrations by hand with `ALTER TABLE ... ADD` and `CREATE TABLE` instead.
+`tests/migrations.test.mjs` (`pnpm test:migrations`) fails the deploy when a migration's `up()`
+rebuilds a table.
 
 # Repository Guidelines
 
@@ -29,7 +42,8 @@ inspect existing migration files and describe the command that the project owner
 - `pnpm lint` / `pnpm lint:fix`: run and auto-fix Next/ESLint checks.
 - `pnpm build && pnpm start`: production build and local production run.
 - `pnpm generate:types`: regenerate Cloudflare + Payload types after schema/env changes.
-- `pnpm migrate` / `pnpm migrate:create`: apply or create Payload migrations.
+- `pnpm migrate:create <name>` / `pnpm migrate`: create or apply Payload migrations on the local D1.
+- `pnpm test:migrations`: check that no migration rebuilds a table (the deploy runs it).
 - `pnpm preview`: OpenNext Cloudflare preview build.
 
 ## Coding Style & Naming Conventions

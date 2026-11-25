@@ -213,26 +213,26 @@ To run Payload in production, you need to build and start the Admin panel. To do
 
 ### Deploying to Cloudflare Workers
 
-Database migrations are manual owner actions and are not part of the normal application deploy.
-Check and apply committed migrations to the remote D1 database before deploying a schema-dependent
-application change:
+A push to `master` deploys production with `.github/workflows/deploy-cloudflare.yml`. The workflow:
+
+1. checks the migrations: `tests/migrations.test.mjs` rejects a migration whose `up()` rebuilds a
+   table, because on D1 that cascade-deletes the table's child rows;
+2. runs `pnpm run deploy`: `deploy:database` applies pending Payload migrations to the production D1
+   and runs `PRAGMA optimize`, then `deploy:app` builds and deploys the Worker.
+
+A newer push waits for a running deploy instead of cancelling it, so a migration is never
+interrupted. The `CLOUDFLARE_API_TOKEN` secret needs D1 edit permission as well as Workers deploy
+permission.
+
+Create and apply migrations on the local D1 with:
 
 ```bash
-pnpm migrate:status:remote
-pnpm migrate:remote
+pnpm migrate:create <name>
+pnpm migrate
 ```
 
-Deploy only the application with:
-
-```bash
-pnpm deploy
-```
-
-Remote D1 optimization is also a separate owner-run operation:
-
-```bash
-pnpm database:optimize:remote
-```
+Check the production D1 with `pnpm migrate:status:remote`. `pnpm run deploy:app` deploys only the
+application.
 
 ### Deploying to Payload Cloud
 

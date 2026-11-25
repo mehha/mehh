@@ -9,7 +9,8 @@ on:
 
 concurrency:
   group: cloudflare-production
-  cancel-in-progress: true
+  # The deploy runs D1 migrations; never cancel a run halfway through them.
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -34,7 +35,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Deploy app
+      # Rejects migrations whose up() rebuilds a table: on D1 that cascade-deletes child rows.
+      - name: Check migrations
+        run: pnpm test:migrations
+
+      # deploy:database applies pending Payload migrations to the production D1 (and runs
+      # PRAGMA optimize), then deploy:app builds and deploys the Worker.
+      - name: Migrate database and deploy app
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CF_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
@@ -44,4 +51,4 @@ jobs:
           PREVIEW_SECRET: ${{ secrets.PREVIEW_SECRET }}
           NEXT_PUBLIC_SERVER_URL: ${{ vars.NEXT_PUBLIC_SERVER_URL }}
           NEXT_PUBLIC_MEDIA_BASE_URL: ${{ vars.NEXT_PUBLIC_MEDIA_BASE_URL }}
-        run: pnpm run deploy:app
+        run: pnpm run deploy
