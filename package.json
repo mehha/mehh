@@ -82,7 +82,7 @@
     "rclone.js": "0.6.6",
     "tailwindcss": "^3.4.3",
     "typescript": "5.7.3",
-    "wrangler": "4.154.0"
+    "wrangler": "4.168.0"
   },
   "engines": {
     "node": "^22.23.4 || >=24.22.1"

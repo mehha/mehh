@@ -16,9 +16,15 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
-  // Lets OpenNext resize and convert /_next/image requests with Cloudflare Images
+  // next/image asks Cloudflare Images for each picture size through /cdn-cgi/image
+  // (src/utilities/imageLoader.ts). Pictures may come only from these hosts: add a host here before
+  // the site shows pictures from it. `wrangler deploy` (4.168+) applies this to the Worker.
   "images": {
-    "binding": "IMAGES"
+    "binding": "IMAGES",
+    "url_transformations": {
+      "enabled": true,
+      "allowed_origins": ["mehh.ee", "media.mehh.ee"]
+    }
   },
   "d1_databases": [
     {
