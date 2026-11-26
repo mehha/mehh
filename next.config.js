@@ -2,9 +2,6 @@ import { withPayload } from '@payloadcms/next/withPayload'
 
 import redirects from './redirects.js'
 
-const NEXT_PUBLIC_SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
-const NEXT_PUBLIC_MEDIA_BASE_URL = process.env.NEXT_PUBLIC_MEDIA_BASE_URL || 'https://media.mehh.ee'
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   allowedDevOrigins: ['mehh.test'],
@@ -14,19 +11,12 @@ const nextConfig = {
     cpus: 1,
     staticGenerationMaxConcurrency: 1,
   },
+  // Cloudflare Images resizes pictures (src/utilities/imageLoader.ts); the hosts pictures may come
+  // from are in wrangler.jsonc. next dev has no /cdn-cgi/image, so it shows pictures as they are.
   images: {
-    remotePatterns: [
-      ...[NEXT_PUBLIC_SERVER_URL, NEXT_PUBLIC_MEDIA_BASE_URL /* 'https://example.com' */].map(
-        (item) => {
-          const url = new URL(item)
-
-          return {
-            hostname: url.hostname,
-            protocol: url.protocol.replace(':', ''),
-          }
-        },
-      ),
-    ],
+    loader: 'custom',
+    loaderFile: './src/utilities/imageLoader.ts',
+    unoptimized: process.env.NODE_ENV === 'development',
   },
   reactStrictMode: true,
   redirects,
